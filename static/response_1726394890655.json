@@ -1,0 +1,4073 @@
+{
+  "items": {
+    "hotel": {
+      "hotel_id": 4469654,
+      "name": "Mövenpick Myth Hotel Patong Phuket",
+      "country": {
+        "it": "Thailandia",
+        "en-gb": "Thailand",
+        "es": "Tailandia",
+        "fr": "Thaïlande",
+        "de": "Thailand"
+      },
+      "country_id": 1,
+      "city": {
+        "it": "Patong Beach",
+        "en-gb": "Patong Beach",
+        "es": "Patong Beach",
+        "fr": "Patong Beach",
+        "de": "Strand Patong"
+      },
+      "city_id": 1,
+      "district": {
+        "it": null,
+        "en-gb": null,
+        "es": null,
+        "fr": null,
+        "de": null
+      },
+      "district_id": 8871,
+      "photos": [
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 581901309,
+          "tags": [
+            {
+              "tag": "Property building",
+              "id": 3
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/581901309.jpg?k=f0d670ac0f923cb3560b23114785c03003869f51db9f6a5a28f59f652561612b&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/581901309.jpg?k=f0d670ac0f923cb3560b23114785c03003869f51db9f6a5a28f59f652561612b&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/581901309.jpg?k=f0d670ac0f923cb3560b23114785c03003869f51db9f6a5a28f59f652561612b&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_id": 19,
+              "tag_name": "Property building",
+              "confidence": 98,
+              "photo_id": 581901330
+            }
+          ],
+          "photo_id": 581901330,
+          "tags": [
+            {
+              "tag": "Property building",
+              "id": 3
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/581901330.jpg?k=6b6ed42c593c367ba9a502764bf9a80059fcef7dce12d987ceafdfc7b777f9a6&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/581901330.jpg?k=6b6ed42c593c367ba9a502764bf9a80059fcef7dce12d987ceafdfc7b777f9a6&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/581901330.jpg?k=6b6ed42c593c367ba9a502764bf9a80059fcef7dce12d987ceafdfc7b777f9a6&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 582575870,
+              "confidence": 92,
+              "tag_id": 33,
+              "tag_name": "Pool view",
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 582575870,
+          "tags": [
+            {
+              "tag": "Pool view",
+              "id": 253
+            },
+            {
+              "tag": "Swimming pool",
+              "id": 260
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575870.jpg?k=a2295ce31f0e8ee56a8407c6df45e5ae3b03774970e9f2e87633286c0e4086f0&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575870.jpg?k=a2295ce31f0e8ee56a8407c6df45e5ae3b03774970e9f2e87633286c0e4086f0&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575870.jpg?k=a2295ce31f0e8ee56a8407c6df45e5ae3b03774970e9f2e87633286c0e4086f0&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_name": "Swimming pool",
+              "tag_id": 20,
+              "tag_type": "ml_tags",
+              "photo_id": 582575869,
+              "confidence": 96
+            }
+          ],
+          "photo_id": 582575869,
+          "tags": [
+            {
+              "tag": "Pool view",
+              "id": 253
+            },
+            {
+              "id": 260,
+              "tag": "Swimming pool"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575869.jpg?k=b3cdff8ad6bfdd8dae911f4c2e0f722d25146c972c716174a2939b5e3fd13567&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575869.jpg?k=b3cdff8ad6bfdd8dae911f4c2e0f722d25146c972c716174a2939b5e3fd13567&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575869.jpg?k=b3cdff8ad6bfdd8dae911f4c2e0f722d25146c972c716174a2939b5e3fd13567&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 582575877,
+          "tags": [
+            {
+              "tag": "Pool view",
+              "id": 253
+            },
+            {
+              "tag": "Swimming pool",
+              "id": 260
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575877.jpg?k=7fd5974eb930663b706a209f749e43879ffb89ab1cc3d48c8ee605c235bce8a3&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575877.jpg?k=7fd5974eb930663b706a209f749e43879ffb89ab1cc3d48c8ee605c235bce8a3&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575877.jpg?k=7fd5974eb930663b706a209f749e43879ffb89ab1cc3d48c8ee605c235bce8a3&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_name": "Swimming pool",
+              "tag_id": 20,
+              "tag_type": "ml_tags",
+              "photo_id": 582575882,
+              "confidence": 100
+            },
+            {
+              "photo_id": 582575882,
+              "confidence": 93,
+              "tag_name": "Property building",
+              "tag_id": 19,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 582575882,
+          "tags": [
+            {
+              "tag": "Pool view",
+              "id": 253
+            },
+            {
+              "id": 260,
+              "tag": "Swimming pool"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575882.jpg?k=0d4145d5fe497035fc6b719384f061fa64e2a8b65552ab319fde3cd3fd8f3995&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575882.jpg?k=0d4145d5fe497035fc6b719384f061fa64e2a8b65552ab319fde3cd3fd8f3995&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575882.jpg?k=0d4145d5fe497035fc6b719384f061fa64e2a8b65552ab319fde3cd3fd8f3995&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 582575883,
+              "confidence": 96,
+              "tag_name": "Swimming pool",
+              "tag_id": 20,
+              "tag_type": "ml_tags"
+            },
+            {
+              "photo_id": 582575883,
+              "confidence": 91,
+              "tag_id": 19,
+              "tag_name": "Property building",
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 582575883,
+          "tags": [
+            {
+              "id": 253,
+              "tag": "Pool view"
+            },
+            {
+              "tag": "Swimming pool",
+              "id": 260
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575883.jpg?k=90fba067c1bff09d4f258d286c1c8225b81e18176355e9a617f29f1201c9cb44&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575883.jpg?k=90fba067c1bff09d4f258d286c1c8225b81e18176355e9a617f29f1201c9cb44&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575883.jpg?k=90fba067c1bff09d4f258d286c1c8225b81e18176355e9a617f29f1201c9cb44&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_name": "Pool view",
+              "tag_id": 33,
+              "confidence": 89,
+              "photo_id": 582575885
+            }
+          ],
+          "photo_id": 582575885,
+          "tags": [
+            {
+              "id": 253,
+              "tag": "Pool view"
+            },
+            {
+              "tag": "Swimming pool",
+              "id": 260
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575885.jpg?k=eb3fff02d2d411215864ac5acb2caea0846784aa1d957c588c5fe4be039bcc3a&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575885.jpg?k=eb3fff02d2d411215864ac5acb2caea0846784aa1d957c588c5fe4be039bcc3a&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575885.jpg?k=eb3fff02d2d411215864ac5acb2caea0846784aa1d957c588c5fe4be039bcc3a&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_id": 36,
+              "tag_name": "Fitness centre/facilities",
+              "confidence": 100,
+              "photo_id": 582575881
+            }
+          ],
+          "photo_id": 582575881,
+          "tags": [
+            {
+              "id": 165,
+              "tag": "Fitness centre/facilities"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575881.jpg?k=0d6b3e6e5539b51fa9e43f9a5fd8a91fe3604a800a4e7dcd383abba411050a59&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575881.jpg?k=0d6b3e6e5539b51fa9e43f9a5fd8a91fe3604a800a4e7dcd383abba411050a59&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575881.jpg?k=0d6b3e6e5539b51fa9e43f9a5fd8a91fe3604a800a4e7dcd383abba411050a59&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 582575886,
+              "tag_type": "ml_tags",
+              "tag_name": "Fitness centre/facilities",
+              "tag_id": 36
+            }
+          ],
+          "photo_id": 582575886,
+          "tags": [
+            {
+              "id": 165,
+              "tag": "Fitness centre/facilities"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575886.jpg?k=b7bde4b667d848a04830b32ea266f7fc12fd5977202b7b360a2d3641d708b832&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575886.jpg?k=b7bde4b667d848a04830b32ea266f7fc12fd5977202b7b360a2d3641d708b832&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575886.jpg?k=b7bde4b667d848a04830b32ea266f7fc12fd5977202b7b360a2d3641d708b832&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 582575891,
+              "confidence": 97,
+              "tag_name": "Fitness centre/facilities",
+              "tag_id": 36,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 582575891,
+          "tags": [
+            {
+              "tag": "Fitness centre/facilities",
+              "id": 165
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575891.jpg?k=dbbd79e14325510c172ed1829af75b8b7d3fa46aead4dbcb1b542ffcb0f74a9d&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575891.jpg?k=dbbd79e14325510c172ed1829af75b8b7d3fa46aead4dbcb1b542ffcb0f74a9d&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575891.jpg?k=dbbd79e14325510c172ed1829af75b8b7d3fa46aead4dbcb1b542ffcb0f74a9d&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 582575892,
+          "tags": [
+            {
+              "id": 164,
+              "tag": "Spa and wellness centre/facilities"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575892.jpg?k=f198d76a1779b8357be6636059f2e03426dd3faffc1200f900d0200aacdd70da&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575892.jpg?k=f198d76a1779b8357be6636059f2e03426dd3faffc1200f900d0200aacdd70da&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575892.jpg?k=f198d76a1779b8357be6636059f2e03426dd3faffc1200f900d0200aacdd70da&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_name": "Spa/wellness",
+              "tag_id": 40,
+              "tag_type": "ml_tags",
+              "photo_id": 582575894,
+              "confidence": 100
+            }
+          ],
+          "photo_id": 582575894,
+          "tags": [
+            {
+              "id": 164,
+              "tag": "Spa and wellness centre/facilities"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575894.jpg?k=b78ba970cf84199535a717937b48e55ded5ff7c99126415d63697f6ead119afa&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575894.jpg?k=b78ba970cf84199535a717937b48e55ded5ff7c99126415d63697f6ead119afa&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575894.jpg?k=b78ba970cf84199535a717937b48e55ded5ff7c99126415d63697f6ead119afa&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 582575898,
+          "tags": [
+            {
+              "tag": "Spa and wellness centre/facilities",
+              "id": 164
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575898.jpg?k=e722a863de4bf96abb60dbeb7a0e06d5c4b8738d5ef207ce988fc9a9fbbab746&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575898.jpg?k=e722a863de4bf96abb60dbeb7a0e06d5c4b8738d5ef207ce988fc9a9fbbab746&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575898.jpg?k=e722a863de4bf96abb60dbeb7a0e06d5c4b8738d5ef207ce988fc9a9fbbab746&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 582575895,
+          "tags": [
+            {
+              "tag": "Spa and wellness centre/facilities",
+              "id": 164
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575895.jpg?k=c1c0ef513c07b03b3665aa6969cdd088672e147d5f4f3a447bdc5c9512838cb7&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575895.jpg?k=c1c0ef513c07b03b3665aa6969cdd088672e147d5f4f3a447bdc5c9512838cb7&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575895.jpg?k=c1c0ef513c07b03b3665aa6969cdd088672e147d5f4f3a447bdc5c9512838cb7&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 582575899,
+          "tags": [
+            {
+              "tag": "Spa and wellness centre/facilities",
+              "id": 164
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575899.jpg?k=b2293917f6ffbcaf37a4d5b39df67641f77cbac157f4c183088d0fbb94ff57e0&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575899.jpg?k=b2293917f6ffbcaf37a4d5b39df67641f77cbac157f4c183088d0fbb94ff57e0&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575899.jpg?k=b2293917f6ffbcaf37a4d5b39df67641f77cbac157f4c183088d0fbb94ff57e0&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 582575897,
+          "tags": [
+            {
+              "id": 164,
+              "tag": "Spa and wellness centre/facilities"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575897.jpg?k=2a16e1f3b7ca2d636e885cf3d68b0fc0db98eedd1a86a7578c5ccdb1dae46e3c&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575897.jpg?k=2a16e1f3b7ca2d636e885cf3d68b0fc0db98eedd1a86a7578c5ccdb1dae46e3c&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575897.jpg?k=2a16e1f3b7ca2d636e885cf3d68b0fc0db98eedd1a86a7578c5ccdb1dae46e3c&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_id": 5,
+              "tag_name": "Lobby/reception",
+              "confidence": 100,
+              "photo_id": 582575901
+            }
+          ],
+          "photo_id": 582575901,
+          "tags": [
+            {
+              "tag": "Spa and wellness centre/facilities",
+              "id": 164
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575901.jpg?k=5b8bb3046fd6cd66a2a7f8afca82dff732beb2874c059c9908d9e800b7ddddb5&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575901.jpg?k=5b8bb3046fd6cd66a2a7f8afca82dff732beb2874c059c9908d9e800b7ddddb5&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575901.jpg?k=5b8bb3046fd6cd66a2a7f8afca82dff732beb2874c059c9908d9e800b7ddddb5&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 582575900,
+              "confidence": 91,
+              "tag_name": "Banquet facilities",
+              "tag_id": 3,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 582575900,
+          "tags": [
+            {
+              "tag": "wedding",
+              "id": 328
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575900.jpg?k=fbdf8ba6aa7fb5701d8e05928fc6cd8307d55a0e4dbf249b8b0754c52c2ce07c&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575900.jpg?k=fbdf8ba6aa7fb5701d8e05928fc6cd8307d55a0e4dbf249b8b0754c52c2ce07c&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575900.jpg?k=fbdf8ba6aa7fb5701d8e05928fc6cd8307d55a0e4dbf249b8b0754c52c2ce07c&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 582575906,
+              "confidence": 100,
+              "tag_id": 3,
+              "tag_name": "Banquet facilities",
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 582575906,
+          "tags": [
+            {
+              "tag": "wedding",
+              "id": 328
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575906.jpg?k=1b518662c22b7ea3be5ad4f9c9de3eabd3730b8e54aea18a83ee463b33bd67fa&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575906.jpg?k=1b518662c22b7ea3be5ad4f9c9de3eabd3730b8e54aea18a83ee463b33bd67fa&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575906.jpg?k=1b518662c22b7ea3be5ad4f9c9de3eabd3730b8e54aea18a83ee463b33bd67fa&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 582575905,
+              "tag_type": "ml_tags",
+              "tag_id": 2,
+              "tag_name": "Restaurant/places to eat"
+            }
+          ],
+          "photo_id": 582575905,
+          "tags": [
+            {
+              "id": 328,
+              "tag": "wedding"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575905.jpg?k=162b796c98c68972d6a072a901f82a20d22c508c7b2b0f493c9783f387389a57&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575905.jpg?k=162b796c98c68972d6a072a901f82a20d22c508c7b2b0f493c9783f387389a57&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575905.jpg?k=162b796c98c68972d6a072a901f82a20d22c508c7b2b0f493c9783f387389a57&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_name": "Restaurant/places to eat",
+              "tag_id": 2,
+              "confidence": 100,
+              "photo_id": 582575910
+            },
+            {
+              "photo_id": 582575910,
+              "confidence": 92,
+              "tag_name": "Banquet facilities",
+              "tag_id": 3,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 582575910,
+          "tags": [
+            {
+              "id": 328,
+              "tag": "wedding"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575910.jpg?k=befd8aeb04bf9ef9bca450df7b1513bfe3d81da5de8817ba34e289b53e559e40&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575910.jpg?k=befd8aeb04bf9ef9bca450df7b1513bfe3d81da5de8817ba34e289b53e559e40&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575910.jpg?k=befd8aeb04bf9ef9bca450df7b1513bfe3d81da5de8817ba34e289b53e559e40&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 91,
+              "photo_id": 582575912,
+              "tag_type": "ml_tags",
+              "tag_id": 3,
+              "tag_name": "Banquet facilities"
+            }
+          ],
+          "photo_id": 582575912,
+          "tags": [
+            {
+              "id": 328,
+              "tag": "wedding"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575912.jpg?k=c9ea98f2e208698ec6af80c54d38b47bc93e5f494d88fd9a995e278a398f565b&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575912.jpg?k=c9ea98f2e208698ec6af80c54d38b47bc93e5f494d88fd9a995e278a398f565b&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575912.jpg?k=c9ea98f2e208698ec6af80c54d38b47bc93e5f494d88fd9a995e278a398f565b&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 582575915,
+              "tag_type": "ml_tags",
+              "tag_id": 13,
+              "tag_name": "Bed"
+            }
+          ],
+          "photo_id": 582575915,
+          "tags": [
+            {
+              "id": 172,
+              "tag": "Other"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575915.jpg?k=81ad6f45c5260bbd8db1b51c9c782a363b8509975b290b178778dad58d4a9415&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575915.jpg?k=81ad6f45c5260bbd8db1b51c9c782a363b8509975b290b178778dad58d4a9415&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575915.jpg?k=81ad6f45c5260bbd8db1b51c9c782a363b8509975b290b178778dad58d4a9415&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 582575931,
+          "tags": [
+            {
+              "id": 172,
+              "tag": "Other"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/582575931.jpg?k=d1830d19d8f1590b3aeeb1514d716fb916bd3195274d4e36ec479b1ab3ae0991&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/582575931.jpg?k=d1830d19d8f1590b3aeeb1514d716fb916bd3195274d4e36ec479b1ab3ae0991&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/582575931.jpg?k=d1830d19d8f1590b3aeeb1514d716fb916bd3195274d4e36ec479b1ab3ae0991&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 93,
+              "photo_id": 181932400,
+              "tag_type": "ml_tags",
+              "tag_name": "Pool view",
+              "tag_id": 33
+            },
+            {
+              "photo_id": 181932400,
+              "confidence": 86,
+              "tag_name": "Property building",
+              "tag_id": 19,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 181932400,
+          "tags": [
+            {
+              "id": 253,
+              "tag": "Pool view"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932400.jpg?k=0db1ee80c57b16284ae525ed347b55d17b47f9cb1a7e7497205e655218dcf094&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932400.jpg?k=0db1ee80c57b16284ae525ed347b55d17b47f9cb1a7e7497205e655218dcf094&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932400.jpg?k=0db1ee80c57b16284ae525ed347b55d17b47f9cb1a7e7497205e655218dcf094&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 263441955,
+              "confidence": 100,
+              "tag_id": 13,
+              "tag_name": "Bed",
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 263441955,
+          "tags": [
+            {
+              "id": 199,
+              "tag": "Bedroom"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441955.jpg?k=2284ffe9cd92f4f386a8a54f204edb4e018337e677aa1af09e5809f6244524f6&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/263441955.jpg?k=2284ffe9cd92f4f386a8a54f204edb4e018337e677aa1af09e5809f6244524f6&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/263441955.jpg?k=2284ffe9cd92f4f386a8a54f204edb4e018337e677aa1af09e5809f6244524f6&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_name": "Bathroom",
+              "tag_id": 11,
+              "confidence": 100,
+              "photo_id": 263441942
+            }
+          ],
+          "photo_id": 263441942,
+          "tags": [
+            {
+              "tag": "Bathroom",
+              "id": 153
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441942.jpg?k=e620f4bf3939c109269c82c04a49a912b12429b999d7f6059d0e9ee0a4fda67f&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/263441942.jpg?k=e620f4bf3939c109269c82c04a49a912b12429b999d7f6059d0e9ee0a4fda67f&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/263441942.jpg?k=e620f4bf3939c109269c82c04a49a912b12429b999d7f6059d0e9ee0a4fda67f&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 263441935,
+              "tag_type": "ml_tags",
+              "tag_name": "Bed",
+              "tag_id": 13
+            }
+          ],
+          "photo_id": 263441935,
+          "tags": [
+            {
+              "id": 13,
+              "tag": "Bed"
+            },
+            {
+              "tag": "Room",
+              "id": 1000000002
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441935.jpg?k=e9d1f0ac7306a6c0d950eb32e1b06bdfc159146a26156797c22799b78f17c51d&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/263441935.jpg?k=e9d1f0ac7306a6c0d950eb32e1b06bdfc159146a26156797c22799b78f17c51d&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/263441935.jpg?k=e9d1f0ac7306a6c0d950eb32e1b06bdfc159146a26156797c22799b78f17c51d&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_name": "Bed",
+              "tag_id": 13,
+              "tag_type": "ml_tags",
+              "photo_id": 263441931,
+              "confidence": 100
+            }
+          ],
+          "photo_id": 263441931,
+          "tags": [
+            {
+              "id": 13,
+              "tag": "Bed"
+            },
+            {
+              "id": 1000000002,
+              "tag": "Room"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441931.jpg?k=96c6399d52d51817feaa9d1fb4c3c59fdf22590f03b84d5e718dc824e78810af&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/263441931.jpg?k=96c6399d52d51817feaa9d1fb4c3c59fdf22590f03b84d5e718dc824e78810af&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/263441931.jpg?k=96c6399d52d51817feaa9d1fb4c3c59fdf22590f03b84d5e718dc824e78810af&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_name": "Pool view",
+              "tag_id": 33,
+              "tag_type": "ml_tags",
+              "photo_id": 263441906,
+              "confidence": 93
+            }
+          ],
+          "photo_id": 263441906,
+          "tags": [
+            {
+              "tag": "Pool view",
+              "id": 253
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441906.jpg?k=c9b0954843cc1d2e51ceea4702183c4e69bc78c2ac97a1b51f33053c6f8cfed5&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/263441906.jpg?k=c9b0954843cc1d2e51ceea4702183c4e69bc78c2ac97a1b51f33053c6f8cfed5&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/263441906.jpg?k=c9b0954843cc1d2e51ceea4702183c4e69bc78c2ac97a1b51f33053c6f8cfed5&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 263441887,
+              "confidence": 99,
+              "tag_name": "Swimming pool",
+              "tag_id": 20,
+              "tag_type": "ml_tags"
+            },
+            {
+              "tag_type": "ml_tags",
+              "tag_id": 33,
+              "tag_name": "Pool view",
+              "confidence": 95,
+              "photo_id": 263441887
+            }
+          ],
+          "photo_id": 263441887,
+          "tags": [
+            {
+              "tag": "Pool view",
+              "id": 253
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441887.jpg?k=5db9e3741653eaf66fcbd18bed57579d96b4d933cf5e214bc386a98e6e61e94c&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/263441887.jpg?k=5db9e3741653eaf66fcbd18bed57579d96b4d933cf5e214bc386a98e6e61e94c&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/263441887.jpg?k=5db9e3741653eaf66fcbd18bed57579d96b4d933cf5e214bc386a98e6e61e94c&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 263441860,
+              "tag_type": "ml_tags",
+              "tag_name": "Bed",
+              "tag_id": 13
+            }
+          ],
+          "photo_id": 263441860,
+          "tags": [
+            {
+              "id": 199,
+              "tag": "Bedroom"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441860.jpg?k=da253e2ca4b1173d9e0ca0f74a348f199cac657a2f89bfe5eaf1f8f9de1d76a7&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/263441860.jpg?k=da253e2ca4b1173d9e0ca0f74a348f199cac657a2f89bfe5eaf1f8f9de1d76a7&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/263441860.jpg?k=da253e2ca4b1173d9e0ca0f74a348f199cac657a2f89bfe5eaf1f8f9de1d76a7&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 210993814,
+              "tag_type": "ml_tags",
+              "tag_id": 11,
+              "tag_name": "Bathroom"
+            }
+          ],
+          "photo_id": 210993814,
+          "tags": [
+            {
+              "tag": "Bathroom",
+              "id": 153
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210993814.jpg?k=870bf92aa305b3d01a2ac6a4072e80bc48934f6d1f7f07b1b5b81452fdcf7304&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/210993814.jpg?k=870bf92aa305b3d01a2ac6a4072e80bc48934f6d1f7f07b1b5b81452fdcf7304&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/210993814.jpg?k=870bf92aa305b3d01a2ac6a4072e80bc48934f6d1f7f07b1b5b81452fdcf7304&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_id": 11,
+              "tag_name": "Bathroom",
+              "confidence": 99,
+              "photo_id": 210997631
+            },
+            {
+              "tag_type": "ml_tags",
+              "tag_name": null,
+              "tag_id": 80,
+              "confidence": 93,
+              "photo_id": 210997631
+            }
+          ],
+          "photo_id": 210997631,
+          "tags": [
+            {
+              "id": 153,
+              "tag": "Bathroom"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997631.jpg?k=185fce68d0ca74af8c1c9dd5cd0c79ae9da2957747b26b2b09577c9d6b965283&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/210997631.jpg?k=185fce68d0ca74af8c1c9dd5cd0c79ae9da2957747b26b2b09577c9d6b965283&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/210997631.jpg?k=185fce68d0ca74af8c1c9dd5cd0c79ae9da2957747b26b2b09577c9d6b965283&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 210997775,
+              "tag_type": "ml_tags",
+              "tag_name": "Bathroom",
+              "tag_id": 11
+            }
+          ],
+          "photo_id": 210997775,
+          "tags": [
+            {
+              "id": 153,
+              "tag": "Bathroom"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997775.jpg?k=cf3c21c63a94ceab34d3e744f8802d3ceefbbf2d74a15485298a10f2848098ce&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/210997775.jpg?k=cf3c21c63a94ceab34d3e744f8802d3ceefbbf2d74a15485298a10f2848098ce&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/210997775.jpg?k=cf3c21c63a94ceab34d3e744f8802d3ceefbbf2d74a15485298a10f2848098ce&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_name": "Bed",
+              "tag_id": 13,
+              "confidence": 100,
+              "photo_id": 263441840
+            }
+          ],
+          "photo_id": 263441840,
+          "tags": [
+            {
+              "tag": "Bedroom",
+              "id": 199
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441840.jpg?k=42fd44ad9cb7a5e4c8a87a1c97ed7f7dc13830b859d9867e0e85acca78268826&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/263441840.jpg?k=42fd44ad9cb7a5e4c8a87a1c97ed7f7dc13830b859d9867e0e85acca78268826&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/263441840.jpg?k=42fd44ad9cb7a5e4c8a87a1c97ed7f7dc13830b859d9867e0e85acca78268826&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 263441743,
+              "confidence": 100,
+              "tag_name": "Bed",
+              "tag_id": 13,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 263441743,
+          "tags": [
+            {
+              "id": 13,
+              "tag": "Bed"
+            },
+            {
+              "tag": "Room",
+              "id": 1000000002
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441743.jpg?k=a4131d446b6ddbc337732a3d11255571ef4605e10892b8df27010d2f4d400852&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/263441743.jpg?k=a4131d446b6ddbc337732a3d11255571ef4605e10892b8df27010d2f4d400852&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/263441743.jpg?k=a4131d446b6ddbc337732a3d11255571ef4605e10892b8df27010d2f4d400852&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_name": "Swimming pool",
+              "tag_id": 20,
+              "tag_type": "ml_tags",
+              "photo_id": 181932414,
+              "confidence": 97
+            }
+          ],
+          "photo_id": 181932414,
+          "tags": [
+            {
+              "id": 260,
+              "tag": "Swimming pool"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932414.jpg?k=7a202339445c19fb24f606da85a240e29558881d414fb8873201438d364e6f9b&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932414.jpg?k=7a202339445c19fb24f606da85a240e29558881d414fb8873201438d364e6f9b&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932414.jpg?k=7a202339445c19fb24f606da85a240e29558881d414fb8873201438d364e6f9b&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 183606045,
+              "confidence": 100,
+              "tag_id": 13,
+              "tag_name": "Bed",
+              "tag_type": "ml_tags"
+            },
+            {
+              "tag_name": "Bathroom",
+              "tag_id": 11,
+              "tag_type": "ml_tags",
+              "photo_id": 183606045,
+              "confidence": 97
+            }
+          ],
+          "photo_id": 183606045,
+          "tags": [
+            {
+              "tag": "Bathroom",
+              "id": 153
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183606045.jpg?k=b5eea9ebfc3e00b616a4b48cd7bb771a71177e24c3c2cf687645c41fd74a8b87&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/183606045.jpg?k=b5eea9ebfc3e00b616a4b48cd7bb771a71177e24c3c2cf687645c41fd74a8b87&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/183606045.jpg?k=b5eea9ebfc3e00b616a4b48cd7bb771a71177e24c3c2cf687645c41fd74a8b87&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 183607870,
+              "confidence": 100,
+              "tag_name": "Bed",
+              "tag_id": 13,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 183607870,
+          "tags": [
+            {
+              "id": 199,
+              "tag": "Bedroom"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183607870.jpg?k=3a66c9a77358f7148fd88401073a209e6e6965895ec96f829b129a01e82ad237&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/183607870.jpg?k=3a66c9a77358f7148fd88401073a209e6e6965895ec96f829b129a01e82ad237&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/183607870.jpg?k=3a66c9a77358f7148fd88401073a209e6e6965895ec96f829b129a01e82ad237&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 183608059,
+              "confidence": 100,
+              "tag_id": 13,
+              "tag_name": "Bed",
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 183608059,
+          "tags": [
+            {
+              "tag": "Bedroom",
+              "id": 199
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183608059.jpg?k=0c1a16bbefa5e12d972cd974c8780c581be418aba750210db666912795cf2eec&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/183608059.jpg?k=0c1a16bbefa5e12d972cd974c8780c581be418aba750210db666912795cf2eec&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/183608059.jpg?k=0c1a16bbefa5e12d972cd974c8780c581be418aba750210db666912795cf2eec&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_name": "Bed",
+              "tag_id": 13,
+              "confidence": 100,
+              "photo_id": 183608069
+            }
+          ],
+          "photo_id": 183608069,
+          "tags": [
+            {
+              "id": 199,
+              "tag": "Bedroom"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183608069.jpg?k=cf37ee76a132f09087db4b9290235c9185e4278bc7ef27723b5814bce45c9db3&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/183608069.jpg?k=cf37ee76a132f09087db4b9290235c9185e4278bc7ef27723b5814bce45c9db3&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/183608069.jpg?k=cf37ee76a132f09087db4b9290235c9185e4278bc7ef27723b5814bce45c9db3&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 183608085,
+              "confidence": 100,
+              "tag_id": 13,
+              "tag_name": "Bed",
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 183608085,
+          "tags": [
+            {
+              "id": 199,
+              "tag": "Bedroom"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183608085.jpg?k=6d89c173b6ff9853ee1df073908430d13057a42d4ab585a7d4cd7a301065e67e&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/183608085.jpg?k=6d89c173b6ff9853ee1df073908430d13057a42d4ab585a7d4cd7a301065e67e&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/183608085.jpg?k=6d89c173b6ff9853ee1df073908430d13057a42d4ab585a7d4cd7a301065e67e&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_id": 13,
+              "tag_name": "Bed",
+              "confidence": 100,
+              "photo_id": 181931988
+            }
+          ],
+          "photo_id": 181931988,
+          "tags": [
+            {
+              "tag": "Bedroom",
+              "id": 199
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181931988.jpg?k=0537f5f07ca41f430a26902233b35c0f0c071249c0024338b7905906f2716645&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181931988.jpg?k=0537f5f07ca41f430a26902233b35c0f0c071249c0024338b7905906f2716645&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181931988.jpg?k=0537f5f07ca41f430a26902233b35c0f0c071249c0024338b7905906f2716645&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_name": "Bed",
+              "tag_id": 13,
+              "tag_type": "ml_tags",
+              "photo_id": 210994936,
+              "confidence": 100
+            }
+          ],
+          "photo_id": 210994936,
+          "tags": [
+            {
+              "id": 13,
+              "tag": "Bed"
+            },
+            {
+              "tag": "Room",
+              "id": 1000000002
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210994936.jpg?k=78911e7a5d3a4ad0e9ade7ec24314ff6f1a3cb4611a0e595228963ef8cac8d34&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/210994936.jpg?k=78911e7a5d3a4ad0e9ade7ec24314ff6f1a3cb4611a0e595228963ef8cac8d34&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/210994936.jpg?k=78911e7a5d3a4ad0e9ade7ec24314ff6f1a3cb4611a0e595228963ef8cac8d34&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 181932039,
+          "tags": [
+            {
+              "tag": "View (from property/room)",
+              "id": 156
+            },
+            {
+              "id": 157,
+              "tag": "Balcony/Terrace"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932039.jpg?k=3220809a9c795ea4b4807e52ec60fef7adff0fbdef965e562c4a8401307dcd78&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932039.jpg?k=3220809a9c795ea4b4807e52ec60fef7adff0fbdef965e562c4a8401307dcd78&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932039.jpg?k=3220809a9c795ea4b4807e52ec60fef7adff0fbdef965e562c4a8401307dcd78&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_name": "Bathroom",
+              "tag_id": 11,
+              "tag_type": "ml_tags",
+              "photo_id": 210994687,
+              "confidence": 100
+            },
+            {
+              "photo_id": 210994687,
+              "confidence": 98,
+              "tag_name": null,
+              "tag_id": 80,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 210994687,
+          "tags": [
+            {
+              "tag": "Bathroom",
+              "id": 153
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210994687.jpg?k=76141798415aa901377ccf6a31b9b2e2d04db305c52ebd7b950bc20fd9485690&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/210994687.jpg?k=76141798415aa901377ccf6a31b9b2e2d04db305c52ebd7b950bc20fd9485690&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/210994687.jpg?k=76141798415aa901377ccf6a31b9b2e2d04db305c52ebd7b950bc20fd9485690&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 210996805,
+              "tag_type": "ml_tags",
+              "tag_name": "Bathroom",
+              "tag_id": 11
+            },
+            {
+              "tag_type": "ml_tags",
+              "tag_name": null,
+              "tag_id": 80,
+              "confidence": 97,
+              "photo_id": 210996805
+            }
+          ],
+          "photo_id": 210996805,
+          "tags": [
+            {
+              "id": 153,
+              "tag": "Bathroom"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210996805.jpg?k=a111726f645a585a7dd1b9916229fc4b7bf633fd84bd7cbba3377dd622b66ab9&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/210996805.jpg?k=a111726f645a585a7dd1b9916229fc4b7bf633fd84bd7cbba3377dd622b66ab9&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/210996805.jpg?k=a111726f645a585a7dd1b9916229fc4b7bf633fd84bd7cbba3377dd622b66ab9&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 181932275,
+              "confidence": 94,
+              "tag_id": 20,
+              "tag_name": "Swimming pool",
+              "tag_type": "ml_tags"
+            },
+            {
+              "confidence": 89,
+              "photo_id": 181932275,
+              "tag_type": "ml_tags",
+              "tag_name": "Property building",
+              "tag_id": 19
+            }
+          ],
+          "photo_id": 181932275,
+          "tags": [
+            {
+              "tag": "Swimming pool",
+              "id": 260
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932275.jpg?k=5bd5889e4ab2f18cce319e5406728a9ceaccd8b21a4203533079b899fb20ef38&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932275.jpg?k=5bd5889e4ab2f18cce319e5406728a9ceaccd8b21a4203533079b899fb20ef38&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932275.jpg?k=5bd5889e4ab2f18cce319e5406728a9ceaccd8b21a4203533079b899fb20ef38&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_id": 20,
+              "tag_name": "Swimming pool",
+              "confidence": 99,
+              "photo_id": 183606025
+            }
+          ],
+          "photo_id": 183606025,
+          "tags": [
+            {
+              "id": 253,
+              "tag": "Pool view"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183606025.jpg?k=f3a34c546bde4f68ed4c8f82f1c2da09664fe8ece504c4751f3a9b18613ffdcb&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/183606025.jpg?k=f3a34c546bde4f68ed4c8f82f1c2da09664fe8ece504c4751f3a9b18613ffdcb&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/183606025.jpg?k=f3a34c546bde4f68ed4c8f82f1c2da09664fe8ece504c4751f3a9b18613ffdcb&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_name": "Bed",
+              "tag_id": 13,
+              "tag_type": "ml_tags",
+              "photo_id": 183605027,
+              "confidence": 100
+            }
+          ],
+          "photo_id": 183605027,
+          "tags": [
+            {
+              "id": 13,
+              "tag": "Bed"
+            },
+            {
+              "tag": "Room",
+              "id": 1000000002
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183605027.jpg?k=919f6574da99c49da8c59c457986b80267f7ab8b816b49688a4f5dc7a0073f0c&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/183605027.jpg?k=919f6574da99c49da8c59c457986b80267f7ab8b816b49688a4f5dc7a0073f0c&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/183605027.jpg?k=919f6574da99c49da8c59c457986b80267f7ab8b816b49688a4f5dc7a0073f0c&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 182273439,
+              "tag_type": "ml_tags",
+              "tag_name": "Bed",
+              "tag_id": 13
+            }
+          ],
+          "photo_id": 182273439,
+          "tags": [
+            {
+              "id": 173,
+              "tag": "Photo of the whole room"
+            },
+            {
+              "id": 1000000002,
+              "tag": "Room"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/182273439.jpg?k=db78dc14e68936e3e3b4846270d9abebd5ed73a7d482921557ebd80a00907c1a&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/182273439.jpg?k=db78dc14e68936e3e3b4846270d9abebd5ed73a7d482921557ebd80a00907c1a&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/182273439.jpg?k=db78dc14e68936e3e3b4846270d9abebd5ed73a7d482921557ebd80a00907c1a&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_id": 12,
+              "tag_name": "TV/entertainment centre",
+              "tag_type": "ml_tags",
+              "photo_id": 183605049,
+              "confidence": 94
+            },
+            {
+              "tag_type": "ml_tags",
+              "tag_name": "Seating area",
+              "tag_id": 8,
+              "confidence": 93,
+              "photo_id": 183605049
+            }
+          ],
+          "photo_id": 183605049,
+          "tags": [
+            {
+              "id": 182,
+              "tag": "Seating area"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183605049.jpg?k=414042f5a564d7f3cd9ce3ec32cc0f5d26f2631eddc0b22b5345ed3cda768b3a&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/183605049.jpg?k=414042f5a564d7f3cd9ce3ec32cc0f5d26f2631eddc0b22b5345ed3cda768b3a&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/183605049.jpg?k=414042f5a564d7f3cd9ce3ec32cc0f5d26f2631eddc0b22b5345ed3cda768b3a&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 183605069,
+              "confidence": 100,
+              "tag_name": "Bed",
+              "tag_id": 13,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 183605069,
+          "tags": [
+            {
+              "tag": "Bedroom",
+              "id": 199
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183605069.jpg?k=9c0c66ccc1220b1c8549814b818f9ddb30d58dd20ab16acab23ca14c96479e44&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/183605069.jpg?k=9c0c66ccc1220b1c8549814b818f9ddb30d58dd20ab16acab23ca14c96479e44&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/183605069.jpg?k=9c0c66ccc1220b1c8549814b818f9ddb30d58dd20ab16acab23ca14c96479e44&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 181932343,
+              "confidence": 98,
+              "tag_name": "Property building",
+              "tag_id": 19,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 181932343,
+          "tags": [
+            {
+              "tag": "Facade/entrance",
+              "id": 10
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932343.jpg?k=b6f777117051aec8ffa5d61b3819a25e9e4cef9657ebe3e71bbe86b8960f51a0&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932343.jpg?k=b6f777117051aec8ffa5d61b3819a25e9e4cef9657ebe3e71bbe86b8960f51a0&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932343.jpg?k=b6f777117051aec8ffa5d61b3819a25e9e4cef9657ebe3e71bbe86b8960f51a0&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 181932613,
+              "confidence": 90,
+              "tag_id": 2,
+              "tag_name": "Restaurant/places to eat",
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 181932613,
+          "tags": [
+            {
+              "id": 160,
+              "tag": "Lobby or reception"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932613.jpg?k=7e01b3607761c76be41d6f9a7dbad1a5dc9beddfa8ad5fd2a805e517c5039aff&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932613.jpg?k=7e01b3607761c76be41d6f9a7dbad1a5dc9beddfa8ad5fd2a805e517c5039aff&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932613.jpg?k=7e01b3607761c76be41d6f9a7dbad1a5dc9beddfa8ad5fd2a805e517c5039aff&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 181932584,
+              "confidence": 100,
+              "tag_name": "Lounge/bar",
+              "tag_id": 4,
+              "tag_type": "ml_tags"
+            },
+            {
+              "tag_type": "ml_tags",
+              "tag_name": "Restaurant/places to eat",
+              "tag_id": 2,
+              "confidence": 98,
+              "photo_id": 181932584
+            }
+          ],
+          "photo_id": 181932584,
+          "tags": [
+            {
+              "id": 160,
+              "tag": "Lobby or reception"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932584.jpg?k=c9bd056bec13fd439a6def8a97c3a01f261702605eebbd90559677de6a6665bc&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932584.jpg?k=c9bd056bec13fd439a6def8a97c3a01f261702605eebbd90559677de6a6665bc&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932584.jpg?k=c9bd056bec13fd439a6def8a97c3a01f261702605eebbd90559677de6a6665bc&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 181932481,
+              "confidence": 97,
+              "tag_id": 20,
+              "tag_name": "Swimming pool",
+              "tag_type": "ml_tags"
+            },
+            {
+              "tag_id": 19,
+              "tag_name": "Property building",
+              "tag_type": "ml_tags",
+              "photo_id": 181932481,
+              "confidence": 86
+            }
+          ],
+          "photo_id": 181932481,
+          "tags": [
+            {
+              "id": 3,
+              "tag": "Property building"
+            },
+            {
+              "tag": "Lounge or bar",
+              "id": 161
+            },
+            {
+              "tag": "Swimming pool",
+              "id": 260
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932481.jpg?k=001742807cfa2680a9cc35fcf91a37007db60025a116ea5544a0eb1ce620df36&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932481.jpg?k=001742807cfa2680a9cc35fcf91a37007db60025a116ea5544a0eb1ce620df36&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932481.jpg?k=001742807cfa2680a9cc35fcf91a37007db60025a116ea5544a0eb1ce620df36&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 181932375,
+          "tags": [
+            {
+              "tag": "View (from property/room)",
+              "id": 156
+            },
+            {
+              "tag": "Swimming pool",
+              "id": 260
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932375.jpg?k=a3f107ddaf9d55c4d22db2584e5b5385cb9ee71865be5831ba99781b780131e1&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932375.jpg?k=a3f107ddaf9d55c4d22db2584e5b5385cb9ee71865be5831ba99781b780131e1&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932375.jpg?k=a3f107ddaf9d55c4d22db2584e5b5385cb9ee71865be5831ba99781b780131e1&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 210997124,
+              "confidence": 96,
+              "tag_name": "Swimming pool",
+              "tag_id": 20,
+              "tag_type": "ml_tags"
+            },
+            {
+              "tag_id": 19,
+              "tag_name": "Property building",
+              "tag_type": "ml_tags",
+              "photo_id": 210997124,
+              "confidence": 85
+            }
+          ],
+          "photo_id": 210997124,
+          "tags": [
+            {
+              "tag": "Day",
+              "id": 41
+            },
+            {
+              "id": 240,
+              "tag": "On site"
+            },
+            {
+              "id": 257,
+              "tag": "Area and facilities"
+            },
+            {
+              "tag": "Swimming pool",
+              "id": 260
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997124.jpg?k=8bec7f859e17a2e5e73fac3b20ddaf7cfc97dfdd7f13981a1e1c2687890f801d&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/210997124.jpg?k=8bec7f859e17a2e5e73fac3b20ddaf7cfc97dfdd7f13981a1e1c2687890f801d&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/210997124.jpg?k=8bec7f859e17a2e5e73fac3b20ddaf7cfc97dfdd7f13981a1e1c2687890f801d&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 95,
+              "photo_id": 181932426,
+              "tag_type": "ml_tags",
+              "tag_id": 61,
+              "tag_name": "Drinks"
+            }
+          ],
+          "photo_id": 181932426,
+          "tags": [
+            {
+              "tag": "Swimming pool",
+              "id": 260
+            },
+            {
+              "tag": "Alcoholic drinks",
+              "id": 274
+            },
+            {
+              "tag": "Non alcoholic drinks",
+              "id": 275
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932426.jpg?k=5678e97ed5935b0d79077f95db44e68408b69289bd38eb3a5ae7cde44be3b378&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932426.jpg?k=5678e97ed5935b0d79077f95db44e68408b69289bd38eb3a5ae7cde44be3b378&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932426.jpg?k=5678e97ed5935b0d79077f95db44e68408b69289bd38eb3a5ae7cde44be3b378&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 181932625,
+              "confidence": 100,
+              "tag_name": "Restaurant/places to eat",
+              "tag_id": 2,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 181932625,
+          "tags": [
+            {
+              "tag": "Restaurant/places to eat",
+              "id": 7
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932625.jpg?k=adfd90b75628da07a199160132504c335af8ed7bd460af1115f9acb2c85299ab&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932625.jpg?k=adfd90b75628da07a199160132504c335af8ed7bd460af1115f9acb2c85299ab&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932625.jpg?k=adfd90b75628da07a199160132504c335af8ed7bd460af1115f9acb2c85299ab&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 181932592,
+              "tag_type": "ml_tags",
+              "tag_name": "Restaurant/places to eat",
+              "tag_id": 2
+            }
+          ],
+          "photo_id": 181932592,
+          "tags": [
+            {
+              "tag": "Restaurant/places to eat",
+              "id": 7
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932592.jpg?k=712c6423da2307dc8cd93b00753e509c6148bcdea0501a2e6d2ac711420cebb1&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932592.jpg?k=712c6423da2307dc8cd93b00753e509c6148bcdea0501a2e6d2ac711420cebb1&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932592.jpg?k=712c6423da2307dc8cd93b00753e509c6148bcdea0501a2e6d2ac711420cebb1&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 181932636,
+              "confidence": 88,
+              "tag_name": "Restaurant/places to eat",
+              "tag_id": 2,
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 181932636,
+          "tags": [
+            {
+              "id": 7,
+              "tag": "Restaurant/places to eat"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932636.jpg?k=2789ac61711452d5f185ef82a2de00dffd31604cceb4b06f612eb0fe432535ee&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932636.jpg?k=2789ac61711452d5f185ef82a2de00dffd31604cceb4b06f612eb0fe432535ee&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932636.jpg?k=2789ac61711452d5f185ef82a2de00dffd31604cceb4b06f612eb0fe432535ee&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_name": "Restaurant/places to eat",
+              "tag_id": 2,
+              "confidence": 100,
+              "photo_id": 181932617
+            }
+          ],
+          "photo_id": 181932617,
+          "tags": [
+            {
+              "tag": "Restaurant/places to eat",
+              "id": 7
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932617.jpg?k=3dc38f0d1e0fa604c3f3c88fe43af8248dbd1ca62d3ddc1b9d74dc11197269c0&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932617.jpg?k=3dc38f0d1e0fa604c3f3c88fe43af8248dbd1ca62d3ddc1b9d74dc11197269c0&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932617.jpg?k=3dc38f0d1e0fa604c3f3c88fe43af8248dbd1ca62d3ddc1b9d74dc11197269c0&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_id": 2,
+              "tag_name": "Restaurant/places to eat",
+              "tag_type": "ml_tags",
+              "photo_id": 181932566,
+              "confidence": 100
+            },
+            {
+              "photo_id": 181932566,
+              "confidence": 86,
+              "tag_id": 9,
+              "tag_name": "Dining area",
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 181932566,
+          "tags": [
+            {
+              "tag": "Buffet breakfast",
+              "id": 266
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932566.jpg?k=4a72cd73ab55ba21a4a02b926a47ba7ad67a78995ae25f1fa41587982767bedb&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932566.jpg?k=4a72cd73ab55ba21a4a02b926a47ba7ad67a78995ae25f1fa41587982767bedb&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932566.jpg?k=4a72cd73ab55ba21a4a02b926a47ba7ad67a78995ae25f1fa41587982767bedb&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_id": 65,
+              "tag_name": "Children",
+              "confidence": 85,
+              "photo_id": 181932620
+            }
+          ],
+          "photo_id": 181932620,
+          "tags": [
+            {
+              "id": 193,
+              "tag": "Kids's club"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932620.jpg?k=d58d77807c3db6f60214de07a3b6c77b748521bfc931356ae293486055bcb9f9&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932620.jpg?k=d58d77807c3db6f60214de07a3b6c77b748521bfc931356ae293486055bcb9f9&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932620.jpg?k=d58d77807c3db6f60214de07a3b6c77b748521bfc931356ae293486055bcb9f9&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 181932410,
+              "tag_type": "ml_tags",
+              "tag_name": "Fitness centre/facilities",
+              "tag_id": 36
+            }
+          ],
+          "photo_id": 181932410,
+          "tags": [
+            {
+              "id": 165,
+              "tag": "Fitness centre/facilities"
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932410.jpg?k=27f458b879534b1b09ef753fa06bd2bba46a8ff5755780bbc74b4c0a2388af57&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181932410.jpg?k=27f458b879534b1b09ef753fa06bd2bba46a8ff5755780bbc74b4c0a2388af57&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181932410.jpg?k=27f458b879534b1b09ef753fa06bd2bba46a8ff5755780bbc74b4c0a2388af57&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 175974337,
+              "confidence": 100,
+              "tag_id": 2,
+              "tag_name": "Restaurant/places to eat",
+              "tag_type": "ml_tags"
+            },
+            {
+              "tag_id": 3,
+              "tag_name": "Banquet facilities",
+              "tag_type": "ml_tags",
+              "photo_id": 175974337,
+              "confidence": 100
+            }
+          ],
+          "photo_id": 175974337,
+          "tags": [
+            {
+              "tag": "Banquet/Function facilities",
+              "id": 178
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/175974337.jpg?k=9fe0c2a015ae2ffb2e22ba9e06a4e62c6944183fd932fca3bbef4fd2dfd3a792&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/175974337.jpg?k=9fe0c2a015ae2ffb2e22ba9e06a4e62c6944183fd932fca3bbef4fd2dfd3a792&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/175974337.jpg?k=9fe0c2a015ae2ffb2e22ba9e06a4e62c6944183fd932fca3bbef4fd2dfd3a792&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_id": 13,
+              "tag_name": "Bed",
+              "confidence": 100,
+              "photo_id": 182485529
+            }
+          ],
+          "photo_id": 182485529,
+          "tags": [
+            {
+              "tag": "Massage",
+              "id": 114
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/182485529.jpg?k=203da200dee73c588c5ff4e527a883c42d76b1f611860b2c918b7a49218c66cb&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/182485529.jpg?k=203da200dee73c588c5ff4e527a883c42d76b1f611860b2c918b7a49218c66cb&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/182485529.jpg?k=203da200dee73c588c5ff4e527a883c42d76b1f611860b2c918b7a49218c66cb&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 182485540,
+          "tags": [
+            {
+              "tag": "Spa and wellness centre/facilities",
+              "id": 164
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/182485540.jpg?k=56e230a6e0df6083373bba440231ff46a1fafd815117d2d12ff700317e019bc8&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/182485540.jpg?k=56e230a6e0df6083373bba440231ff46a1fafd815117d2d12ff700317e019bc8&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/182485540.jpg?k=56e230a6e0df6083373bba440231ff46a1fafd815117d2d12ff700317e019bc8&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 181931841,
+              "confidence": 100,
+              "tag_id": 11,
+              "tag_name": "Bathroom",
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 181931841,
+          "tags": [
+            {
+              "id": 153,
+              "tag": "Bathroom"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181931841.jpg?k=6912cb4aca06cdf22177fa0543c6809be562897d7ad94d6a0ceff9dc169a60f2&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181931841.jpg?k=6912cb4aca06cdf22177fa0543c6809be562897d7ad94d6a0ceff9dc169a60f2&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181931841.jpg?k=6912cb4aca06cdf22177fa0543c6809be562897d7ad94d6a0ceff9dc169a60f2&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 181931960,
+              "tag_type": "ml_tags",
+              "tag_id": 13,
+              "tag_name": "Bed"
+            }
+          ],
+          "photo_id": 181931960,
+          "tags": [
+            {
+              "tag": "Bedroom",
+              "id": 199
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181931960.jpg?k=0a19c5084394b77706af700faa15c9c908eb0436cf95b4474ea3a5b6a927dc12&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181931960.jpg?k=0a19c5084394b77706af700faa15c9c908eb0436cf95b4474ea3a5b6a927dc12&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181931960.jpg?k=0a19c5084394b77706af700faa15c9c908eb0436cf95b4474ea3a5b6a927dc12&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "confidence": 100,
+              "photo_id": 181931770,
+              "tag_type": "ml_tags",
+              "tag_name": "Bed",
+              "tag_id": 13
+            }
+          ],
+          "photo_id": 181931770,
+          "tags": [
+            {
+              "tag": "Bedroom",
+              "id": 199
+            },
+            {
+              "tag": "Property",
+              "id": 1000000001
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181931770.jpg?k=249fecca24cc12508d7af0ea8e02e8dd20ce52a58e1255bdcbf5ce6426b656c5&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/181931770.jpg?k=249fecca24cc12508d7af0ea8e02e8dd20ce52a58e1255bdcbf5ce6426b656c5&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/181931770.jpg?k=249fecca24cc12508d7af0ea8e02e8dd20ce52a58e1255bdcbf5ce6426b656c5&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 175974307,
+          "tags": [
+            {
+              "id": 178,
+              "tag": "Banquet/Function facilities"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/175974307.jpg?k=ae2221cdb6dbb43a1e5e5ac0c796f524113325a049c3488921842dfe740e93e7&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/175974307.jpg?k=ae2221cdb6dbb43a1e5e5ac0c796f524113325a049c3488921842dfe740e93e7&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/175974307.jpg?k=ae2221cdb6dbb43a1e5e5ac0c796f524113325a049c3488921842dfe740e93e7&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "photo_id": 175974321,
+              "confidence": 100,
+              "tag_id": 2,
+              "tag_name": "Restaurant/places to eat",
+              "tag_type": "ml_tags"
+            }
+          ],
+          "photo_id": 175974321,
+          "tags": [
+            {
+              "id": 161,
+              "tag": "Lounge or bar"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/175974321.jpg?k=d8ba67fbc2b9bc2f057fde6684a22d62d6c4564fe3dfe4ff75e94eb6baf56351&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/175974321.jpg?k=d8ba67fbc2b9bc2f057fde6684a22d62d6c4564fe3dfe4ff75e94eb6baf56351&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/175974321.jpg?k=d8ba67fbc2b9bc2f057fde6684a22d62d6c4564fe3dfe4ff75e94eb6baf56351&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [],
+          "photo_id": 175974333,
+          "tags": [
+            {
+              "id": 7,
+              "tag": "Restaurant/places to eat"
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/175974333.jpg?k=4feca9b6bb0c7a1fc9f3f948ef81f0d41c8b9bc0c23d83a10967c9e685603c2f&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/175974333.jpg?k=4feca9b6bb0c7a1fc9f3f948ef81f0d41c8b9bc0c23d83a10967c9e685603c2f&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/175974333.jpg?k=4feca9b6bb0c7a1fc9f3f948ef81f0d41c8b9bc0c23d83a10967c9e685603c2f&o="
+        },
+        {
+          "descriptiontype_id": 1,
+          "ml_tags": [
+            {
+              "tag_type": "ml_tags",
+              "tag_name": "Bathroom",
+              "tag_id": 11,
+              "confidence": 100,
+              "photo_id": 507260537
+            }
+          ],
+          "photo_id": 507260537,
+          "tags": [
+            {
+              "tag": "Bathroom",
+              "id": 153
+            },
+            {
+              "id": 1000000001,
+              "tag": "Property"
+            }
+          ],
+          "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/507260537.jpg?k=65cb957a9609d7a557d0ada0e9f4f710c1ceac2c74a5cdf310aa82d08a415f1d&o=",
+          "url_max": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/507260537.jpg?k=65cb957a9609d7a557d0ada0e9f4f710c1ceac2c74a5cdf310aa82d08a415f1d&o=",
+          "url_1440": "https://cf.bstatic.com/xdata/images/hotel/1440x1440/507260537.jpg?k=65cb957a9609d7a557d0ada0e9f4f710c1ceac2c74a5cdf310aa82d08a415f1d&o="
+        }
+      ],
+      "location": {
+        "latitude": 7.9028783156208,
+        "longitude": 98.3008655628738
+      },
+      "zip": "83150",
+      "address": "Rat U-thit Soi 2 200 Pee Road, Patong, Kathu",
+      "checkin": {
+        "from": "15:00",
+        "to": ""
+      },
+      "checkout": {
+        "from": "",
+        "to": "12:00"
+      },
+      "stars": 5,
+      "facilities": {
+        "it": [
+          "Wi-Fi gratuito",
+          "Servizio in camera",
+          "Sale riunioni/banchetti",
+          "Caffetteria in loco",
+          "Reception 24 ore",
+          "Centro fitness",
+          "Camere non fumatori",
+          "Navetta aeroportuale",
+          "Piscina",
+          "Fattura fornita",
+          "Minimarket in loco",
+          "Servizio stireria",
+          "Servizi Internet",
+          "Ascensore",
+          "Cassetta di sicurezza",
+          "Cambio valuta",
+          "Centro spa e benessere",
+          "Massaggio",
+          "Camere insonorizzate",
+          "Noleggio auto",
+          "Banco escursioni",
+          "Deposito bagagli",
+          "Wi-Fi",
+          "Piscina all'aperto",
+          "Wi-Fi gratuito",
+          "Aria condizionata",
+          "Area fumatori",
+          "Terrazza solarium",
+          "Piscina all'aperto (tutto l'anno)",
+          "Servizio di concierge",
+          "Menù per diete particolari (su richiesta)",
+          "Navetta aeroportuale (a pagamento)",
+          "Miniclub",
+          "Servizio di pulizie giornaliero",
+          "Area giochi al coperto",
+          "Pasti per bambini",
+          "Bar a bordo piscina",
+          "Parte bassa della piscina",
+          "Frutta",
+          "Trasferimento dall'aeroporto",
+          "Trasferimento per l'aeroporto",
+          "Sdraio o sedie a sdraio",
+          "Arredi da esterno",
+          "Servizi spa",
+          "Pacchetti spa/benessere",
+          "Massaggio alla schiena",
+          "Massaggio al collo",
+          "Massaggio ai piedi",
+          "Massaggio di coppia",
+          "Massaggio alla testa",
+          "Massaggio alle mani",
+          "Massaggio corpo intero",
+          "Fitness",
+          "Spogliatoi fitness/spa",
+          "Piscina",
+          "Tour a piedi",
+          "Happy hour",
+          "Sicurezza 24 ore su 24",
+          "Accesso con scheda magnetica",
+          "Allarme di sicurezza",
+          "Allarme antifumo",
+          "Videosorveglianza nelle aree comuni",
+          "Videosorveglianza esterna",
+          "Estintori",
+          "Piscina",
+          "Utilizzo di prodotti chimici efficaci contro il Coronavirus",
+          "Biancheria, asciugamani e bucato lavati secondo le linee guida delle autorità locali",
+          "Alloggio disinfettato tra un soggiorno e l'altro",
+          "Distanziamento fisico nelle aree di ristoro",
+          "Cibo consegnato presso l'alloggio degli ospiti",
+          "Lo staff segue tutti i protocolli di sicurezza come indicato dalle autorità locali",
+          "Cancelleria in comune come menu stampati, riviste, penne e carta rimossa",
+          "Kit di pronto soccorso disponibile",
+          "Pagamento senza contanti disponibile",
+          "Rispetto delle regole di distanziamento fisico",
+          "Fattura fornita",
+          "Cibo consegnato è coperto in modo sicuro",
+          "Accesso a professionisti sanitari",
+          "Maschere per il viso disponibili per gli ospiti"
+        ],
+        "en-gb": [
+          "Free WiFi",
+          "Room service",
+          "Meeting/banquet facilities",
+          "Coffee house on site",
+          "24-hour front desk",
+          "Fitness centre",
+          "Non-smoking rooms",
+          "Airport shuttle",
+          "Swimming Pool",
+          "Invoice provided",
+          "Minimarket on site",
+          "Ironing service",
+          "Internet services",
+          "Lift",
+          "Safety deposit box",
+          "Currency exchange",
+          "Spa and wellness centre",
+          "Massage",
+          "Soundproof rooms",
+          "Car hire",
+          "Tour desk",
+          "Luggage storage",
+          "WiFi",
+          "Outdoor pool",
+          "Free WiFi",
+          "Air conditioning",
+          "Designated smoking area",
+          "Sun terrace",
+          "Outdoor pool (all year)",
+          "Concierge service",
+          "Special diet menus (on request)",
+          "Airport shuttle (additional charge)",
+          "Kids' club",
+          "Daily housekeeping",
+          "Indoor play area",
+          "Kid meals",
+          "Pool bar",
+          "Shallow end",
+          "Fruits",
+          "Airport pick up",
+          "Airport drop off",
+          "Sun loungers or beach chairs",
+          "Outdoor furniture",
+          "Spa facilities",
+          "Spa/wellness packages",
+          "Back massage",
+          "Neck massage",
+          "Foot massage",
+          "Couples massage",
+          "Head massage",
+          "Hand massage",
+          "Full body massage",
+          "Fitness",
+          "Fitness/spa locker rooms",
+          "Swimming pool",
+          "Walking tours",
+          "Happy hour",
+          "24-hour security",
+          "Key card access",
+          "Security alarm",
+          "Smoke alarms",
+          "CCTV in common areas",
+          "CCTV outside property",
+          "Fire extinguishers",
+          "Swimming Pool",
+          "Use of cleaning chemicals that are effective against Coronavirus",
+          "Linens, towels and laundry washed in accordance with local authority guidelines",
+          "Guest accommodation is disinfected between stays",
+          "Physical distancing in dining areas",
+          "Food can be delivered to guest accommodation",
+          "Staff follow all safety protocols as directed by local authorities",
+          "Shared stationery such as printed menus, magazines, pens, and paper removed",
+          "First aid kit available",
+          "Cashless payment available",
+          "Physical distancing rules followed",
+          "Invoice provided",
+          "Delivered food is securely covered",
+          "Access to health care professionals",
+          "Face masks for guests available"
+        ],
+        "es": [
+          "Wi-Fi gratis",
+          "Servicio de habitaciones",
+          "Instalaciones para reuniones y banquetes",
+          "Cafetería en el establecimiento",
+          "Recepción 24 horas",
+          "Gimnasio",
+          "Habitaciones para no fumadores",
+          "Transporte al aeropuerto",
+          "Piscina",
+          "Factura proporcionada",
+          "Supermercado pequeño en el establecimiento",
+          "Servicio de planchado",
+          "Servicios de Internet",
+          "Ascensor",
+          "Caja fuerte",
+          "Cambio de divisas",
+          "Spa y centro de bienestar",
+          "Masaje",
+          "Habitaciones insonorizadas",
+          "Alquiler de coches",
+          "Mostrador de información turística",
+          "Guardaequipaje",
+          "Wi-Fi",
+          "Piscina al aire libre",
+          "Wi-Fi gratis",
+          "Aire acondicionado",
+          "Zona de fumadores",
+          "Terraza solárium",
+          "Piscina al aire libre (todo el año)",
+          "Servicio de conserjería",
+          "Menús dietéticos (bajo petición)",
+          "Transporte al aeropuerto (de pago)",
+          "Club infantil",
+          "Servicio de limpieza diario",
+          "Zona de juegos interior",
+          "Menú infantil",
+          "Bar en la piscina",
+          "Zona poco profunda",
+          "Frutas",
+          "Recogida en el aeropuerto",
+          "Traslado al aeropuerto",
+          "Tumbonas o sillas de playa",
+          "Mobiliario exterior",
+          "Instalaciones de spa",
+          "Paquetes de spa/bienestar",
+          "Masaje de espalda",
+          "Masaje de cuello",
+          "Masaje de pies",
+          "Masaje en pareja",
+          "Masaje de cabeza",
+          "Masaje de manos",
+          "Masaje corporal completo",
+          "Gimnasia",
+          "Vestuario de gimnasio/spa",
+          "Piscina",
+          "Tours a pie",
+          "Happy hour",
+          "Seguridad 24 horas",
+          "Acceso con tarjeta",
+          "Alarma de seguridad",
+          "Detectores de humo",
+          "Cámaras de seguridad en las zonas comunes",
+          "Cámaras de seguridad en el exterior",
+          "Extintores",
+          "Piscina",
+          "Uso de productos químicos de limpieza efectivos contra el coronavirus",
+          "Ropa de cama, toallas y lavandería lavadas según las indicaciones de las autoridades locales",
+          "El alojamiento de los huéspedes se desinfecta entre estancias",
+          "Distanciamiento físico en las zonas de comedor",
+          "La comida se puede entregar en el alojamiento de los huéspedes",
+          "El personal sigue todos los protocolos de seguridad indicados por las autoridades locales",
+          "Se ha eliminado el material compartido, como menús impresos, revistas, bolígrafos y papel",
+          "Kit de primeros auxilios disponible",
+          "Pago sin efectivo disponible",
+          "Se siguen las normas de distanciamiento físico",
+          "Factura proporcionada",
+          "La comida entregada está bien cubierta",
+          "Acceso a profesionales sanitarios",
+          "Mascarillas disponibles para los huéspedes"
+        ],
+        "fr": [
+          "Wi-Fi gratuit",
+          "Service en chambre",
+          "Salles de réunion/banquet",
+          "Café sur place",
+          "Réception ouverte 24h/24",
+          "Centre de remise en forme",
+          "Chambres non-fumeurs",
+          "Navette aéroport",
+          "Piscine",
+          "Facture fournie",
+          "Supérette sur place",
+          "Service de repassage",
+          "Services Internet",
+          "Ascenseur",
+          "Coffre-fort",
+          "Bureau de change",
+          "Spa et centre de bien-être",
+          "Massage",
+          "Chambres insonorisées",
+          "Location de voitures",
+          "Bureau d'excursions",
+          "Bagagerie",
+          "Wi-Fi",
+          "Piscine extérieure",
+          "Wi-Fi gratuit",
+          "Climatisation",
+          "Espace fumeurs",
+          "Terrasse bien exposée",
+          "Piscine extérieure (toute l'année)",
+          "Service de concierge",
+          "Menus pour régimes spéciaux (sur demande)",
+          "Navette aéroport (en supplément)",
+          "Club pour enfants",
+          "Service de ménage quotidien",
+          "Aire de jeux intérieure",
+          "Repas enfants",
+          "Bar dans la piscine",
+          "Partie peu profonde",
+          "Fruits",
+          "Service de navette de l'aéroport",
+          "Service de navette vers l'aéroport",
+          "Chaises longues ou chaises de plage",
+          "Mobilier extérieur",
+          "Installations de spa",
+          "Forfaits spa/bien-être",
+          "Massage du dos",
+          "Massage du cou",
+          "Massage des pieds",
+          "Massage en couple",
+          "Massage de la tête",
+          "Massage des mains",
+          "Massage corporel intégral",
+          "Fitness",
+          "Vestiaires de fitness/spa",
+          "Piscine",
+          "Visites à pied",
+          "Happy hour",
+          "Sécurité 24h/24",
+          "Accès par carte",
+          "Alarme de sécurité",
+          "Détecteurs de fumée",
+          "Caméras de surveillance dans les parties communes",
+          "Caméras de surveillance à l'extérieur",
+          "Extincteurs",
+          "Piscine",
+          "Utilisation de produits chimiques de nettoyage efficaces contre le coronavirus",
+          "Linge de lit, serviettes et lessive lavés conformément aux directives des autorités locales",
+          "Le logement des clients est désinfecté entre les séjours",
+          "Distanciation physique dans les espaces de restauration",
+          "La nourriture peut être livrée dans l'hébergement des clients",
+          "Le personnel respecte tous les protocoles de sécurité comme indiqué par les autorités locales",
+          "Papeterie partagée comme les menus imprimés, magazines, stylos et papier supprimés",
+          "Trousse de premiers soins disponible",
+          "Paiement sans numéraire disponible",
+          "Règles de distanciation physique suivies",
+          "Facture fournie",
+          "La nourriture livrée est bien couverte",
+          "Accès à des professionnels de santé",
+          "Masques disponibles pour les clients"
+        ],
+        "de": [
+          "Kostenloses WLAN",
+          "Zimmerservice",
+          "Tagungs- und Banketteinrichtungen",
+          "Café vor Ort",
+          "24-Stunden-Rezeption",
+          "Fitnesscenter",
+          "Nichtraucherzimmer",
+          "Flughafentransfer",
+          "Schwimmbad",
+          "Rechnung gestellt",
+          "Minimarkt vor Ort",
+          "Bügelservice",
+          "Internetdienste",
+          "Aufzug",
+          "Safe",
+          "Geldwechsel",
+          "Spa- und Wellnesscenter",
+          "Massage",
+          "Schallisolierte Zimmer",
+          "Autovermietung",
+          "Tourenschalter",
+          "Gepäckaufbewahrung",
+          "Wi-Fi",
+          "Außenpool",
+          "Kostenloses WLAN",
+          "Klimaanlage",
+          "Raucherbereich",
+          "Sonnenterrasse",
+          "Außenpool (ganzjährig)",
+          "Conciergeservice",
+          "Spezielle Diätmenüs (auf Anfrage)",
+          "Flughafentransfer (gegen Aufpreis)",
+          "Kinderclub",
+          "Tägliche Zimmerreinigung",
+          "Innen-Spielbereich",
+          "Kindermenüs",
+          "Poolbar",
+          "Flacher Bereich",
+          "Früchte",
+          "Flughafenabholung",
+          "Flughafentransfer",
+          "Sonnenliegen oder Strandstühle",
+          "Gartenmöbel",
+          "Spabereich",
+          "Spa-/Wellnesspakete",
+          "Rückenmassage",
+          "Nackenmassage",
+          "Fußmassage",
+          "Paarmassage",
+          "Kopfmassage",
+          "Handmassage",
+          "Ganzkörpermassage",
+          "Fitness",
+          "Fitness-/Spa-Umkleideräume",
+          "Schwimmbad",
+          "Wandertouren",
+          "Happy Hour",
+          "24-Stunden-Sicherheit",
+          "Zugang mit Schlüsselkarte",
+          "Sicherheitsalarm",
+          "Rauchmelder",
+          "CCTV in öffentlichen Bereichen",
+          "CCTV außerhalb der Unterkunft",
+          "Feuerlöscher",
+          "Schwimmbad",
+          "Verwendung von Reinigungsmitteln, die gegen Coronaviren wirksam sind",
+          "Bettwäsche, Handtücher und Wäsche werden gemäß den Richtlinien der örtlichen Behörden gewaschen",
+          "Die Gästeunterkunft wird zwischen den Aufenthalten desinfiziert",
+          "Physische Distanzierung in den Speisebereichen",
+          "Essen kann in die Gästeunterkunft geliefert werden",
+          "Das Personal befolgt alle Sicherheitsprotokolle, wie von den örtlichen Behörden vorgeschrieben",
+          "Geteilte Büroartikel wie gedruckte Menüs, Zeitschriften, Stifte und Papier wurden entfernt",
+          "Erste-Hilfe-Set verfügbar",
+          "Bargeldloses Bezahlen verfügbar",
+          "Einhaltung der Abstandsregeln",
+          "Rechnung gestellt",
+          "Geliefertes Essen ist sicher abgedeckt",
+          "Zugang zu medizinischem Fachpersonal",
+          "Gesichtsmasken für Gäste verfügbar"
+        ]
+      },
+      "number_of_rooms": 1,
+      "description": {
+        "it": "Mövenpick Myth Hotel Patong Phuket has an outdoor swimming pool, fitness centre, a restaurant and bar in Patong Beach. This 5-star hotel offers room service and a concierge service. The accommodation features a 24-hour front desk, airport transfers, a kids' club and free WiFi.\n\nA buffet, continental or Full English/Irish breakfast can be enjoyed at the property.\n\nThe hotel offers a sun terrace.\n\nPopular points of interest near Mövenpick Myth Hotel Patong Phuket include Patong Beach, Kalim Beach and Patong Boxing Stadium. The nearest airport is Phuket International Airport, 34 km from the accommodation.",
+        "en-gb": "Mövenpick Myth Hotel Patong Phuket has an outdoor swimming pool, fitness centre, a restaurant and bar in Patong Beach. This 5-star hotel offers room service and a concierge service. The accommodation features a 24-hour front desk, airport transfers, a kids' club and free WiFi.\n\nA buffet, continental or Full English/Irish breakfast can be enjoyed at the property.\n\nThe hotel offers a sun terrace.\n\nPopular points of interest near Mövenpick Myth Hotel Patong Phuket include Patong Beach, Kalim Beach and Patong Boxing Stadium. The nearest airport is Phuket International Airport, 34 km from the accommodation.",
+        "es": "Mövenpick Myth Hotel Patong Phuket has an outdoor swimming pool, fitness centre, a restaurant and bar in Patong Beach. This 5-star hotel offers room service and a concierge service. The accommodation features a 24-hour front desk, airport transfers, a kids' club and free WiFi.\n\nA buffet, continental or Full English/Irish breakfast can be enjoyed at the property.\n\nThe hotel offers a sun terrace.\n\nPopular points of interest near Mövenpick Myth Hotel Patong Phuket include Patong Beach, Kalim Beach and Patong Boxing Stadium. The nearest airport is Phuket International Airport, 34 km from the accommodation.",
+        "fr": "Mövenpick Myth Hotel Patong Phuket has an outdoor swimming pool, fitness centre, a restaurant and bar in Patong Beach. This 5-star hotel offers room service and a concierge service. The accommodation features a 24-hour front desk, airport transfers, a kids' club and free WiFi.\n\nA buffet, continental or Full English/Irish breakfast can be enjoyed at the property.\n\nThe hotel offers a sun terrace.\n\nPopular points of interest near Mövenpick Myth Hotel Patong Phuket include Patong Beach, Kalim Beach and Patong Boxing Stadium. The nearest airport is Phuket International Airport, 34 km from the accommodation.",
+        "de": "Mövenpick Myth Hotel Patong Phuket has an outdoor swimming pool, fitness centre, a restaurant and bar in Patong Beach. This 5-star hotel offers room service and a concierge service. The accommodation features a 24-hour front desk, airport transfers, a kids' club and free WiFi.\n\nA buffet, continental or Full English/Irish breakfast can be enjoyed at the property.\n\nThe hotel offers a sun terrace.\n\nPopular points of interest near Mövenpick Myth Hotel Patong Phuket include Patong Beach, Kalim Beach and Patong Boxing Stadium. The nearest airport is Phuket International Airport, 34 km from the accommodation."
+      },
+      "rooms": {
+        "446965416": {
+          "hotel_id": 4469654,
+          "room_id": 446965416,
+          "name": {
+            "it": "Deluxe King Room with Pool Access - Free cancellation",
+            "en": "Deluxe King Room with Pool Access - Free cancellation",
+            "es": "Deluxe King Room with Pool Access - Free cancellation",
+            "fr": "Deluxe King Room with Pool Access - Free cancellation",
+            "de": "Deluxe King Room with Pool Access - Free cancellation"
+          },
+          "description": "The private pool is a top feature of this double room. Featuring free toiletries and bathrobes, this double room includes a private bathroom with a bath, a shower and a hairdryer. The spacious air-conditioned double room features a flat-screen TV with cable channels, soundproof walls, a minibar, a tea and coffee maker as well as pool views. The unit has 1 bed.",
+          "max_persons": 2,
+          "photos": [
+            {
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441887.jpg?k=9f32d94af57c52aa04206e139b601c228399d92b8da5be13e6450fb36d2a42d7&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441887.jpg?k=9f32d94af57c52aa04206e139b601c228399d92b8da5be13e6450fb36d2a42d7&o=",
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441887.jpg?k=9f32d94af57c52aa04206e139b601c228399d92b8da5be13e6450fb36d2a42d7&o=",
+              "new_order": 6,
+              "photo_id": 263441887,
+              "ratio": 1.50980392156863,
+              "last_update_date": "2020-07-25 06:32:07",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441887.jpg?k=9f32d94af57c52aa04206e139b601c228399d92b8da5be13e6450fb36d2a42d7&o="
+            },
+            {
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441906.jpg?k=36f2f2df230f1d6b3955dcd6122b5228fec2823bc0a868d557b6789343beb6cf&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441906.jpg?k=36f2f2df230f1d6b3955dcd6122b5228fec2823bc0a868d557b6789343beb6cf&o=",
+              "photo_id": 263441906,
+              "new_order": 7,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441906.jpg?k=36f2f2df230f1d6b3955dcd6122b5228fec2823bc0a868d557b6789343beb6cf&o=",
+              "ratio": 1.50980392156863,
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441906.jpg?k=36f2f2df230f1d6b3955dcd6122b5228fec2823bc0a868d557b6789343beb6cf&o=",
+              "last_update_date": "2020-07-25 06:32:44"
+            },
+            {
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+              "new_order": 2,
+              "photo_id": 210994936,
+              "ratio": 1.50980392156863,
+              "last_update_date": "2019-07-23 14:13:50",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o="
+            },
+            {
+              "ratio": 1.50980392156863,
+              "last_update_date": "2020-07-25 06:31:05",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441860.jpg?k=3564e0a587a8f0364add1adf207d227cea709c3614bc2ec540a0ec26ab7303c0&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441860.jpg?k=3564e0a587a8f0364add1adf207d227cea709c3614bc2ec540a0ec26ab7303c0&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441860.jpg?k=3564e0a587a8f0364add1adf207d227cea709c3614bc2ec540a0ec26ab7303c0&o=",
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441860.jpg?k=3564e0a587a8f0364add1adf207d227cea709c3614bc2ec540a0ec26ab7303c0&o=",
+              "new_order": 0,
+              "photo_id": 263441860
+            },
+            {
+              "ratio": 1.50980392156863,
+              "last_update_date": "2020-07-25 06:29:20",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+              "photo_id": 263441840,
+              "new_order": 1
+            },
+            {
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+              "photo_id": 210993814,
+              "new_order": 3,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+              "ratio": 1.50980392156863,
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+              "last_update_date": "2019-07-23 14:09:02"
+            },
+            {
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+              "last_update_date": "2019-07-23 14:25:23",
+              "ratio": 1.50980392156863,
+              "photo_id": 210997631,
+              "new_order": 4,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o="
+            },
+            {
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+              "last_update_date": "2019-07-23 14:26:14",
+              "ratio": 1.50980392156863,
+              "photo_id": 210997775,
+              "new_order": 5,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o="
+            }
+          ],
+          "facilities": [
+            {
+              "id": 74,
+              "alt_facilitytype_id": 1,
+              "alt_facilitytype_name": "General",
+              "facilitytype_id": 6,
+              "name": "Laptop safe"
+            },
+            {
+              "alt_facilitytype_id": 5,
+              "id": 19,
+              "alt_facilitytype_name": "Bathroom",
+              "facilitytype_id": 5,
+              "name": "Bathrobe"
+            },
+            {
+              "id": 120,
+              "alt_facilitytype_id": 12,
+              "alt_facilitytype_name": "Kitchen",
+              "facilitytype_id": 7,
+              "name": "Coffee machine"
+            },
+            {
+              "alt_facilitytype_name": "General",
+              "facilitytype_id": 4,
+              "name": "Safety deposit box",
+              "alt_facilitytype_id": 1,
+              "id": 6
+            },
+            {
+              "name": "Hardwood or parquet floors",
+              "facilitytype_id": 4,
+              "alt_facilitytype_name": "General",
+              "id": 82,
+              "alt_facilitytype_id": 1
+            },
+            {
+              "alt_facilitytype_id": 19,
+              "id": 132,
+              "alt_facilitytype_name": "Accessibility",
+              "name": "Upper floors accessible by elevator",
+              "facilitytype_id": 19
+            },
+            {
+              "alt_facilitytype_name": "Media & Technology",
+              "facilitytype_id": 6,
+              "name": "Flat-screen TV",
+              "alt_facilitytype_id": 6,
+              "id": 75
+            },
+            {
+              "alt_facilitytype_id": 17,
+              "id": 39,
+              "alt_facilitytype_name": "Bedroom",
+              "facilitytype_id": 4,
+              "name": "Extra long beds (> 2 metres)"
+            },
+            {
+              "alt_facilitytype_name": "Services",
+              "name": "Wake-up service",
+              "facilitytype_id": 8,
+              "alt_facilitytype_id": 3,
+              "id": 83
+            },
+            {
+              "id": 77,
+              "alt_facilitytype_id": 15,
+              "facilitytype_id": 4,
+              "name": "Sofa",
+              "alt_facilitytype_name": "Living Area"
+            },
+            {
+              "facilitytype_id": 4,
+              "name": "Iron",
+              "alt_facilitytype_name": "General",
+              "id": 15,
+              "alt_facilitytype_id": 1
+            },
+            {
+              "facilitytype_id": 9,
+              "name": "Pool view",
+              "alt_facilitytype_name": "View",
+              "alt_facilitytype_id": 14,
+              "id": 111
+            },
+            {
+              "alt_facilitytype_id": 5,
+              "id": 124,
+              "alt_facilitytype_name": "Bathroom",
+              "facilitytype_id": 8,
+              "name": "Towels"
+            },
+            {
+              "alt_facilitytype_name": "Accessibility",
+              "name": "Entire unit wheelchair accessible",
+              "facilitytype_id": 19,
+              "id": 134,
+              "alt_facilitytype_id": 19
+            },
+            {
+              "name": "Free toiletries",
+              "facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "id": 27,
+              "alt_facilitytype_id": 5
+            },
+            {
+              "id": 72,
+              "alt_facilitytype_id": 5,
+              "facilitytype_id": 5,
+              "name": "Additional toilet",
+              "alt_facilitytype_name": "Bathroom"
+            },
+            {
+              "id": 184,
+              "alt_facilitytype_id": 4,
+              "alt_facilitytype_name": "Room Amenities",
+              "name": "Socket near the bed",
+              "facilitytype_id": 4
+            },
+            {
+              "alt_facilitytype_id": 7,
+              "id": 1,
+              "name": "Tea/Coffee maker",
+              "facilitytype_id": 7,
+              "alt_facilitytype_name": "Food & Drink"
+            },
+            {
+              "alt_facilitytype_id": 5,
+              "id": 43,
+              "alt_facilitytype_name": "Bathroom",
+              "facilitytype_id": 5,
+              "name": "Slippers"
+            },
+            {
+              "alt_facilitytype_id": 13,
+              "id": 17,
+              "name": "Balcony",
+              "facilitytype_id": 9,
+              "alt_facilitytype_name": "Outdoors"
+            },
+            {
+              "id": 12,
+              "alt_facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "name": "Hairdryer",
+              "facilitytype_id": 5
+            },
+            {
+              "id": 93,
+              "alt_facilitytype_id": 13,
+              "alt_facilitytype_name": "Outdoors",
+              "facilitytype_id": 4,
+              "name": "Private pool"
+            },
+            {
+              "id": 8,
+              "alt_facilitytype_id": 6,
+              "alt_facilitytype_name": "Media & Technology",
+              "name": "TV",
+              "facilitytype_id": 6
+            },
+            {
+              "id": 125,
+              "alt_facilitytype_id": 17,
+              "name": "Linen",
+              "facilitytype_id": 8,
+              "alt_facilitytype_name": "Bedroom"
+            },
+            {
+              "alt_facilitytype_id": 7,
+              "id": 3,
+              "name": "Minibar",
+              "facilitytype_id": 7,
+              "alt_facilitytype_name": "Food & Drink"
+            },
+            {
+              "alt_facilitytype_name": "Bathroom",
+              "name": "Toilet",
+              "facilitytype_id": 5,
+              "alt_facilitytype_id": 5,
+              "id": 31
+            },
+            {
+              "alt_facilitytype_id": 12,
+              "id": 86,
+              "name": "Electric kettle",
+              "facilitytype_id": 7,
+              "alt_facilitytype_name": "Kitchen"
+            },
+            {
+              "alt_facilitytype_id": 6,
+              "id": 9,
+              "alt_facilitytype_name": "Media & Technology",
+              "facilitytype_id": 6,
+              "name": "Telephone"
+            },
+            {
+              "alt_facilitytype_id": 5,
+              "id": 4,
+              "alt_facilitytype_name": "Bathroom",
+              "name": "Shower",
+              "facilitytype_id": 5
+            },
+            {
+              "alt_facilitytype_id": 12,
+              "id": 94,
+              "facilitytype_id": 4,
+              "name": "Tumble dryer",
+              "alt_facilitytype_name": "Kitchen"
+            },
+            {
+              "alt_facilitytype_name": "Media & Technology",
+              "name": "Cable channels",
+              "facilitytype_id": 6,
+              "alt_facilitytype_id": 6,
+              "id": 68
+            },
+            {
+              "id": 141,
+              "alt_facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "facilitytype_id": 5,
+              "name": "Toilet paper"
+            },
+            {
+              "alt_facilitytype_name": "General",
+              "facilitytype_id": 4,
+              "name": "Soundproofing",
+              "id": 79,
+              "alt_facilitytype_id": 1
+            },
+            {
+              "id": 44,
+              "alt_facilitytype_id": 6,
+              "name": "Satellite channels",
+              "facilitytype_id": 6,
+              "alt_facilitytype_name": "Media & Technology"
+            },
+            {
+              "alt_facilitytype_id": 1,
+              "id": 11,
+              "alt_facilitytype_name": "General",
+              "name": "Air conditioning",
+              "facilitytype_id": 4
+            },
+            {
+              "facilitytype_id": 5,
+              "name": "Bath",
+              "alt_facilitytype_name": "Bathroom",
+              "alt_facilitytype_id": 5,
+              "id": 5
+            },
+            {
+              "facilitytype_id": 5,
+              "name": "Private bathroom",
+              "alt_facilitytype_name": "Bathroom",
+              "id": 38,
+              "alt_facilitytype_id": 5
+            }
+          ],
+          "size_m2": 43,
+          "private_bathroom_highlight": {
+            "text": "Private bathroom with bath",
+            "has_highlight": 1
+          },
+          "children_and_beds_text": {
+            "cribs_and_extra_beds": [
+              {
+                "text": "Supplements are not calculated automatically in the total costs and will have to be paid for separately during your stay.",
+                "highlight": 0
+              },
+              {
+                "highlight": 0,
+                "text": "The maximum number of cots, extra beds and children allowed in existing beds may vary depending on the option you book."
+              },
+              {
+                "highlight": 0,
+                "text": "All cots and extra beds are subject to availability."
+              }
+            ],
+            "children_at_the_property": [
+              {
+                "highlight": 0,
+                "text": "Children of any age are welcome."
+              },
+              {
+                "highlight": 0,
+                "text": "Children 12 years and above will be charged as adults at this property."
+              }
+            ],
+            "age_intervals": [
+              {
+                "max_age": 255,
+                "extra_bed": {
+                  "price_type_n": 2,
+                  "price": "THB 1,780",
+                  "price_type": "fixed",
+                  "price_mode_n": 0,
+                  "id": 39489769,
+                  "price_mode": "per_night"
+                },
+                "group_by_price": {
+                  "fixed,per_night,1780.00": [
+                    "extra_bed"
+                  ]
+                },
+                "min_age": 12,
+                "types_by_price": [
+                  [
+                    "extra_bed"
+                  ]
+                ]
+              }
+            ],
+            "allow_children": 1
+          },
+          "bed_configurations": [
+            {
+              "bed_types": [
+                {
+                  "description_imperial": "71-82 inches wide",
+                  "name": "Extra-large double bed(s)",
+                  "description_localized": null,
+                  "bed_type": 3,
+                  "name_with_count": "1 extra-large double bed",
+                  "description": "181-210 cm wide",
+                  "count": 1
+                }
+              ]
+            }
+          ],
+          "highlights": [
+            {
+              "icon": "icon_wifi",
+              "translated_name": "Free WiFi"
+            },
+            {
+              "icon": "icon_pool",
+              "id": 93,
+              "translated_name": "Private pool"
+            },
+            {
+              "icon": "icon_checkmark",
+              "translated_name": "Balcony",
+              "id": 17
+            },
+            {
+              "id": 111,
+              "translated_name": "Pool view",
+              "icon": "icon_viewed"
+            },
+            {
+              "translated_name": "Air conditioning",
+              "id": 11,
+              "icon": "icon_airconditioning"
+            },
+            {
+              "id": 38,
+              "translated_name": "Ensuite bathroom",
+              "icon": "icon_bath"
+            },
+            {
+              "translated_name": "Flat-screen TV",
+              "id": 75,
+              "icon": "icon_flattv"
+            },
+            {
+              "icon": "icon_soundproof",
+              "id": 79,
+              "translated_name": "Soundproofing"
+            },
+            {
+              "icon": "icon_checkmark",
+              "translated_name": "Coffee machine",
+              "id": 120
+            },
+            {
+              "icon": "icon_checkmark",
+              "id": 3,
+              "translated_name": "Minibar"
+            }
+          ]
+        },
+        "446965418": {
+          "hotel_id": 4469654,
+          "room_id": 446965418,
+          "name": {
+            "it": "Two-Bedroom Family Suite with Pool View - Free cancellation",
+            "en": "Two-Bedroom Family Suite with Pool View - Free cancellation",
+            "es": "Two-Bedroom Family Suite with Pool View - Free cancellation",
+            "fr": "Two-Bedroom Family Suite with Pool View - Free cancellation",
+            "de": "Two-Bedroom Family Suite with Pool View - Free cancellation"
+          },
+          "description": "The spacious suite has 1 bedroom and 1 bathroom with a bath and free toiletries. The air-conditioned suite features a flat-screen TV with cable channels, soundproof walls, a minibar, a tea and coffee maker as well as pool views. The unit has 2 beds.",
+          "max_persons": 2,
+          "photos": [
+            {
+              "photo_id": 183608059,
+              "new_order": 0,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/183608059.jpg?k=b87f60b732c77cc7e540c65d5b43f070e1218172e836809db20336a5a2d27be3&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/183608059.jpg?k=b87f60b732c77cc7e540c65d5b43f070e1218172e836809db20336a5a2d27be3&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183608059.jpg?k=b87f60b732c77cc7e540c65d5b43f070e1218172e836809db20336a5a2d27be3&o=",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/183608059.jpg?k=b87f60b732c77cc7e540c65d5b43f070e1218172e836809db20336a5a2d27be3&o=",
+              "last_update_date": "2019-02-25 12:09:53",
+              "ratio": 1.49924585218703
+            },
+            {
+              "last_update_date": "2019-02-25 12:10:00",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/183608069.jpg?k=99e0a264a919248b444c488cd6da46cff660320724fe6567660085165821d8bf&o=",
+              "ratio": 1.49924585218703,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/183608069.jpg?k=99e0a264a919248b444c488cd6da46cff660320724fe6567660085165821d8bf&o=",
+              "photo_id": 183608069,
+              "new_order": 1,
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183608069.jpg?k=99e0a264a919248b444c488cd6da46cff660320724fe6567660085165821d8bf&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/183608069.jpg?k=99e0a264a919248b444c488cd6da46cff660320724fe6567660085165821d8bf&o="
+            },
+            {
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/183608085.jpg?k=0edcbe139848addc553ecfee91a5d8574849162955ff677fd514eb77c2de65d3&o=",
+              "last_update_date": "2019-02-25 12:10:06",
+              "ratio": 1.77777777777778,
+              "photo_id": 183608085,
+              "new_order": 2,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/183608085.jpg?k=0edcbe139848addc553ecfee91a5d8574849162955ff677fd514eb77c2de65d3&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/183608085.jpg?k=0edcbe139848addc553ecfee91a5d8574849162955ff677fd514eb77c2de65d3&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183608085.jpg?k=0edcbe139848addc553ecfee91a5d8574849162955ff677fd514eb77c2de65d3&o="
+            },
+            {
+              "last_update_date": "2019-02-14 05:41:35",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/181931841.jpg?k=b1058cc59627420361198c7f92b9440d4af8ddf2e5a10f9bcbc827da4c8019ca&o=",
+              "ratio": 1.49925037481259,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/181931841.jpg?k=b1058cc59627420361198c7f92b9440d4af8ddf2e5a10f9bcbc827da4c8019ca&o=",
+              "photo_id": 181931841,
+              "new_order": 3,
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181931841.jpg?k=b1058cc59627420361198c7f92b9440d4af8ddf2e5a10f9bcbc827da4c8019ca&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/181931841.jpg?k=b1058cc59627420361198c7f92b9440d4af8ddf2e5a10f9bcbc827da4c8019ca&o="
+            },
+            {
+              "new_order": 4,
+              "photo_id": 210997631,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+              "last_update_date": "2019-07-23 14:25:23",
+              "ratio": 1.50980392156863
+            },
+            {
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+              "last_update_date": "2019-07-23 14:26:14",
+              "ratio": 1.50980392156863,
+              "new_order": 5,
+              "photo_id": 210997775,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o="
+            }
+          ],
+          "facilities": [
+            {
+              "alt_facilitytype_name": "General",
+              "facilitytype_id": 6,
+              "name": "Laptop safe",
+              "id": 74,
+              "alt_facilitytype_id": 1
+            },
+            {
+              "alt_facilitytype_id": 5,
+              "id": 19,
+              "alt_facilitytype_name": "Bathroom",
+              "name": "Bathrobe",
+              "facilitytype_id": 5
+            },
+            {
+              "facilitytype_id": 7,
+              "name": "Coffee machine",
+              "alt_facilitytype_name": "Kitchen",
+              "alt_facilitytype_id": 12,
+              "id": 120
+            },
+            {
+              "facilitytype_id": 4,
+              "name": "Safety deposit box",
+              "alt_facilitytype_name": "General",
+              "id": 6,
+              "alt_facilitytype_id": 1
+            },
+            {
+              "facilitytype_id": 4,
+              "name": "Hardwood or parquet floors",
+              "alt_facilitytype_name": "General",
+              "id": 82,
+              "alt_facilitytype_id": 1
+            },
+            {
+              "name": "Upper floors accessible by elevator",
+              "facilitytype_id": 19,
+              "alt_facilitytype_name": "Accessibility",
+              "alt_facilitytype_id": 19,
+              "id": 132
+            },
+            {
+              "alt_facilitytype_id": 6,
+              "id": 75,
+              "alt_facilitytype_name": "Media & Technology",
+              "name": "Flat-screen TV",
+              "facilitytype_id": 6
+            },
+            {
+              "alt_facilitytype_id": 17,
+              "id": 39,
+              "alt_facilitytype_name": "Bedroom",
+              "facilitytype_id": 4,
+              "name": "Extra long beds (> 2 metres)"
+            },
+            {
+              "alt_facilitytype_name": "Services",
+              "facilitytype_id": 8,
+              "name": "Wake-up service",
+              "alt_facilitytype_id": 3,
+              "id": 83
+            },
+            {
+              "facilitytype_id": 4,
+              "name": "Sofa",
+              "alt_facilitytype_name": "Living Area",
+              "alt_facilitytype_id": 15,
+              "id": 77
+            },
+            {
+              "alt_facilitytype_name": "General",
+              "name": "Iron",
+              "facilitytype_id": 4,
+              "id": 15,
+              "alt_facilitytype_id": 1
+            },
+            {
+              "alt_facilitytype_id": 14,
+              "id": 111,
+              "name": "Pool view",
+              "facilitytype_id": 9,
+              "alt_facilitytype_name": "View"
+            },
+            {
+              "alt_facilitytype_id": 5,
+              "id": 124,
+              "alt_facilitytype_name": "Bathroom",
+              "name": "Towels",
+              "facilitytype_id": 8
+            },
+            {
+              "alt_facilitytype_name": "Accessibility",
+              "facilitytype_id": 19,
+              "name": "Entire unit wheelchair accessible",
+              "alt_facilitytype_id": 19,
+              "id": 134
+            },
+            {
+              "facilitytype_id": 5,
+              "name": "Free toiletries",
+              "alt_facilitytype_name": "Bathroom",
+              "id": 27,
+              "alt_facilitytype_id": 5
+            },
+            {
+              "alt_facilitytype_id": 5,
+              "id": 72,
+              "alt_facilitytype_name": "Bathroom",
+              "name": "Additional toilet",
+              "facilitytype_id": 5
+            },
+            {
+              "alt_facilitytype_name": "Room Amenities",
+              "name": "Socket near the bed",
+              "facilitytype_id": 4,
+              "id": 184,
+              "alt_facilitytype_id": 4
+            },
+            {
+              "id": 1,
+              "alt_facilitytype_id": 7,
+              "alt_facilitytype_name": "Food & Drink",
+              "facilitytype_id": 7,
+              "name": "Tea/Coffee maker"
+            },
+            {
+              "name": "Slippers",
+              "facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "id": 43,
+              "alt_facilitytype_id": 5
+            },
+            {
+              "alt_facilitytype_id": 13,
+              "id": 17,
+              "name": "Balcony",
+              "facilitytype_id": 9,
+              "alt_facilitytype_name": "Outdoors"
+            },
+            {
+              "name": "Hairdryer",
+              "facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "alt_facilitytype_id": 5,
+              "id": 12
+            },
+            {
+              "facilitytype_id": 6,
+              "name": "TV",
+              "alt_facilitytype_name": "Media & Technology",
+              "alt_facilitytype_id": 6,
+              "id": 8
+            },
+            {
+              "facilitytype_id": 8,
+              "name": "Linen",
+              "alt_facilitytype_name": "Bedroom",
+              "alt_facilitytype_id": 17,
+              "id": 125
+            },
+            {
+              "id": 3,
+              "alt_facilitytype_id": 7,
+              "alt_facilitytype_name": "Food & Drink",
+              "facilitytype_id": 7,
+              "name": "Minibar"
+            },
+            {
+              "name": "Toilet",
+              "facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "id": 31,
+              "alt_facilitytype_id": 5
+            },
+            {
+              "name": "Electric kettle",
+              "facilitytype_id": 7,
+              "alt_facilitytype_name": "Kitchen",
+              "id": 86,
+              "alt_facilitytype_id": 12
+            },
+            {
+              "alt_facilitytype_name": "Media & Technology",
+              "name": "Telephone",
+              "facilitytype_id": 6,
+              "alt_facilitytype_id": 6,
+              "id": 9
+            },
+            {
+              "alt_facilitytype_name": "Bathroom",
+              "facilitytype_id": 5,
+              "name": "Shower",
+              "id": 4,
+              "alt_facilitytype_id": 5
+            },
+            {
+              "alt_facilitytype_name": "Kitchen",
+              "name": "Tumble dryer",
+              "facilitytype_id": 4,
+              "alt_facilitytype_id": 12,
+              "id": 94
+            },
+            {
+              "id": 68,
+              "alt_facilitytype_id": 6,
+              "facilitytype_id": 6,
+              "name": "Cable channels",
+              "alt_facilitytype_name": "Media & Technology"
+            },
+            {
+              "alt_facilitytype_name": "Bathroom",
+              "facilitytype_id": 5,
+              "name": "Toilet paper",
+              "id": 141,
+              "alt_facilitytype_id": 5
+            },
+            {
+              "alt_facilitytype_name": "General",
+              "name": "Soundproofing",
+              "facilitytype_id": 4,
+              "alt_facilitytype_id": 1,
+              "id": 79
+            },
+            {
+              "alt_facilitytype_id": 6,
+              "id": 44,
+              "alt_facilitytype_name": "Media & Technology",
+              "name": "Satellite channels",
+              "facilitytype_id": 6
+            },
+            {
+              "alt_facilitytype_id": 1,
+              "id": 11,
+              "name": "Air conditioning",
+              "facilitytype_id": 4,
+              "alt_facilitytype_name": "General"
+            },
+            {
+              "name": "Bath",
+              "facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "id": 5,
+              "alt_facilitytype_id": 5
+            },
+            {
+              "alt_facilitytype_name": "Bathroom",
+              "name": "Private bathroom",
+              "facilitytype_id": 5,
+              "alt_facilitytype_id": 5,
+              "id": 38
+            }
+          ],
+          "size_m2": 62,
+          "private_bathroom_highlight": {
+            "text": "Private bathroom with bath",
+            "has_highlight": 1
+          },
+          "children_and_beds_text": {
+            "age_intervals": [],
+            "allow_children": 1,
+            "cribs_and_extra_beds": [
+              {
+                "text": "There is no capacity for extra beds or cots.",
+                "highlight": 0
+              }
+            ],
+            "children_at_the_property": [
+              {
+                "highlight": 0,
+                "text": "Children of any age are welcome."
+              },
+              {
+                "highlight": 0,
+                "text": "Children 12 years and above will be charged as adults at this property."
+              }
+            ]
+          },
+          "bed_configurations": [
+            {
+              "bed_types": [
+                {
+                  "name": "Extra-large double bed (Super-king size)",
+                  "bed_type": 3,
+                  "description_imperial": "71-82 inches wide",
+                  "count": 1,
+                  "description": "181-210 cm wide",
+                  "name_with_count": "1 extra-large double bed"
+                },
+                {
+                  "description": "90-130 cm wide",
+                  "count": 1,
+                  "name_with_count": "1 single bed",
+                  "name": "Single bed",
+                  "bed_type": 1,
+                  "description_imperial": "35-51 inches wide"
+                }
+              ]
+            }
+          ],
+          "highlights": [
+            {
+              "translated_name": "Free WiFi",
+              "icon": "icon_wifi"
+            },
+            {
+              "icon": "icon_checkmark",
+              "id": 17,
+              "translated_name": "Balcony"
+            },
+            {
+              "translated_name": "Pool view",
+              "id": 111,
+              "icon": "icon_viewed"
+            },
+            {
+              "id": 11,
+              "translated_name": "Air conditioning",
+              "icon": "icon_airconditioning"
+            },
+            {
+              "id": 38,
+              "translated_name": "Ensuite bathroom",
+              "icon": "icon_bath"
+            },
+            {
+              "translated_name": "Flat-screen TV",
+              "id": 75,
+              "icon": "icon_flattv"
+            },
+            {
+              "icon": "icon_soundproof",
+              "id": 79,
+              "translated_name": "Soundproofing"
+            },
+            {
+              "id": 120,
+              "translated_name": "Coffee machine",
+              "icon": "icon_checkmark"
+            },
+            {
+              "id": 3,
+              "translated_name": "Minibar",
+              "icon": "icon_checkmark"
+            }
+          ]
+        },
+        "446965420": {
+          "hotel_id": 4469654,
+          "room_id": 446965420,
+          "name": {
+            "it": "Deluxe King Room with Pool View - Free cancellation",
+            "en": "Deluxe King Room with Pool View - Free cancellation",
+            "es": "Deluxe King Room with Pool View - Free cancellation",
+            "fr": "Deluxe King Room with Pool View - Free cancellation",
+            "de": "Deluxe King Room with Pool View - Free cancellation"
+          },
+          "description": "The spacious triple room features air conditioning, soundproof walls, a balcony with pool views as well as a private bathroom boasting a bath. The unit has 1 bed.",
+          "max_persons": 2,
+          "photos": [
+            {
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+              "last_update_date": "2019-07-23 14:13:50",
+              "ratio": 1.50980392156863,
+              "photo_id": 210994936,
+              "new_order": 1,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o="
+            },
+            {
+              "ratio": 1.50980392156863,
+              "last_update_date": "2020-07-25 06:33:52",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441935.jpg?k=7cf3aa443023b894ff53f4e5374c4625dfeef01d54f216694b08a595797fb49c&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441935.jpg?k=7cf3aa443023b894ff53f4e5374c4625dfeef01d54f216694b08a595797fb49c&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441935.jpg?k=7cf3aa443023b894ff53f4e5374c4625dfeef01d54f216694b08a595797fb49c&o=",
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441935.jpg?k=7cf3aa443023b894ff53f4e5374c4625dfeef01d54f216694b08a595797fb49c&o=",
+              "photo_id": 263441935,
+              "new_order": 2
+            },
+            {
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+              "last_update_date": "2020-07-25 06:29:20",
+              "ratio": 1.50980392156863,
+              "photo_id": 263441840,
+              "new_order": 0,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o="
+            },
+            {
+              "ratio": 1.3262599469496,
+              "last_update_date": "2019-02-14 05:51:13",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/181932375.jpg?k=24578ea565f8d869f88d3ba15539f7684a245add53297ce438357543590bbdb1&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932375.jpg?k=24578ea565f8d869f88d3ba15539f7684a245add53297ce438357543590bbdb1&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/181932375.jpg?k=24578ea565f8d869f88d3ba15539f7684a245add53297ce438357543590bbdb1&o=",
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/181932375.jpg?k=24578ea565f8d869f88d3ba15539f7684a245add53297ce438357543590bbdb1&o=",
+              "photo_id": 181932375,
+              "new_order": 5
+            },
+            {
+              "ratio": 1.50980392156863,
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+              "last_update_date": "2019-07-23 14:09:02",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+              "photo_id": 210993814,
+              "new_order": 3,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o="
+            },
+            {
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+              "photo_id": 210997775,
+              "new_order": 4,
+              "ratio": 1.50980392156863,
+              "last_update_date": "2019-07-23 14:26:14",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o="
+            }
+          ],
+          "facilities": [
+            {
+              "id": 74,
+              "alt_facilitytype_id": 1,
+              "alt_facilitytype_name": "General",
+              "facilitytype_id": 6,
+              "name": "Laptop safe"
+            },
+            {
+              "alt_facilitytype_id": 5,
+              "id": 19,
+              "alt_facilitytype_name": "Bathroom",
+              "name": "Bathrobe",
+              "facilitytype_id": 5
+            },
+            {
+              "facilitytype_id": 7,
+              "name": "Coffee machine",
+              "alt_facilitytype_name": "Kitchen",
+              "alt_facilitytype_id": 12,
+              "id": 120
+            },
+            {
+              "alt_facilitytype_id": 1,
+              "id": 6,
+              "name": "Safety deposit box",
+              "facilitytype_id": 4,
+              "alt_facilitytype_name": "General"
+            },
+            {
+              "name": "Hardwood or parquet floors",
+              "facilitytype_id": 4,
+              "alt_facilitytype_name": "General",
+              "alt_facilitytype_id": 1,
+              "id": 82
+            },
+            {
+              "alt_facilitytype_id": 19,
+              "id": 132,
+              "alt_facilitytype_name": "Accessibility",
+              "name": "Upper floors accessible by elevator",
+              "facilitytype_id": 19
+            },
+            {
+              "alt_facilitytype_name": "Media & Technology",
+              "name": "Flat-screen TV",
+              "facilitytype_id": 6,
+              "alt_facilitytype_id": 6,
+              "id": 75
+            },
+            {
+              "alt_facilitytype_id": 17,
+              "id": 39,
+              "facilitytype_id": 4,
+              "name": "Extra long beds (> 2 metres)",
+              "alt_facilitytype_name": "Bedroom"
+            },
+            {
+              "name": "Wake-up service",
+              "facilitytype_id": 8,
+              "alt_facilitytype_name": "Services",
+              "alt_facilitytype_id": 3,
+              "id": 83
+            },
+            {
+              "alt_facilitytype_id": 15,
+              "id": 77,
+              "alt_facilitytype_name": "Living Area",
+              "facilitytype_id": 4,
+              "name": "Sofa"
+            },
+            {
+              "id": 15,
+              "alt_facilitytype_id": 1,
+              "name": "Iron",
+              "facilitytype_id": 4,
+              "alt_facilitytype_name": "General"
+            },
+            {
+              "id": 111,
+              "alt_facilitytype_id": 14,
+              "name": "Pool view",
+              "facilitytype_id": 9,
+              "alt_facilitytype_name": "View"
+            },
+            {
+              "id": 124,
+              "alt_facilitytype_id": 5,
+              "name": "Towels",
+              "facilitytype_id": 8,
+              "alt_facilitytype_name": "Bathroom"
+            },
+            {
+              "id": 134,
+              "alt_facilitytype_id": 19,
+              "alt_facilitytype_name": "Accessibility",
+              "facilitytype_id": 19,
+              "name": "Entire unit wheelchair accessible"
+            },
+            {
+              "id": 27,
+              "alt_facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "facilitytype_id": 5,
+              "name": "Free toiletries"
+            },
+            {
+              "alt_facilitytype_id": 5,
+              "id": 72,
+              "alt_facilitytype_name": "Bathroom",
+              "facilitytype_id": 5,
+              "name": "Additional toilet"
+            },
+            {
+              "alt_facilitytype_name": "Room Amenities",
+              "name": "Socket near the bed",
+              "facilitytype_id": 4,
+              "id": 184,
+              "alt_facilitytype_id": 4
+            },
+            {
+              "id": 1,
+              "alt_facilitytype_id": 7,
+              "alt_facilitytype_name": "Food & Drink",
+              "name": "Tea/Coffee maker",
+              "facilitytype_id": 7
+            },
+            {
+              "name": "Slippers",
+              "facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "alt_facilitytype_id": 5,
+              "id": 43
+            },
+            {
+              "id": 17,
+              "alt_facilitytype_id": 13,
+              "facilitytype_id": 9,
+              "name": "Balcony",
+              "alt_facilitytype_name": "Outdoors"
+            },
+            {
+              "alt_facilitytype_name": "Bathroom",
+              "facilitytype_id": 5,
+              "name": "Hairdryer",
+              "id": 12,
+              "alt_facilitytype_id": 5
+            },
+            {
+              "id": 8,
+              "alt_facilitytype_id": 6,
+              "name": "TV",
+              "facilitytype_id": 6,
+              "alt_facilitytype_name": "Media & Technology"
+            },
+            {
+              "alt_facilitytype_id": 17,
+              "id": 125,
+              "name": "Linen",
+              "facilitytype_id": 8,
+              "alt_facilitytype_name": "Bedroom"
+            },
+            {
+              "alt_facilitytype_name": "Food & Drink",
+              "name": "Minibar",
+              "facilitytype_id": 7,
+              "id": 3,
+              "alt_facilitytype_id": 7
+            },
+            {
+              "id": 31,
+              "alt_facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "name": "Toilet",
+              "facilitytype_id": 5
+            },
+            {
+              "alt_facilitytype_id": 12,
+              "id": 86,
+              "alt_facilitytype_name": "Kitchen",
+              "facilitytype_id": 7,
+              "name": "Electric kettle"
+            },
+            {
+              "facilitytype_id": 6,
+              "name": "Telephone",
+              "alt_facilitytype_name": "Media & Technology",
+              "alt_facilitytype_id": 6,
+              "id": 9
+            },
+            {
+              "name": "Shower",
+              "facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "alt_facilitytype_id": 5,
+              "id": 4
+            },
+            {
+              "alt_facilitytype_id": 12,
+              "id": 94,
+              "alt_facilitytype_name": "Kitchen",
+              "facilitytype_id": 4,
+              "name": "Tumble dryer"
+            },
+            {
+              "name": "Cable channels",
+              "facilitytype_id": 6,
+              "alt_facilitytype_name": "Media & Technology",
+              "id": 68,
+              "alt_facilitytype_id": 6
+            },
+            {
+              "alt_facilitytype_name": "Bathroom",
+              "name": "Toilet paper",
+              "facilitytype_id": 5,
+              "id": 141,
+              "alt_facilitytype_id": 5
+            },
+            {
+              "facilitytype_id": 4,
+              "name": "Soundproofing",
+              "alt_facilitytype_name": "General",
+              "alt_facilitytype_id": 1,
+              "id": 79
+            },
+            {
+              "facilitytype_id": 6,
+              "name": "Satellite channels",
+              "alt_facilitytype_name": "Media & Technology",
+              "alt_facilitytype_id": 6,
+              "id": 44
+            },
+            {
+              "id": 11,
+              "alt_facilitytype_id": 1,
+              "alt_facilitytype_name": "General",
+              "name": "Air conditioning",
+              "facilitytype_id": 4
+            },
+            {
+              "id": 5,
+              "alt_facilitytype_id": 5,
+              "alt_facilitytype_name": "Bathroom",
+              "facilitytype_id": 5,
+              "name": "Bath"
+            },
+            {
+              "alt_facilitytype_name": "Bathroom",
+              "name": "Private bathroom",
+              "facilitytype_id": 5,
+              "alt_facilitytype_id": 5,
+              "id": 38
+            }
+          ],
+          "size_m2": 43,
+          "private_bathroom_highlight": {
+            "text": "Private bathroom with bath",
+            "has_highlight": 1
+          },
+          "children_and_beds_text": {
+            "children_at_the_property": [
+              {
+                "text": "Children of any age are welcome.",
+                "highlight": 0
+              },
+              {
+                "highlight": 0,
+                "text": "Children 12 years and above will be charged as adults at this property."
+              }
+            ],
+            "cribs_and_extra_beds": [
+              {
+                "text": "Supplements are not calculated automatically in the total costs and will have to be paid for separately during your stay.",
+                "highlight": 0
+              },
+              {
+                "text": "The maximum number of cots, extra beds and children allowed in existing beds may vary depending on the option you book.",
+                "highlight": 0
+              },
+              {
+                "text": "All cots and extra beds are subject to availability.",
+                "highlight": 0
+              }
+            ],
+            "allow_children": 1,
+            "age_intervals": [
+              {
+                "max_age": 255,
+                "extra_bed": {
+                  "price_type_n": 2,
+                  "price": "THB 1,780",
+                  "price_type": "fixed",
+                  "price_mode_n": 0,
+                  "price_mode": "per_night",
+                  "id": 39489769
+                },
+                "types_by_price": [
+                  [
+                    "extra_bed"
+                  ]
+                ],
+                "min_age": 12,
+                "group_by_price": {
+                  "fixed,per_night,1780.00": [
+                    "extra_bed"
+                  ]
+                }
+              }
+            ]
+          },
+          "bed_configurations": [
+            {
+              "bed_types": [
+                {
+                  "name_with_count": "1 extra-large double bed",
+                  "description": "181-210 cm wide",
+                  "count": 1,
+                  "description_imperial": "71-82 inches wide",
+                  "description_localized": null,
+                  "name": "Extra-large double bed(s)",
+                  "bed_type": 3
+                }
+              ]
+            }
+          ],
+          "highlights": [
+            {
+              "translated_name": "Free WiFi",
+              "icon": "icon_wifi"
+            },
+            {
+              "translated_name": "Balcony",
+              "id": 17,
+              "icon": "icon_checkmark"
+            },
+            {
+              "icon": "icon_viewed",
+              "id": 111,
+              "translated_name": "Pool view"
+            },
+            {
+              "id": 11,
+              "translated_name": "Air conditioning",
+              "icon": "icon_airconditioning"
+            },
+            {
+              "icon": "icon_bath",
+              "translated_name": "Ensuite bathroom",
+              "id": 38
+            },
+            {
+              "translated_name": "Flat-screen TV",
+              "id": 75,
+              "icon": "icon_flattv"
+            },
+            {
+              "translated_name": "Soundproofing",
+              "id": 79,
+              "icon": "icon_soundproof"
+            },
+            {
+              "icon": "icon_checkmark",
+              "translated_name": "Coffee machine",
+              "id": 120
+            },
+            {
+              "id": 3,
+              "translated_name": "Minibar",
+              "icon": "icon_checkmark"
+            }
+          ]
+        },
+        "446965421": {
+          "hotel_id": 4469654,
+          "room_id": 446965421,
+          "name": {
+            "it": "Deluxe Twin Room with Pool View - Free cancellation",
+            "en": "Deluxe Twin Room with Pool View - Free cancellation",
+            "es": "Deluxe Twin Room with Pool View - Free cancellation",
+            "fr": "Deluxe Twin Room with Pool View - Free cancellation",
+            "de": "Deluxe Twin Room with Pool View - Free cancellation"
+          },
+          "description": "The unit has 2 beds.",
+          "max_persons": 2,
+          "photos": [
+            {
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183607870.jpg?k=a0ce39b2fe990ba0f989cf99e31b90598f4a0338e7122db9296d66df62244816&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/183607870.jpg?k=a0ce39b2fe990ba0f989cf99e31b90598f4a0338e7122db9296d66df62244816&o=",
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/183607870.jpg?k=a0ce39b2fe990ba0f989cf99e31b90598f4a0338e7122db9296d66df62244816&o=",
+              "photo_id": 183607870,
+              "new_order": 0,
+              "ratio": 1.49981139192757,
+              "last_update_date": "2019-02-25 12:08:42",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/183607870.jpg?k=a0ce39b2fe990ba0f989cf99e31b90598f4a0338e7122db9296d66df62244816&o="
+            },
+            {
+              "new_order": 1,
+              "photo_id": 183606045,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/183606045.jpg?k=5435b961bf45ae0dc829dbde06378c6809fdfb64a91a104f2737d8e0ceee8054&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/183606045.jpg?k=5435b961bf45ae0dc829dbde06378c6809fdfb64a91a104f2737d8e0ceee8054&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183606045.jpg?k=5435b961bf45ae0dc829dbde06378c6809fdfb64a91a104f2737d8e0ceee8054&o=",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/183606045.jpg?k=5435b961bf45ae0dc829dbde06378c6809fdfb64a91a104f2737d8e0ceee8054&o=",
+              "last_update_date": "2019-02-25 11:55:33",
+              "ratio": 1.49924585218703
+            },
+            {
+              "photo_id": 181932039,
+              "new_order": 3,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/181932039.jpg?k=817087b1f5117b0001b5b773d4ecfeb80e4a52de3083fabcde82cb44ed82d1da&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/181932039.jpg?k=817087b1f5117b0001b5b773d4ecfeb80e4a52de3083fabcde82cb44ed82d1da&o=",
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932039.jpg?k=817087b1f5117b0001b5b773d4ecfeb80e4a52de3083fabcde82cb44ed82d1da&o=",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/181932039.jpg?k=817087b1f5117b0001b5b773d4ecfeb80e4a52de3083fabcde82cb44ed82d1da&o=",
+              "last_update_date": "2019-02-14 05:44:41",
+              "ratio": 1.49925037481259
+            },
+            {
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/507260537.jpg?k=ae39dd7399e1529fc8c27be0510b45f13ac138c569cb78fac367bbdb412feca5&o=",
+              "photo_id": 507260537,
+              "new_order": 2,
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/507260537.jpg?k=ae39dd7399e1529fc8c27be0510b45f13ac138c569cb78fac367bbdb412feca5&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/507260537.jpg?k=ae39dd7399e1529fc8c27be0510b45f13ac138c569cb78fac367bbdb412feca5&o=",
+              "last_update_date": "2023-11-20 05:29:25",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/507260537.jpg?k=ae39dd7399e1529fc8c27be0510b45f13ac138c569cb78fac367bbdb412feca5&o=",
+              "ratio": 1.49924585218703
+            },
+            {
+              "last_update_date": "2019-02-14 05:53:01",
+              "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/181932426.jpg?k=bacda043ace728e549a8be65f85c4be1424a156c542d2075f76f3736eba7a0f8&o=",
+              "ratio": 1.49142431021626,
+              "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/181932426.jpg?k=bacda043ace728e549a8be65f85c4be1424a156c542d2075f76f3736eba7a0f8&o=",
+              "photo_id": 181932426,
+              "new_order": 4,
+              "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932426.jpg?k=bacda043ace728e549a8be65f85c4be1424a156c542d2075f76f3736eba7a0f8&o=",
+              "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/181932426.jpg?k=bacda043ace728e549a8be65f85c4be1424a156c542d2075f76f3736eba7a0f8&o="
+            }
+          ],
+          "facilities": [],
+          "size_m2": 43,
+          "private_bathroom_highlight": {
+            "has_highlight": 0
+          },
+          "children_and_beds_text": {
+            "cribs_and_extra_beds": [
+              {
+                "text": "Supplements are not calculated automatically in the total costs and will have to be paid for separately during your stay.",
+                "highlight": 0
+              },
+              {
+                "text": "The maximum number of cots, extra beds and children allowed in existing beds may vary depending on the option you book.",
+                "highlight": 0
+              },
+              {
+                "text": "All cots and extra beds are subject to availability.",
+                "highlight": 0
+              }
+            ],
+            "children_at_the_property": [
+              {
+                "highlight": 0,
+                "text": "Children of any age are welcome."
+              },
+              {
+                "highlight": 0,
+                "text": "Children 12 years and above will be charged as adults at this property."
+              }
+            ],
+            "age_intervals": [
+              {
+                "group_by_price": {
+                  "fixed,per_night,1780.00": [
+                    "extra_bed"
+                  ]
+                },
+                "min_age": 12,
+                "types_by_price": [
+                  [
+                    "extra_bed"
+                  ]
+                ],
+                "max_age": 255,
+                "extra_bed": {
+                  "price_type": "fixed",
+                  "price_type_n": 2,
+                  "price": "THB 1,780",
+                  "price_mode": "per_night",
+                  "id": 39489769,
+                  "price_mode_n": 0
+                }
+              }
+            ],
+            "allow_children": 1
+          },
+          "bed_configurations": [
+            {
+              "bed_types": [
+                {
+                  "name_with_count": "2 single beds",
+                  "description": "90-130 cm wide",
+                  "count": 2,
+                  "description_imperial": "35-51 inches wide",
+                  "description_localized": null,
+                  "name": "Single bed(s)",
+                  "bed_type": 1
+                }
+              ]
+            }
+          ],
+          "highlights": [
+            {
+              "icon": "icon_wifi",
+              "translated_name": "Free WiFi"
+            }
+          ]
+        }
+      },
+      "review_score": "8.7",
+      "review_nr": 1787,
+      "review_score_word": "Fabelhaft",
+      "entrance_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/181932343.jpg?k=7b0671c02a7fa3f09f474632f2e6ebf3b9495719223733cb478067e24c11228d&o=",
+      "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/581901309.jpg?k=2e14638f2bfa494d86ad20ece545441327057e2467242151f21ab34d774e3d98&o="
+    }
+  }
+}

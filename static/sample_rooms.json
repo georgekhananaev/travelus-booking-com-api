@@ -1,0 +1,3071 @@
+[
+    {
+        "qualifies_for_no_cc_reservation": 0,
+        "cc_required": "1",
+        "currency_code": "THB",
+        "is_exclusive": 0,
+        "use_new_bui_icon_highlight": 0,
+        "min_room_distribution": {
+            "adults": 1,
+            "children": [
+                9
+            ]
+        },
+        "recommended_block_title": "Recommended for 4 adults, 3 children (< 1, 5 and 9 years old)",
+        "address_required": 0,
+        "cvc_required": "0",
+        "b_max_los_data": {
+            "is_fullon": 0,
+            "default_los": 45,
+            "has_extended_los": 1,
+            "max_allowed_los": 90,
+            "extended_los": 90,
+            "experiment": "long_stays_android_extend_los_2"
+        },
+        "direct_payment": {
+            "is_hpp_only": 0
+        },
+        "duplicate_rates_removed": 0,
+        "hotel_id": 4469654,
+        "is_cpv2_property": 1,
+        "max_rooms_in_reservation": 7,
+        "top_ufi_benefits": [
+            {
+                "translated_name": "Swimming pool",
+                "icon": "pool"
+            },
+            {
+                "translated_name": "WiFi",
+                "icon": "wifi"
+            },
+            {
+                "translated_name": "Outdoor pool",
+                "icon": "pool"
+            },
+            {
+                "icon": "shuttle",
+                "translated_name": "Airport shuttle"
+            },
+            {
+                "translated_name": "Family rooms",
+                "icon": "family"
+            },
+            {
+                "translated_name": "Fitness centre",
+                "icon": "fitness"
+            }
+        ],
+        "soldout_rooms": [],
+        "arrival_date": "2024-10-15",
+        "prepayment_policies": {
+            "446965416_134395780_2_42_0": "full_prepayment",
+            "446965421_134395780_2_42_0": "full_prepayment",
+            "446965416_246098499_1_41_0": "no_prepayment_at_all",
+            "446965418_246098499_2_25_0": "no_prepayment_at_all",
+            "446965420_134395780_2_42_0": "full_prepayment",
+            "446965418_134395780_1_41_0": "full_prepayment",
+            "446965418_246098499_1_25_0": "no_prepayment_at_all",
+            "446965421_246098499_1_41_0": "no_prepayment_at_all",
+            "446965421_134395780_2_41_0": "full_prepayment",
+            "446965418_134395780_2_41_0": "full_prepayment",
+            "446965420_134395780_2_25_0": "full_prepayment",
+            "446965416_134395780_1_25_0": "full_prepayment",
+            "446965418_246098499_1_41_0": "no_prepayment_at_all",
+            "446965416_246098499_1_25_0": "no_prepayment_at_all",
+            "446965420_246098499_2_42_0": "no_prepayment_at_all",
+            "446965421_246098499_2_42_0": "no_prepayment_at_all",
+            "446965418_134395780_1_25_0": "full_prepayment",
+            "446965421_134395780_1_25_0": "full_prepayment",
+            "446965420_134395780_2_41_0": "full_prepayment",
+            "446965420_134395780_1_41_0": "full_prepayment",
+            "446965420_134395780_1_25_0": "full_prepayment",
+            "446965421_246098499_1_25_0": "no_prepayment_at_all",
+            "446965421_246098499_2_41_0": "no_prepayment_at_all",
+            "446965420_246098499_1_41_0": "no_prepayment_at_all",
+            "446965420_246098499_1_25_0": "no_prepayment_at_all",
+            "446965420_246098499_2_41_0": "no_prepayment_at_all",
+            "446965416_134395780_2_25_0": "full_prepayment",
+            "446965416_134395780_2_41_0": "full_prepayment",
+            "446965416_246098499_2_42_0": "no_prepayment_at_all",
+            "446965418_134395780_2_25_0": "full_prepayment",
+            "446965416_134395780_1_41_0": "full_prepayment",
+            "446965418_246098499_2_42_0": "no_prepayment_at_all",
+            "446965421_246098499_2_25_0": "no_prepayment_at_all",
+            "446965416_246098499_2_41_0": "no_prepayment_at_all",
+            "446965421_134395780_1_41_0": "full_prepayment",
+            "446965416_246098499_2_25_0": "no_prepayment_at_all",
+            "446965420_246098499_2_25_0": "no_prepayment_at_all",
+            "446965418_134395780_2_42_0": "full_prepayment",
+            "446965418_246098499_2_41_0": "no_prepayment_at_all",
+            "446965421_134395780_2_25_0": "full_prepayment"
+        },
+        "tax_exceptions": [],
+        "b_legal_use_neutral_color_for_persuasion_legal": 0,
+        "room_recommendation": [
+            {
+                "total_extra_bed_price": 0,
+                "total_extra_bed_price_in_hotel_currency": 0,
+                "children": 1,
+                "babies": 0,
+                "adults": 2,
+                "block_id": "446965421_134395780_2_42_0",
+                "number_of_extra_beds": 0
+            },
+            {
+                "total_extra_bed_price": 0,
+                "number_of_extra_beds": 0,
+                "block_id": "446965418_134395780_2_42_0",
+                "adults": 2,
+                "total_extra_bed_price_in_hotel_currency": 0,
+                "children": 2,
+                "babies": 0
+            }
+        ],
+        "cancellation_policies": {
+            "446965418_134395780_2_41_0": "non_refundable",
+            "446965420_134395780_2_25_0": "non_refundable",
+            "446965416_134395780_1_25_0": "non_refundable",
+            "446965421_134395780_2_41_0": "non_refundable",
+            "446965421_246098499_1_41_0": "free_cancellation_until",
+            "446965418_246098499_1_25_0": "free_cancellation_until",
+            "446965418_134395780_1_25_0": "non_refundable",
+            "446965421_134395780_1_25_0": "non_refundable",
+            "446965420_246098499_2_42_0": "free_cancellation_until",
+            "446965416_246098499_1_25_0": "free_cancellation_until",
+            "446965421_246098499_2_42_0": "free_cancellation_until",
+            "446965418_246098499_1_41_0": "free_cancellation_until",
+            "446965421_134395780_2_42_0": "non_refundable",
+            "446965416_134395780_2_42_0": "non_refundable",
+            "446965418_134395780_1_41_0": "non_refundable",
+            "446965420_134395780_2_42_0": "non_refundable",
+            "446965418_246098499_2_25_0": "free_cancellation_until",
+            "446965416_246098499_1_41_0": "free_cancellation_until",
+            "446965418_246098499_2_42_0": "free_cancellation_until",
+            "446965416_134395780_1_41_0": "non_refundable",
+            "446965418_134395780_2_25_0": "non_refundable",
+            "446965418_134395780_2_42_0": "non_refundable",
+            "446965421_134395780_2_25_0": "non_refundable",
+            "446965418_246098499_2_41_0": "free_cancellation_until",
+            "446965420_246098499_2_25_0": "free_cancellation_until",
+            "446965416_246098499_2_25_0": "free_cancellation_until",
+            "446965421_134395780_1_41_0": "non_refundable",
+            "446965416_246098499_2_41_0": "free_cancellation_until",
+            "446965421_246098499_2_25_0": "free_cancellation_until",
+            "446965420_246098499_1_41_0": "free_cancellation_until",
+            "446965421_246098499_2_41_0": "free_cancellation_until",
+            "446965421_246098499_1_25_0": "free_cancellation_until",
+            "446965420_134395780_1_25_0": "non_refundable",
+            "446965420_134395780_2_41_0": "non_refundable",
+            "446965420_134395780_1_41_0": "non_refundable",
+            "446965416_134395780_2_41_0": "non_refundable",
+            "446965416_246098499_2_42_0": "free_cancellation_until",
+            "446965416_134395780_2_25_0": "non_refundable",
+            "446965420_246098499_2_41_0": "free_cancellation_until",
+            "446965420_246098499_1_25_0": "free_cancellation_until"
+        },
+        "block": [
+            {
+                "block_id": "446965421_134395780_2_42_0",
+                "full_board": 0,
+                "product_price_breakdown": {
+                    "excluded_amount": {
+                        "amount_rounded": "THB 0",
+                        "amount_unrounded": "THB 0",
+                        "currency": "THB",
+                        "value": 0
+                    },
+                    "price_display_config": [
+                        {
+                            "key": "use_nightly_prices",
+                            "value": 0
+                        }
+                    ],
+                    "benefits": [],
+                    "gross_amount": {
+                        "amount_unrounded": "THB 10,291.29",
+                        "amount_rounded": "THB 10,291",
+                        "value": 10291.29,
+                        "currency": "THB"
+                    },
+                    "all_inclusive_amount": {
+                        "amount_rounded": "THB 10,291",
+                        "amount_unrounded": "THB 10,291.29",
+                        "currency": "THB",
+                        "value": 10291.29
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "amount_unrounded": "THB 1,621.29",
+                        "amount_rounded": "THB 1,621",
+                        "value": 1621.29,
+                        "currency": "THB"
+                    },
+                    "gross_amount_per_night": {
+                        "amount_rounded": "THB 5,146",
+                        "amount_unrounded": "THB 5,145.65",
+                        "currency": "THB",
+                        "value": 5145.645
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "value": 10291.29,
+                        "currency": "THB",
+                        "amount_unrounded": "THB 10,291.29",
+                        "amount_rounded": "THB 10,291"
+                    },
+                    "charges_details": {
+                        "mode": "all_included",
+                        "translated_copy": "Includes taxes and charges",
+                        "amount": {
+                            "value": 0,
+                            "currency": "THB"
+                        }
+                    },
+                    "items": [
+                        {
+                            "kind": "charge",
+                            "name": "City tax",
+                            "item_amount": {
+                                "currency": "THB",
+                                "value": 86.7,
+                                "amount_rounded": "THB 87",
+                                "amount_unrounded": "THB 86.70"
+                            },
+                            "details": "1 % City tax",
+                            "inclusion_type": "included",
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 1
+                            }
+                        },
+                        {
+                            "base": {
+                                "percentage": 7,
+                                "kind": "percentage"
+                            },
+                            "details": "7 % VAT",
+                            "inclusion_type": "included",
+                            "kind": "charge",
+                            "name": "VAT",
+                            "item_amount": {
+                                "value": 606.9,
+                                "currency": "THB",
+                                "amount_unrounded": "THB 606.90",
+                                "amount_rounded": "THB 607"
+                            }
+                        },
+                        {
+                            "base": {
+                                "percentage": 10.7,
+                                "kind": "percentage"
+                            },
+                            "details": "10.70 % Service charge",
+                            "inclusion_type": "included",
+                            "item_amount": {
+                                "amount_unrounded": "THB 927.69",
+                                "amount_rounded": "THB 928",
+                                "value": 927.69,
+                                "currency": "THB"
+                            },
+                            "kind": "charge",
+                            "name": "Service charge"
+                        }
+                    ],
+                    "nr_stays": 7,
+                    "client_translations": {
+                        "tooltip_total_text": "Total",
+                        "total_text": "",
+                        "per_night_amount_prefix": "",
+                        "tooltip_footnote_text": [
+                            ""
+                        ],
+                        "amount_per_night_suffix": ""
+                    },
+                    "gross_amount_hotel_currency": {
+                        "value": 10291.29,
+                        "currency": "THB",
+                        "amount_unrounded": "THB 10,291.29",
+                        "amount_rounded": "THB 10,291"
+                    },
+                    "net_amount": {
+                        "amount_rounded": "THB 8,670",
+                        "amount_unrounded": "THB 8,670",
+                        "currency": "THB",
+                        "value": 8670
+                    }
+                },
+                "rate_type_id": 0,
+                "is_genius_discount_geo": 0,
+                "lunch_included": 0,
+                "is_domestic_rate": 0,
+                "is_smart_deal": 0,
+                "paymentterms": {
+                    "prepayment": {
+                        "info": {
+                            "prepayment_at_booktime": 0,
+                            "date_before": null,
+                            "is_midnight": null,
+                            "timezone": null,
+                            "timezone_offset": null,
+                            "time_before_midnight": null,
+                            "refundable": 0,
+                            "time": null,
+                            "date": null
+                        },
+                        "extended_type_translation": "SECURE YOUR BOOKING - pay now",
+                        "timeline": {
+                            "nr_stages": 1,
+                            "u_currency_code": "THB",
+                            "policygroup_instance_id": "1/1/-",
+                            "currency_code": "THB",
+                            "stages": [
+                                {
+                                    "u_fee_pretty": "THB 8670",
+                                    "fee": 8670,
+                                    "stage_fee": 8670,
+                                    "is_free": 0,
+                                    "u_stage_fee_pretty": "THB 8670",
+                                    "limit_until_raw": "2024-09-15 15:56:51",
+                                    "current_stage": 1,
+                                    "u_stage_fee": "8670.00",
+                                    "limit_until_time": "15:56",
+                                    "b_number": 0,
+                                    "b_state": "NONREF",
+                                    "is_effective": 1,
+                                    "fee_rounded": 8670,
+                                    "fee_remaining": 0,
+                                    "stage_fee_pretty": "THB 8670",
+                                    "amount_pretty": "THB 8670",
+                                    "effective_number": 0,
+                                    "text": "Before you stay you'll pay",
+                                    "limit_from_time": "15:56",
+                                    "u_fee_remaining": "0.00",
+                                    "u_fee": "8670.00",
+                                    "fee_pretty": "THB 8670",
+                                    "limit_from": "15 September 2024 15:56",
+                                    "amount": "8670.00",
+                                    "limit_until": "15 September 2024 15:56",
+                                    "limit_from_raw": "2024-09-15 15:56:51",
+                                    "limit_from_date": "15 September 2024",
+                                    "fee_remaining_pretty": "THB 0",
+                                    "limit_until_date": "15 September 2024",
+                                    "limit_timezone": "Patong Beach",
+                                    "u_fee_remaining_pretty": "THB 0"
+                                }
+                            ]
+                        },
+                        "description": "You will be charged a prepayment of the total price at any time.",
+                        "type_extended": "non_refundable_prepayment",
+                        "simple_translation": "Prepayment",
+                        "type_translation": "SECURE YOUR BOOKING - pay now",
+                        "type": "full_prepayment"
+                    },
+                    "cancellation": {
+                        "info": {
+                            "timezone": null,
+                            "timezone_offset": null,
+                            "is_midnight": null,
+                            "date_before": null,
+                            "refundable_date": null,
+                            "date": null,
+                            "date_raw": null,
+                            "date_before_raw": null,
+                            "refundable": 0,
+                            "time": null,
+                            "time_before_midnight": null
+                        },
+                        "non_refundable_anymore": 0,
+                        "guaranteed_non_refundable": 0,
+                        "type_translation": "Non-refundable",
+                        "type": "non_refundable",
+                        "description": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged.",
+                        "timeline": {
+                            "policygroup_instance_id": "1/1/-",
+                            "u_currency_code": "THB",
+                            "nr_stages": 1,
+                            "currency_code": "THB",
+                            "stages": [
+                                {
+                                    "is_free": 0,
+                                    "u_fee_pretty": "THB 8670",
+                                    "fee": 8670,
+                                    "stage_fee": 8670,
+                                    "limit_until_raw": "2024-09-15 15:56:51",
+                                    "current_stage": 1,
+                                    "stage_translation": "No refund if you cancel",
+                                    "u_stage_fee_pretty": "THB 8670",
+                                    "limit_until_time": "15:56",
+                                    "u_stage_fee": "8670.00",
+                                    "fee_rounded": 8670,
+                                    "text_refundable": "You won't be eligible for a refund if you cancel this booking.",
+                                    "fee_remaining": 0,
+                                    "b_number": 0,
+                                    "b_state": "NONREF",
+                                    "is_effective": 1,
+                                    "amount_pretty": "THB 8670",
+                                    "stage_fee_pretty": "THB 8670",
+                                    "effective_number": 0,
+                                    "limit_from_time": "15:56",
+                                    "text": "If you cancel, you'll pay",
+                                    "u_fee_remaining": "0.00",
+                                    "u_fee": "8670.00",
+                                    "fee_pretty": "THB 8670",
+                                    "limit_from_date": "15 September 2024",
+                                    "fee_remaining_pretty": "THB 0",
+                                    "amount": "8670.00",
+                                    "limit_from": "15 September 2024 15:56",
+                                    "limit_until": "15 September 2024 15:56",
+                                    "limit_from_raw": "2024-09-15 15:56:51",
+                                    "u_fee_remaining_pretty": "THB 0",
+                                    "limit_until_date": "15 September 2024",
+                                    "limit_timezone": "Patong Beach"
+                                }
+                            ]
+                        },
+                        "bucket": "SMP_NON_REF"
+                    }
+                },
+                "refundable": 0,
+                "roomtype_id": 7,
+                "mealplan": "Enjoy a convenient breakfast at the property for THB 700 per person per night.\nEnjoy a convenient lunch at the property for THB 950 per person per night.\nEnjoy a convenient dinner at the property for THB 1,200 per person per night.",
+                "is_genius_deal": null,
+                "room_surface_in_m2": 43,
+                "transactional_policy_data": {
+                    "booking_conditions": [
+                        {
+                            "icon": "ic_cancellation_non_refundable",
+                            "description": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged.",
+                            "policy_type_key": "non_refundable",
+                            "type": "cancellation",
+                            "key": "NonRefundableKey",
+                            "text": "Non-refundable"
+                        },
+                        {
+                            "key": "NoPrepaymentCopyFallbackKey",
+                            "type": "prepayment",
+                            "policy_type_key": "with_prepayment_agency",
+                            "description": "You will be charged a prepayment of the total price at any time.",
+                            "icon": "bui_money_incoming",
+                            "text": "Prepayment"
+                        }
+                    ],
+                    "policies": [
+                        {
+                            "text": "Non-refundable",
+                            "key": "NonRefundableKey",
+                            "type": "cancellation",
+                            "description": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged.",
+                            "policy_type_key": "non_refundable",
+                            "icon": "ic_cancellation_non_refundable"
+                        }
+                    ],
+                    "applied_products": null
+                },
+                "package_id": 0,
+                "number_of_bathrooms": 0,
+                "transactional_policy_objects": [
+                    {
+                        "icon": "ic_cancellation_non_refundable",
+                        "key": "NonRefundableKey",
+                        "text": "Non-refundable"
+                    }
+                ],
+                "extrabed_available_amount": null,
+                "nr_children": 1,
+                "price_breakdown": {
+                    "currency": "THB",
+                    "gross_price": 10291.29,
+                    "has_incalculable_charges": 0,
+                    "all_inclusive_price": 10291.29,
+                    "sum_excluded_raw": "0.00",
+                    "excluded_charges_detail": null,
+                    "has_tax_exceptions": 0
+                },
+                "loyalty_reward_data": {
+                    "reward_detail": []
+                },
+                "refundable_until": "",
+                "babycots_available": 0,
+                "room_surface_in_feet2": 462.8481472,
+                "nr_adults": 2,
+                "half_board": 0,
+                "rack_rate": {
+                    "currency": "THB",
+                    "price": "0.00"
+                },
+                "deals": {
+                    "deal_attributes": {
+                        "has_secret_channel_option": 0
+                    }
+                },
+                "name": "Deluxe Twin Room with Pool View - Low rate - no money back",
+                "children_ages": [
+                    0
+                ],
+                "max_children_free": 1,
+                "dinner_included": 0,
+                "incremental_price": [
+                    {
+                        "price": 10291.29,
+                        "extra_charges_breakdown": {
+                            "net_price": "8670.00",
+                            "extra_charge": [
+                                {
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00",
+                                    "currency": "THB",
+                                    "amount": "86.70",
+                                    "charge_price_mode": 5,
+                                    "name": "City tax",
+                                    "excluded": 0,
+                                    "inclusion_type": "included"
+                                },
+                                {
+                                    "charge_amount": "7.00",
+                                    "type": "VAT",
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "amount": "606.90",
+                                    "name": "VAT",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0
+                                },
+                                {
+                                    "charge_amount": "10.70",
+                                    "type": "SERVICECHARGE",
+                                    "inclusion_type": "included",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "name": "Service charge",
+                                    "amount": 927.69,
+                                    "currency": "THB"
+                                }
+                            ]
+                        },
+                        "currency": "THB"
+                    },
+                    {
+                        "currency": "THB",
+                        "price": 20582.58,
+                        "extra_charges_breakdown": {
+                            "net_price": "17340.00",
+                            "extra_charge": [
+                                {
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "name": "City tax",
+                                    "amount": "173.40",
+                                    "currency": "THB",
+                                    "inclusion_type": "included",
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00"
+                                },
+                                {
+                                    "currency": "THB",
+                                    "name": "VAT",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "amount": "1213.80",
+                                    "inclusion_type": "included",
+                                    "type": "VAT",
+                                    "charge_amount": "7.00"
+                                },
+                                {
+                                    "type": "SERVICECHARGE",
+                                    "charge_amount": "10.70",
+                                    "currency": "THB",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "name": "Service charge",
+                                    "amount": "1855.38",
+                                    "inclusion_type": "included"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "extra_charges_breakdown": {
+                            "extra_charge": [
+                                {
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00",
+                                    "currency": "THB",
+                                    "amount": "260.10",
+                                    "charge_price_mode": 5,
+                                    "name": "City tax",
+                                    "excluded": 0,
+                                    "inclusion_type": "included"
+                                },
+                                {
+                                    "inclusion_type": "included",
+                                    "excluded": 0,
+                                    "name": "VAT",
+                                    "charge_price_mode": 5,
+                                    "amount": "1820.70",
+                                    "currency": "THB",
+                                    "charge_amount": "7.00",
+                                    "type": "VAT"
+                                },
+                                {
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "charge_price_mode": 5,
+                                    "name": "Service charge",
+                                    "excluded": 0,
+                                    "amount": "2783.07",
+                                    "charge_amount": "10.70",
+                                    "type": "SERVICECHARGE"
+                                }
+                            ],
+                            "net_price": "26010.00"
+                        },
+                        "price": 30873.87,
+                        "currency": "THB"
+                    },
+                    {
+                        "currency": "THB",
+                        "extra_charges_breakdown": {
+                            "net_price": "34680.00",
+                            "extra_charge": [
+                                {
+                                    "inclusion_type": "included",
+                                    "amount": "346.80",
+                                    "charge_price_mode": 5,
+                                    "name": "City tax",
+                                    "excluded": 0,
+                                    "currency": "THB",
+                                    "charge_amount": "1.00",
+                                    "type": "CITYTAX"
+                                },
+                                {
+                                    "charge_amount": "7.00",
+                                    "type": "VAT",
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "amount": "2427.60",
+                                    "name": "VAT",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5
+                                },
+                                {
+                                    "type": "SERVICECHARGE",
+                                    "charge_amount": "10.70",
+                                    "currency": "THB",
+                                    "amount": "3710.76",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "name": "Service charge",
+                                    "inclusion_type": "included"
+                                }
+                            ]
+                        },
+                        "price": 41165.16
+                    },
+                    {
+                        "price": 51456.45,
+                        "extra_charges_breakdown": {
+                            "net_price": "43350.00",
+                            "extra_charge": [
+                                {
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00",
+                                    "currency": "THB",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "name": "City tax",
+                                    "amount": "433.50",
+                                    "inclusion_type": "included"
+                                },
+                                {
+                                    "amount": "3034.50",
+                                    "excluded": 0,
+                                    "name": "VAT",
+                                    "charge_price_mode": 5,
+                                    "currency": "THB",
+                                    "inclusion_type": "included",
+                                    "type": "VAT",
+                                    "charge_amount": "7.00"
+                                },
+                                {
+                                    "charge_amount": "10.70",
+                                    "type": "SERVICECHARGE",
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "amount": "4638.45",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "name": "Service charge"
+                                }
+                            ]
+                        },
+                        "currency": "THB"
+                    },
+                    {
+                        "price": 61747.74,
+                        "extra_charges_breakdown": {
+                            "extra_charge": [
+                                {
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00",
+                                    "amount": "520.20",
+                                    "charge_price_mode": 5,
+                                    "name": "City tax",
+                                    "excluded": 0,
+                                    "currency": "THB",
+                                    "inclusion_type": "included"
+                                },
+                                {
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "amount": "3641.40",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "name": "VAT",
+                                    "charge_amount": "7.00",
+                                    "type": "VAT"
+                                },
+                                {
+                                    "inclusion_type": "included",
+                                    "amount": "5566.14",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "name": "Service charge",
+                                    "currency": "THB",
+                                    "charge_amount": "10.70",
+                                    "type": "SERVICECHARGE"
+                                }
+                            ],
+                            "net_price": "52020.00"
+                        },
+                        "currency": "THB"
+                    },
+                    {
+                        "currency": "THB",
+                        "extra_charges_breakdown": {
+                            "net_price": "60690.00",
+                            "extra_charge": [
+                                {
+                                    "currency": "THB",
+                                    "amount": "606.90",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "name": "City tax",
+                                    "inclusion_type": "included",
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00"
+                                },
+                                {
+                                    "charge_amount": "7.00",
+                                    "type": "VAT",
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "excluded": 0,
+                                    "name": "VAT",
+                                    "charge_price_mode": 5,
+                                    "amount": "4248.30"
+                                },
+                                {
+                                    "type": "SERVICECHARGE",
+                                    "charge_amount": "10.70",
+                                    "name": "Service charge",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "amount": "6493.83",
+                                    "currency": "THB",
+                                    "inclusion_type": "included"
+                                }
+                            ]
+                        },
+                        "price": "72039.03"
+                    }
+                ],
+                "extrabed_available": 0,
+                "is_flash_deal": 0,
+                "all_inclusive": 0,
+                "genius_discount_percentage": 0,
+                "pod_ios_migrate_policies_to_smp_fullon": 0,
+                "deposit_required": 1,
+                "detail_mealplan": [
+                    {
+                        "icon": "coffee",
+                        "title": "Breakfast available (Continental, Full English/Irish, Vegetarian, Gluten-free, American, Buffet)",
+                        "currency": "THB",
+                        "price": 700
+                    },
+                    {
+                        "price": 950,
+                        "title": "Lunch available",
+                        "currency": "THB",
+                        "icon": "forkknife"
+                    },
+                    {
+                        "price": 1200,
+                        "icon": "forkknife",
+                        "title": "Dinner available",
+                        "currency": "THB"
+                    }
+                ],
+                "name_without_policy": "Deluxe Twin Room with Pool View",
+                "max_children_free_age": 8,
+                "room_id": 446965421,
+                "can_reserve_free_parking": 0,
+                "breakfast_included": 0,
+                "babycots_available_amount": null,
+                "room_count": 14,
+                "flexible_option_also_available": 1,
+                "must_reserve_free_parking": 0,
+                "block_text": {
+                    "policies": [
+                        {
+                            "content": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged.",
+                            "class": "POLICY_CANCELLATION"
+                        },
+                        {
+                            "class": "POLICY_PREPAY",
+                            "content": "You will be charged a prepayment of the total price at any time."
+                        },
+                        {
+                            "price": 700,
+                            "class": "POLICY_HOTEL_MEALPLAN",
+                            "content": "Enjoy a convenient breakfast at the property for THB 700 per person per night.\nEnjoy a convenient lunch at the property for THB 950 per person per night.\nEnjoy a convenient dinner at the property for THB 1,200 per person per night.",
+                            "currencycode": "THB",
+                            "mealplan_vector": "42"
+                        },
+                        {
+                            "content": "Non Refundable",
+                            "class": "POLICY_TITLE"
+                        },
+                        {
+                            "class": "CHILD_STAYS_FREE",
+                            "title": "Free stay for 1 of your children (&lt;1 year old)",
+                            "content": "Your child (&lt;1 year old) can sleep here for no additional charge."
+                        }
+                    ]
+                },
+                "is_secret_deal": 0,
+                "is_dormitory": 0,
+                "room_name": "Deluxe Twin Room with Pool View",
+                "bh_room_highlights": [],
+                "b_bsb_campaigns": [],
+                "is_block_fit": 0,
+                "is_last_minute_deal": 0,
+                "smoking": 2,
+                "is_mobile_deal": 0,
+                "max_occupancy": 2,
+                "min_price": {
+                    "price": "10291.29",
+                    "extra_charges_breakdown": {
+                        "extra_charge": [
+                            {
+                                "inclusion_type": "included",
+                                "excluded": 0,
+                                "name": "City tax",
+                                "charge_price_mode": 5,
+                                "amount": "86.70",
+                                "currency": "THB",
+                                "charge_amount": "1.00",
+                                "type": "CITYTAX"
+                            },
+                            {
+                                "charge_amount": "7.00",
+                                "type": "VAT",
+                                "inclusion_type": "included",
+                                "excluded": 0,
+                                "charge_price_mode": 5,
+                                "name": "VAT",
+                                "amount": "606.90",
+                                "currency": "THB"
+                            },
+                            {
+                                "inclusion_type": "included",
+                                "name": "Service charge",
+                                "charge_price_mode": 5,
+                                "excluded": 0,
+                                "amount": "927.69",
+                                "currency": "THB",
+                                "charge_amount": "10.70",
+                                "type": "SERVICECHARGE"
+                            }
+                        ],
+                        "net_price": "8670.00"
+                    },
+                    "currency": "THB"
+                }
+            },
+            {
+                "pod_ios_migrate_policies_to_smp_fullon": 0,
+                "genius_discount_percentage": 0,
+                "deposit_required": 1,
+                "name_without_policy": "Deluxe Twin Room with Pool View",
+                "detail_mealplan": [
+                    {
+                        "title": "Breakfast included (Continental, Full English/Irish, Vegetarian, Gluten-free, American, Buffet)",
+                        "icon": "coffee"
+                    }
+                ],
+                "max_children_free": 1,
+                "children_ages": [
+                    0
+                ],
+                "deals": {
+                    "deal_attributes": {
+                        "has_secret_channel_option": 0
+                    }
+                },
+                "name": "Deluxe Twin Room with Pool View - Low rate - no money back",
+                "extrabed_available": 0,
+                "all_inclusive": 0,
+                "is_flash_deal": 0,
+                "incremental_price": [
+                    {
+                        "price": 11003.49,
+                        "extra_charges_breakdown": {
+                            "extra_charge": [
+                                {
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00",
+                                    "currency": "THB",
+                                    "amount": "92.70",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "name": "City tax",
+                                    "inclusion_type": "included"
+                                },
+                                {
+                                    "currency": "THB",
+                                    "name": "VAT",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "amount": "648.90",
+                                    "inclusion_type": "included",
+                                    "type": "VAT",
+                                    "charge_amount": "7.00"
+                                },
+                                {
+                                    "charge_amount": "10.70",
+                                    "type": "SERVICECHARGE",
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "name": "Service charge",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "amount": 991.89
+                                }
+                            ],
+                            "net_price": "9270.00"
+                        },
+                        "currency": "THB"
+                    },
+                    {
+                        "extra_charges_breakdown": {
+                            "extra_charge": [
+                                {
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "amount": "185.40",
+                                    "name": "City tax",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "charge_amount": "1.00",
+                                    "type": "CITYTAX"
+                                },
+                                {
+                                    "charge_amount": "7.00",
+                                    "type": "VAT",
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "name": "VAT",
+                                    "amount": "1297.80"
+                                },
+                                {
+                                    "charge_amount": "10.70",
+                                    "type": "SERVICECHARGE",
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "amount": "1983.78",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "name": "Service charge"
+                                }
+                            ],
+                            "net_price": "18540.00"
+                        },
+                        "price": 22006.98,
+                        "currency": "THB"
+                    },
+                    {
+                        "price": 33010.47,
+                        "extra_charges_breakdown": {
+                            "extra_charge": [
+                                {
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00",
+                                    "amount": "278.10",
+                                    "name": "City tax",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "currency": "THB",
+                                    "inclusion_type": "included"
+                                },
+                                {
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "name": "VAT",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "amount": "1946.70",
+                                    "charge_amount": "7.00",
+                                    "type": "VAT"
+                                },
+                                {
+                                    "name": "Service charge",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "amount": "2975.67",
+                                    "currency": "THB",
+                                    "inclusion_type": "included",
+                                    "type": "SERVICECHARGE",
+                                    "charge_amount": "10.70"
+                                }
+                            ],
+                            "net_price": "27810.00"
+                        },
+                        "currency": "THB"
+                    },
+                    {
+                        "extra_charges_breakdown": {
+                            "extra_charge": [
+                                {
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00",
+                                    "currency": "THB",
+                                    "amount": "370.80",
+                                    "name": "City tax",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "inclusion_type": "included"
+                                },
+                                {
+                                    "excluded": 0,
+                                    "name": "VAT",
+                                    "charge_price_mode": 5,
+                                    "amount": "2595.60",
+                                    "currency": "THB",
+                                    "inclusion_type": "included",
+                                    "type": "VAT",
+                                    "charge_amount": "7.00"
+                                },
+                                {
+                                    "charge_amount": "10.70",
+                                    "type": "SERVICECHARGE",
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "excluded": 0,
+                                    "name": "Service charge",
+                                    "charge_price_mode": 5,
+                                    "amount": "3967.56"
+                                }
+                            ],
+                            "net_price": "37080.00"
+                        },
+                        "price": 44013.96,
+                        "currency": "THB"
+                    },
+                    {
+                        "currency": "THB",
+                        "extra_charges_breakdown": {
+                            "net_price": "46350.00",
+                            "extra_charge": [
+                                {
+                                    "currency": "THB",
+                                    "amount": "463.50",
+                                    "excluded": 0,
+                                    "name": "City tax",
+                                    "charge_price_mode": 5,
+                                    "inclusion_type": "included",
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00"
+                                },
+                                {
+                                    "charge_amount": "7.00",
+                                    "type": "VAT",
+                                    "inclusion_type": "included",
+                                    "amount": "3244.50",
+                                    "name": "VAT",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "currency": "THB"
+                                },
+                                {
+                                    "inclusion_type": "included",
+                                    "currency": "THB",
+                                    "name": "Service charge",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "amount": "4959.45",
+                                    "charge_amount": "10.70",
+                                    "type": "SERVICECHARGE"
+                                }
+                            ]
+                        },
+                        "price": 55017.45
+                    },
+                    {
+                        "price": 66020.94,
+                        "extra_charges_breakdown": {
+                            "extra_charge": [
+                                {
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "name": "City tax",
+                                    "amount": "556.20",
+                                    "currency": "THB",
+                                    "inclusion_type": "included"
+                                },
+                                {
+                                    "name": "VAT",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "amount": "3893.40",
+                                    "currency": "THB",
+                                    "inclusion_type": "included",
+                                    "type": "VAT",
+                                    "charge_amount": "7.00"
+                                },
+                                {
+                                    "type": "SERVICECHARGE",
+                                    "charge_amount": "10.70",
+                                    "currency": "THB",
+                                    "amount": "5951.34",
+                                    "name": "Service charge",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "inclusion_type": "included"
+                                }
+                            ],
+                            "net_price": "55620.00"
+                        },
+                        "currency": "THB"
+                    },
+                    {
+                        "extra_charges_breakdown": {
+                            "net_price": "64890.00",
+                            "extra_charge": [
+                                {
+                                    "type": "CITYTAX",
+                                    "charge_amount": "1.00",
+                                    "currency": "THB",
+                                    "name": "City tax",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "amount": "648.90",
+                                    "inclusion_type": "included"
+                                },
+                                {
+                                    "currency": "THB",
+                                    "amount": "4542.30",
+                                    "charge_price_mode": 5,
+                                    "excluded": 0,
+                                    "name": "VAT",
+                                    "inclusion_type": "included",
+                                    "type": "VAT",
+                                    "charge_amount": "7.00"
+                                },
+                                {
+                                    "inclusion_type": "included",
+                                    "amount": "6943.23",
+                                    "excluded": 0,
+                                    "charge_price_mode": 5,
+                                    "name": "Service charge",
+                                    "currency": "THB",
+                                    "charge_amount": "10.70",
+                                    "type": "SERVICECHARGE"
+                                }
+                            ]
+                        },
+                        "price": "77024.43",
+                        "currency": "THB"
+                    }
+                ],
+                "dinner_included": 0,
+                "is_block_fit": 0,
+                "smoking": 2,
+                "is_last_minute_deal": 0,
+                "bh_room_highlights": [],
+                "room_name": "Deluxe Twin Room with Pool View",
+                "is_dormitory": 0,
+                "b_bsb_campaigns": [],
+                "min_price": {
+                    "extra_charges_breakdown": {
+                        "extra_charge": [
+                            {
+                                "type": "CITYTAX",
+                                "charge_amount": "1.00",
+                                "name": "City tax",
+                                "excluded": 0,
+                                "charge_price_mode": 5,
+                                "amount": "92.70",
+                                "currency": "THB",
+                                "inclusion_type": "included"
+                            },
+                            {
+                                "type": "VAT",
+                                "charge_amount": "7.00",
+                                "currency": "THB",
+                                "amount": "648.90",
+                                "charge_price_mode": 5,
+                                "name": "VAT",
+                                "excluded": 0,
+                                "inclusion_type": "included"
+                            },
+                            {
+                                "inclusion_type": "included",
+                                "currency": "THB",
+                                "charge_price_mode": 5,
+                                "excluded": 0,
+                                "name": "Service charge",
+                                "amount": "991.89",
+                                "charge_amount": "10.70",
+                                "type": "SERVICECHARGE"
+                            }
+                        ],
+                        "net_price": "9270.00"
+                    },
+                    "price": "11003.49",
+                    "currency": "THB"
+                },
+                "is_mobile_deal": 0,
+                "max_occupancy": 1,
+                "can_reserve_free_parking": 0,
+                "room_id": 446965421,
+                "breakfast_included": 1,
+                "max_children_free_age": 8,
+                "block_text": {
+                    "policies": [
+                        {
+                            "class": "POLICY_CANCELLATION",
+                            "content": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged."
+                        },
+                        {
+                            "content": "You will be charged a prepayment of the total price at any time.",
+                            "class": "POLICY_PREPAY"
+                        },
+                        {
+                            "mealplan_vector": "41",
+                            "content": "Breakfast",
+                            "class": "POLICY_HOTEL_MEALPLAN"
+                        },
+                        {
+                            "class": "POLICY_TITLE",
+                            "content": "Non Refundable"
+                        },
+                        {
+                            "content": "Your child (&lt;1 year old) can sleep here for no additional charge.",
+                            "title": "Free stay for 1 of your children (&lt;1 year old)",
+                            "class": "CHILD_STAYS_FREE"
+                        }
+                    ]
+                },
+                "is_secret_deal": 0,
+                "babycots_available_amount": null,
+                "must_reserve_free_parking": 0,
+                "room_count": 14,
+                "flexible_option_also_available": 1,
+                "roomtype_id": 7,
+                "is_domestic_rate": 0,
+                "lunch_included": 0,
+                "refundable": 0,
+                "paymentterms": {
+                    "cancellation": {
+                        "timeline": {
+                            "stages": [
+                                {
+                                    "limit_until_date": "15 September 2024",
+                                    "limit_timezone": "Patong Beach",
+                                    "u_fee_remaining_pretty": "THB 0",
+                                    "amount": "9270.00",
+                                    "limit_from": "15 September 2024 10:56",
+                                    "limit_until": "15 September 2024 10:56",
+                                    "limit_from_raw": "2024-09-15 10:56:51",
+                                    "limit_from_date": "15 September 2024",
+                                    "fee_remaining_pretty": "THB 0",
+                                    "u_fee_remaining": "0.00",
+                                    "u_fee": "9270.00",
+                                    "fee_pretty": "THB 9270",
+                                    "stage_fee_pretty": "THB 9270",
+                                    "amount_pretty": "THB 9270",
+                                    "effective_number": 0,
+                                    "limit_from_time": "10:56",
+                                    "text": "If you cancel, you'll pay",
+                                    "b_number": 0,
+                                    "b_state": "NONREF",
+                                    "is_effective": 1,
+                                    "fee_rounded": 9270,
+                                    "fee_remaining": 0,
+                                    "text_refundable": "You won't be eligible for a refund if you cancel this booking.",
+                                    "limit_until_time": "10:56",
+                                    "u_stage_fee": "9270.00",
+                                    "stage_translation": "No refund if you cancel",
+                                    "u_stage_fee_pretty": "THB 9270",
+                                    "limit_until_raw": "2024-09-15 10:56:51",
+                                    "current_stage": 1,
+                                    "u_fee_pretty": "THB 9270",
+                                    "fee": 9270,
+                                    "stage_fee": 9270,
+                                    "is_free": 0
+                                }
+                            ],
+                            "currency_code": "THB",
+                            "nr_stages": 1,
+                            "policygroup_instance_id": "1/1/-",
+                            "u_currency_code": "THB"
+                        },
+                        "bucket": "SMP_NON_REF",
+                        "type_translation": "Non-refundable",
+                        "type": "non_refundable",
+                        "description": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged.",
+                        "guaranteed_non_refundable": 0,
+                        "info": {
+                            "refundable": 0,
+                            "time": null,
+                            "time_before_midnight": null,
+                            "refundable_date": null,
+                            "date_raw": null,
+                            "date": null,
+                            "date_before_raw": null,
+                            "date_before": null,
+                            "timezone": null,
+                            "timezone_offset": null,
+                            "is_midnight": null
+                        },
+                        "non_refundable_anymore": 0
+                    },
+                    "prepayment": {
+                        "timeline": {
+                            "policygroup_instance_id": "1/1/-",
+                            "u_currency_code": "THB",
+                            "nr_stages": 1,
+                            "stages": [
+                                {
+                                    "u_fee": "9270.00",
+                                    "fee_pretty": "THB 9270",
+                                    "u_fee_remaining": "0.00",
+                                    "effective_number": 0,
+                                    "limit_from_time": "10:56",
+                                    "text": "Before you stay you'll pay",
+                                    "stage_fee_pretty": "THB 9270",
+                                    "amount_pretty": "THB 9270",
+                                    "limit_timezone": "Patong Beach",
+                                    "limit_until_date": "15 September 2024",
+                                    "u_fee_remaining_pretty": "THB 0",
+                                    "limit_from_raw": "2024-09-15 10:56:51",
+                                    "amount": "9270.00",
+                                    "limit_from": "15 September 2024 10:56",
+                                    "limit_until": "15 September 2024 10:56",
+                                    "limit_from_date": "15 September 2024",
+                                    "fee_remaining_pretty": "THB 0",
+                                    "u_stage_fee_pretty": "THB 9270",
+                                    "current_stage": 1,
+                                    "limit_until_raw": "2024-09-15 10:56:51",
+                                    "fee": 9270,
+                                    "stage_fee": 9270,
+                                    "u_fee_pretty": "THB 9270",
+                                    "is_free": 0,
+                                    "is_effective": 1,
+                                    "b_number": 0,
+                                    "b_state": "NONREF",
+                                    "fee_remaining": 0,
+                                    "fee_rounded": 9270,
+                                    "u_stage_fee": "9270.00",
+                                    "limit_until_time": "10:56"
+                                }
+                            ],
+                            "currency_code": "THB"
+                        },
+                        "description": "You will be charged a prepayment of the total price at any time.",
+                        "type_extended": "non_refundable_prepayment",
+                        "simple_translation": "Prepayment",
+                        "type": "full_prepayment",
+                        "type_translation": "SECURE YOUR BOOKING - pay now",
+                        "info": {
+                            "prepayment_at_booktime": 0,
+                            "date_before": null,
+                            "is_midnight": null,
+                            "timezone": null,
+                            "timezone_offset": null,
+                            "time_before_midnight": null,
+                            "refundable": 0,
+                            "time": null,
+                            "date": null
+                        },
+                        "extended_type_translation": "SECURE YOUR BOOKING - pay now"
+                    }
+                },
+                "is_smart_deal": 0,
+                "is_genius_deal": null,
+                "transactional_policy_data": {
+                    "policies": [
+                        {
+                            "key": "NonRefundableKey",
+                            "type": "cancellation",
+                            "policy_type_key": "non_refundable",
+                            "description": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged.",
+                            "icon": "ic_cancellation_non_refundable",
+                            "text": "Non-refundable"
+                        }
+                    ],
+                    "booking_conditions": [
+                        {
+                            "text": "Non-refundable",
+                            "description": "Please note, if cancelled, modified or in case of no-show, the total price of the reservation will be charged.",
+                            "policy_type_key": "non_refundable",
+                            "icon": "ic_cancellation_non_refundable",
+                            "key": "NonRefundableKey",
+                            "type": "cancellation"
+                        },
+                        {
+                            "type": "prepayment",
+                            "key": "NoPrepaymentCopyFallbackKey",
+                            "icon": "bui_money_incoming",
+                            "description": "You will be charged a prepayment of the total price at any time.",
+                            "policy_type_key": "with_prepayment_agency",
+                            "text": "Prepayment"
+                        }
+                    ],
+                    "applied_products": null
+                },
+                "room_surface_in_m2": 43,
+                "mealplan": "Breakfast",
+                "product_price_breakdown": {
+                    "gross_amount": {
+                        "amount_rounded": "THB 11,003",
+                        "amount_unrounded": "THB 11,003.49",
+                        "currency": "THB",
+                        "value": 11003.49
+                    },
+                    "all_inclusive_amount": {
+                        "value": 11003.49,
+                        "currency": "THB",
+                        "amount_unrounded": "THB 11,003.49",
+                        "amount_rounded": "THB 11,003"
+                    },
+                    "price_display_config": [
+                        {
+                            "value": 0,
+                            "key": "use_nightly_prices"
+                        }
+                    ],
+                    "benefits": [],
+                    "excluded_amount": {
+                        "amount_rounded": "THB 0",
+                        "amount_unrounded": "THB 0",
+                        "currency": "THB",
+                        "value": 0
+                    },
+                    "gross_amount_hotel_currency": {
+                        "value": 11003.49,
+                        "currency": "THB",
+                        "amount_unrounded": "THB 11,003.49",
+                        "amount_rounded": "THB 11,003"
+                    },
+                    "net_amount": {
+                        "currency": "THB",
+                        "value": 9270,
+                        "amount_rounded": "THB 9,270",
+                        "amount_unrounded": "THB 9,270"
+                    },
+                    "nr_stays": 7,
+                    "items": [
+                        {
+                            "base": {
+                                "percentage": 1,
+                                "kind": "percentage"
+                            },
+                            "inclusion_type": "included",
+                            "details": "1 % City tax",
+                            "item_amount": {
+                                "currency": "THB",
+                                "value": 92.7,
+                                "amount_rounded": "THB 93",
+                                "amount_unrounded": "THB 92.70"
+                            },
+                            "name": "City tax",
+                            "kind": "charge"
+                        },
+                        {
+                            "base": {
+                                "kind": "percentage",
+                                "percentage": 7
+                            },
+                            "details": "7 % VAT",
+                            "inclusion_type": "included",
+                            "name": "VAT",
+                            "kind": "charge",
+                            "item_amount": {
+                                "amount_rounded": "THB 649",
+                                "amount_unrounded": "THB 648.90",
+                                "currency": "THB",
+                                "value": 648.9
+                            }
+                        },
+                        {
+                            "base": {
+                                "percentage": 10.7,
+                                "kind": "percentage"
+                            },
+                            "inclusion_type": "included",
+                            "details": "10.70 % Service charge",
+                            "item_amount": {
+                                "value": 991.89,
+                                "currency": "THB",
+                                "amount_unrounded": "THB 991.89",
+                                "amount_rounded": "THB 992"
+                            },
+                            "name": "Service charge",
+                            "kind": "charge"
+                        }
+                    ],
+                    "client_translations": {
+                        "total_text": "",
+                        "tooltip_total_text": "Total",
+                        "per_night_amount_prefix": "",
+                        "tooltip_footnote_text": [
+                            ""
+                        ],
+                        "amount_per_night_suffix": ""
+                    },
+                    "charges_details": {
+                        "mode": "all_included",
+                        "translated_copy": "Includes taxes and charges",
+                        "amount": {
+                            "currency": "THB",
+                            "value": 0
+                        }
+                    },
+                    "all_inclusive_amount_hotel_currency": {
+                        "currency": "THB",
+                        "value": 11003.49,
+                        "amount_rounded": "THB 11,003",
+                        "amount_unrounded": "THB 11,003.49"
+                    },
+                    "included_taxes_and_charges_amount": {
+                        "amount_unrounded": "THB 1,733.49",
+                        "amount_rounded": "THB 1,733",
+                        "value": 1733.49,
+                        "currency": "THB"
+                    },
+                    "gross_amount_per_night": {
+                        "amount_rounded": "THB 5,502",
+                        "amount_unrounded": "THB 5,501.74",
+                        "currency": "THB",
+                        "value": 5501.745
+                    }
+                },
+                "full_board": 0,
+                "block_id": "446965421_134395780_1_41_0",
+                "rate_type_id": 0,
+                "is_genius_discount_geo": 0,
+                "nr_adults": 1,
+                "room_surface_in_feet2": 462.8481472,
+                "half_board": 0,
+                "refundable_until": "",
+                "loyalty_reward_data": {
+                    "reward_detail": []
+                },
+                "babycots_available": 0,
+                "rack_rate": {
+                    "price": "0.00",
+                    "currency": "THB"
+                },
+                "number_of_bathrooms": 0,
+                "package_id": 0,
+                "price_breakdown": {
+                    "currency": "THB",
+                    "gross_price": 11003.49,
+                    "all_inclusive_price": 11003.49,
+                    "sum_excluded_raw": "0.00",
+                    "excluded_charges_detail": null,
+                    "has_incalculable_charges": 0,
+                    "has_tax_exceptions": 0
+                },
+                "transactional_policy_objects": [
+                    {
+                        "icon": "ic_cancellation_non_refundable",
+                        "text": "Non-refundable",
+                        "key": "NonRefundableKey"
+                    }
+                ],
+                "extrabed_available_amount": null,
+                "nr_children": 1
+            }
+        ],
+        "preferences": [],
+        "total_blocks": 40,
+        "last_matching_block_index": -1,
+        "rooms": {
+            "446965416": {
+                "private_bathroom_highlight": {
+                    "text": "Private bathroom with bath",
+                    "has_highlight": 1
+                },
+                "photos": [
+                    {
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441887.jpg?k=9f32d94af57c52aa04206e139b601c228399d92b8da5be13e6450fb36d2a42d7&o=",
+                        "ratio": 1.50980392156863,
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441887.jpg?k=9f32d94af57c52aa04206e139b601c228399d92b8da5be13e6450fb36d2a42d7&o=",
+                        "new_order": 6,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441887.jpg?k=9f32d94af57c52aa04206e139b601c228399d92b8da5be13e6450fb36d2a42d7&o=",
+                        "photo_id": 263441887,
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441887.jpg?k=9f32d94af57c52aa04206e139b601c228399d92b8da5be13e6450fb36d2a42d7&o=",
+                        "last_update_date": "2020-07-25 06:32:07"
+                    },
+                    {
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441906.jpg?k=36f2f2df230f1d6b3955dcd6122b5228fec2823bc0a868d557b6789343beb6cf&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441906.jpg?k=36f2f2df230f1d6b3955dcd6122b5228fec2823bc0a868d557b6789343beb6cf&o=",
+                        "ratio": 1.50980392156863,
+                        "new_order": 7,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441906.jpg?k=36f2f2df230f1d6b3955dcd6122b5228fec2823bc0a868d557b6789343beb6cf&o=",
+                        "photo_id": 263441906,
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441906.jpg?k=36f2f2df230f1d6b3955dcd6122b5228fec2823bc0a868d557b6789343beb6cf&o=",
+                        "last_update_date": "2020-07-25 06:32:44"
+                    },
+                    {
+                        "photo_id": 210994936,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+                        "ratio": 1.50980392156863,
+                        "new_order": 2,
+                        "last_update_date": "2019-07-23 14:13:50",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o="
+                    },
+                    {
+                        "last_update_date": "2020-07-25 06:31:05",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441860.jpg?k=3564e0a587a8f0364add1adf207d227cea709c3614bc2ec540a0ec26ab7303c0&o=",
+                        "photo_id": 263441860,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441860.jpg?k=3564e0a587a8f0364add1adf207d227cea709c3614bc2ec540a0ec26ab7303c0&o=",
+                        "new_order": 0,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441860.jpg?k=3564e0a587a8f0364add1adf207d227cea709c3614bc2ec540a0ec26ab7303c0&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441860.jpg?k=3564e0a587a8f0364add1adf207d227cea709c3614bc2ec540a0ec26ab7303c0&o=",
+                        "ratio": 1.50980392156863
+                    },
+                    {
+                        "photo_id": 263441840,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+                        "new_order": 1,
+                        "ratio": 1.50980392156863,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+                        "last_update_date": "2020-07-25 06:29:20",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o="
+                    },
+                    {
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+                        "ratio": 1.50980392156863,
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+                        "new_order": 3,
+                        "photo_id": 210993814,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+                        "last_update_date": "2019-07-23 14:09:02"
+                    },
+                    {
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+                        "last_update_date": "2019-07-23 14:25:23",
+                        "new_order": 4,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+                        "ratio": 1.50980392156863,
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+                        "photo_id": 210997631
+                    },
+                    {
+                        "last_update_date": "2019-07-23 14:26:14",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+                        "photo_id": 210997775,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+                        "ratio": 1.50980392156863,
+                        "new_order": 5
+                    }
+                ],
+                "children_and_beds_text": {
+                    "children_at_the_property": [
+                        {
+                            "highlight": 0,
+                            "text": "Children of any age are welcome."
+                        },
+                        {
+                            "text": "Children 12 years and above will be charged as adults at this property.",
+                            "highlight": 0
+                        }
+                    ],
+                    "cribs_and_extra_beds": [
+                        {
+                            "text": "Supplements are not calculated automatically in the total costs and will have to be paid for separately during your stay.",
+                            "highlight": 0
+                        },
+                        {
+                            "highlight": 0,
+                            "text": "The maximum number of cots, extra beds and children allowed in existing beds may vary depending on the option you book."
+                        },
+                        {
+                            "highlight": 0,
+                            "text": "All cots and extra beds are subject to availability."
+                        }
+                    ],
+                    "age_intervals": [
+                        {
+                            "min_age": 12,
+                            "types_by_price": [
+                                [
+                                    "extra_bed"
+                                ]
+                            ],
+                            "extra_bed": {
+                                "price_mode_n": 0,
+                                "price_type_n": 2,
+                                "id": 39489769,
+                                "price": "THB 1,780",
+                                "price_type": "fixed",
+                                "price_mode": "per_night"
+                            },
+                            "max_age": 255,
+                            "group_by_price": {
+                                "fixed,per_night,1780.00": [
+                                    "extra_bed"
+                                ]
+                            }
+                        }
+                    ],
+                    "allow_children": 1
+                },
+                "photos_may_sorted": 1,
+                "description": "The private pool is a top feature of this double room. Featuring free toiletries and bathrobes, this double room includes a private bathroom with a bath, a shower and a hairdryer. The spacious air-conditioned double room features a flat-screen TV with cable channels, soundproof walls, a minibar, a tea and coffee maker as well as pool views. The unit has 1 bed.",
+                "bed_configurations": [
+                    {
+                        "bed_types": [
+                            {
+                                "bed_type": 3,
+                                "name_with_count": "1 extra-large double bed",
+                                "count": 1,
+                                "description": "181-210 cm wide",
+                                "name": "Extra-large double bed(s)",
+                                "description_localized": null,
+                                "description_imperial": "71-82 inches wide"
+                            }
+                        ]
+                    }
+                ],
+                "highlights": [
+                    {
+                        "translated_name": "Free WiFi",
+                        "icon": "icon_wifi"
+                    },
+                    {
+                        "translated_name": "Private pool",
+                        "id": 93,
+                        "icon": "icon_pool"
+                    },
+                    {
+                        "icon": "icon_checkmark",
+                        "id": 17,
+                        "translated_name": "Balcony"
+                    },
+                    {
+                        "translated_name": "Pool view",
+                        "icon": "icon_viewed",
+                        "id": 111
+                    },
+                    {
+                        "translated_name": "Air conditioning",
+                        "id": 11,
+                        "icon": "icon_airconditioning"
+                    },
+                    {
+                        "translated_name": "Ensuite bathroom",
+                        "icon": "icon_bath",
+                        "id": 38
+                    },
+                    {
+                        "translated_name": "Flat-screen TV",
+                        "icon": "icon_flattv",
+                        "id": 75
+                    },
+                    {
+                        "icon": "icon_soundproof",
+                        "id": 79,
+                        "translated_name": "Soundproofing"
+                    },
+                    {
+                        "translated_name": "Coffee machine",
+                        "icon": "icon_checkmark",
+                        "id": 120
+                    },
+                    {
+                        "translated_name": "Minibar",
+                        "icon": "icon_checkmark",
+                        "id": 3
+                    }
+                ],
+                "is_high_floor_guaranteed": 0,
+                "private_bathroom_count": 0,
+                "facilities": [
+                    {
+                        "facilitytype_id": 6,
+                        "name": "Laptop safe",
+                        "id": 74,
+                        "alt_facilitytype_id": 1,
+                        "alt_facilitytype_name": "General"
+                    },
+                    {
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "facilitytype_id": 5,
+                        "name": "Bathrobe",
+                        "id": 19
+                    },
+                    {
+                        "alt_facilitytype_name": "Kitchen",
+                        "alt_facilitytype_id": 12,
+                        "id": 120,
+                        "name": "Coffee machine",
+                        "facilitytype_id": 7
+                    },
+                    {
+                        "alt_facilitytype_name": "General",
+                        "alt_facilitytype_id": 1,
+                        "name": "Safety deposit box",
+                        "id": 6,
+                        "facilitytype_id": 4
+                    },
+                    {
+                        "alt_facilitytype_id": 1,
+                        "alt_facilitytype_name": "General",
+                        "facilitytype_id": 4,
+                        "name": "Hardwood or parquet floors",
+                        "id": 82
+                    },
+                    {
+                        "alt_facilitytype_id": 19,
+                        "alt_facilitytype_name": "Accessibility",
+                        "facilitytype_id": 19,
+                        "name": "Upper floors accessible by elevator",
+                        "id": 132
+                    },
+                    {
+                        "alt_facilitytype_name": "Media & Technology",
+                        "alt_facilitytype_id": 6,
+                        "name": "Flat-screen TV",
+                        "id": 75,
+                        "facilitytype_id": 6
+                    },
+                    {
+                        "alt_facilitytype_id": 17,
+                        "alt_facilitytype_name": "Bedroom",
+                        "facilitytype_id": 4,
+                        "name": "Extra long beds (> 2 metres)",
+                        "id": 39
+                    },
+                    {
+                        "alt_facilitytype_id": 3,
+                        "alt_facilitytype_name": "Services",
+                        "facilitytype_id": 8,
+                        "id": 83,
+                        "name": "Wake-up service"
+                    },
+                    {
+                        "alt_facilitytype_name": "Living Area",
+                        "alt_facilitytype_id": 15,
+                        "name": "Sofa",
+                        "id": 77,
+                        "facilitytype_id": 4
+                    },
+                    {
+                        "name": "Iron",
+                        "id": 15,
+                        "facilitytype_id": 4,
+                        "alt_facilitytype_name": "General",
+                        "alt_facilitytype_id": 1
+                    },
+                    {
+                        "alt_facilitytype_id": 14,
+                        "alt_facilitytype_name": "View",
+                        "facilitytype_id": 9,
+                        "name": "Pool view",
+                        "id": 111
+                    },
+                    {
+                        "facilitytype_id": 8,
+                        "name": "Towels",
+                        "id": 124,
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom"
+                    },
+                    {
+                        "facilitytype_id": 19,
+                        "name": "Entire unit wheelchair accessible",
+                        "id": 134,
+                        "alt_facilitytype_id": 19,
+                        "alt_facilitytype_name": "Accessibility"
+                    },
+                    {
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5,
+                        "id": 27,
+                        "name": "Free toiletries",
+                        "facilitytype_id": 5
+                    },
+                    {
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "facilitytype_id": 5,
+                        "name": "Additional toilet",
+                        "id": 72
+                    },
+                    {
+                        "id": 184,
+                        "name": "Socket near the bed",
+                        "facilitytype_id": 4,
+                        "alt_facilitytype_name": "Room Amenities",
+                        "alt_facilitytype_id": 4
+                    },
+                    {
+                        "alt_facilitytype_name": "Food & Drink",
+                        "alt_facilitytype_id": 7,
+                        "name": "Tea/Coffee maker",
+                        "id": 1,
+                        "facilitytype_id": 7
+                    },
+                    {
+                        "name": "Slippers",
+                        "id": 43,
+                        "facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5
+                    },
+                    {
+                        "alt_facilitytype_name": "Outdoors",
+                        "alt_facilitytype_id": 13,
+                        "name": "Balcony",
+                        "id": 17,
+                        "facilitytype_id": 9
+                    },
+                    {
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5,
+                        "id": 12,
+                        "name": "Hairdryer",
+                        "facilitytype_id": 5
+                    },
+                    {
+                        "id": 93,
+                        "name": "Private pool",
+                        "facilitytype_id": 4,
+                        "alt_facilitytype_name": "Outdoors",
+                        "alt_facilitytype_id": 13
+                    },
+                    {
+                        "id": 8,
+                        "name": "TV",
+                        "facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology",
+                        "alt_facilitytype_id": 6
+                    },
+                    {
+                        "id": 125,
+                        "name": "Linen",
+                        "facilitytype_id": 8,
+                        "alt_facilitytype_name": "Bedroom",
+                        "alt_facilitytype_id": 17
+                    },
+                    {
+                        "name": "Minibar",
+                        "id": 3,
+                        "facilitytype_id": 7,
+                        "alt_facilitytype_name": "Food & Drink",
+                        "alt_facilitytype_id": 7
+                    },
+                    {
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5,
+                        "id": 31,
+                        "name": "Toilet",
+                        "facilitytype_id": 5
+                    },
+                    {
+                        "facilitytype_id": 7,
+                        "name": "Electric kettle",
+                        "id": 86,
+                        "alt_facilitytype_id": 12,
+                        "alt_facilitytype_name": "Kitchen"
+                    },
+                    {
+                        "facilitytype_id": 6,
+                        "name": "Telephone",
+                        "id": 9,
+                        "alt_facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology"
+                    },
+                    {
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "facilitytype_id": 5,
+                        "id": 4,
+                        "name": "Shower"
+                    },
+                    {
+                        "alt_facilitytype_id": 12,
+                        "alt_facilitytype_name": "Kitchen",
+                        "facilitytype_id": 4,
+                        "id": 94,
+                        "name": "Tumble dryer"
+                    },
+                    {
+                        "name": "Cable channels",
+                        "id": 68,
+                        "facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology",
+                        "alt_facilitytype_id": 6
+                    },
+                    {
+                        "id": 141,
+                        "name": "Toilet paper",
+                        "facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5
+                    },
+                    {
+                        "id": 79,
+                        "name": "Soundproofing",
+                        "facilitytype_id": 4,
+                        "alt_facilitytype_name": "General",
+                        "alt_facilitytype_id": 1
+                    },
+                    {
+                        "alt_facilitytype_name": "Media & Technology",
+                        "alt_facilitytype_id": 6,
+                        "name": "Satellite channels",
+                        "id": 44,
+                        "facilitytype_id": 6
+                    },
+                    {
+                        "alt_facilitytype_name": "General",
+                        "alt_facilitytype_id": 1,
+                        "name": "Air conditioning",
+                        "id": 11,
+                        "facilitytype_id": 4
+                    },
+                    {
+                        "facilitytype_id": 5,
+                        "name": "Bath",
+                        "id": 5,
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom"
+                    },
+                    {
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "facilitytype_id": 5,
+                        "name": "Private bathroom",
+                        "id": 38
+                    }
+                ]
+            },
+            "446965418": {
+                "private_bathroom_count": 0,
+                "facilities": [
+                    {
+                        "name": "Laptop safe",
+                        "id": 74,
+                        "facilitytype_id": 6,
+                        "alt_facilitytype_name": "General",
+                        "alt_facilitytype_id": 1
+                    },
+                    {
+                        "name": "Bathrobe",
+                        "id": 19,
+                        "facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5
+                    },
+                    {
+                        "alt_facilitytype_id": 12,
+                        "alt_facilitytype_name": "Kitchen",
+                        "facilitytype_id": 7,
+                        "id": 120,
+                        "name": "Coffee machine"
+                    },
+                    {
+                        "alt_facilitytype_id": 1,
+                        "alt_facilitytype_name": "General",
+                        "facilitytype_id": 4,
+                        "name": "Safety deposit box",
+                        "id": 6
+                    },
+                    {
+                        "facilitytype_id": 4,
+                        "name": "Hardwood or parquet floors",
+                        "id": 82,
+                        "alt_facilitytype_id": 1,
+                        "alt_facilitytype_name": "General"
+                    },
+                    {
+                        "facilitytype_id": 19,
+                        "id": 132,
+                        "name": "Upper floors accessible by elevator",
+                        "alt_facilitytype_id": 19,
+                        "alt_facilitytype_name": "Accessibility"
+                    },
+                    {
+                        "facilitytype_id": 6,
+                        "name": "Flat-screen TV",
+                        "id": 75,
+                        "alt_facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology"
+                    },
+                    {
+                        "alt_facilitytype_id": 17,
+                        "alt_facilitytype_name": "Bedroom",
+                        "facilitytype_id": 4,
+                        "name": "Extra long beds (> 2 metres)",
+                        "id": 39
+                    },
+                    {
+                        "alt_facilitytype_id": 3,
+                        "alt_facilitytype_name": "Services",
+                        "facilitytype_id": 8,
+                        "id": 83,
+                        "name": "Wake-up service"
+                    },
+                    {
+                        "facilitytype_id": 4,
+                        "id": 77,
+                        "name": "Sofa",
+                        "alt_facilitytype_id": 15,
+                        "alt_facilitytype_name": "Living Area"
+                    },
+                    {
+                        "id": 15,
+                        "name": "Iron",
+                        "facilitytype_id": 4,
+                        "alt_facilitytype_name": "General",
+                        "alt_facilitytype_id": 1
+                    },
+                    {
+                        "facilitytype_id": 9,
+                        "id": 111,
+                        "name": "Pool view",
+                        "alt_facilitytype_id": 14,
+                        "alt_facilitytype_name": "View"
+                    },
+                    {
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "facilitytype_id": 8,
+                        "name": "Towels",
+                        "id": 124
+                    },
+                    {
+                        "facilitytype_id": 19,
+                        "name": "Entire unit wheelchair accessible",
+                        "id": 134,
+                        "alt_facilitytype_id": 19,
+                        "alt_facilitytype_name": "Accessibility"
+                    },
+                    {
+                        "id": 27,
+                        "name": "Free toiletries",
+                        "facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5
+                    },
+                    {
+                        "facilitytype_id": 5,
+                        "name": "Additional toilet",
+                        "id": 72,
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom"
+                    },
+                    {
+                        "alt_facilitytype_id": 4,
+                        "alt_facilitytype_name": "Room Amenities",
+                        "facilitytype_id": 4,
+                        "name": "Socket near the bed",
+                        "id": 184
+                    },
+                    {
+                        "alt_facilitytype_name": "Food & Drink",
+                        "alt_facilitytype_id": 7,
+                        "name": "Tea/Coffee maker",
+                        "id": 1,
+                        "facilitytype_id": 7
+                    },
+                    {
+                        "id": 43,
+                        "name": "Slippers",
+                        "facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5
+                    },
+                    {
+                        "alt_facilitytype_id": 13,
+                        "alt_facilitytype_name": "Outdoors",
+                        "facilitytype_id": 9,
+                        "id": 17,
+                        "name": "Balcony"
+                    },
+                    {
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5,
+                        "name": "Hairdryer",
+                        "id": 12,
+                        "facilitytype_id": 5
+                    },
+                    {
+                        "facilitytype_id": 6,
+                        "id": 8,
+                        "name": "TV",
+                        "alt_facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology"
+                    },
+                    {
+                        "alt_facilitytype_id": 17,
+                        "alt_facilitytype_name": "Bedroom",
+                        "facilitytype_id": 8,
+                        "name": "Linen",
+                        "id": 125
+                    },
+                    {
+                        "facilitytype_id": 7,
+                        "id": 3,
+                        "name": "Minibar",
+                        "alt_facilitytype_id": 7,
+                        "alt_facilitytype_name": "Food & Drink"
+                    },
+                    {
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5,
+                        "name": "Toilet",
+                        "id": 31,
+                        "facilitytype_id": 5
+                    },
+                    {
+                        "alt_facilitytype_name": "Kitchen",
+                        "alt_facilitytype_id": 12,
+                        "name": "Electric kettle",
+                        "id": 86,
+                        "facilitytype_id": 7
+                    },
+                    {
+                        "facilitytype_id": 6,
+                        "id": 9,
+                        "name": "Telephone",
+                        "alt_facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology"
+                    },
+                    {
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5,
+                        "id": 4,
+                        "name": "Shower",
+                        "facilitytype_id": 5
+                    },
+                    {
+                        "alt_facilitytype_id": 12,
+                        "alt_facilitytype_name": "Kitchen",
+                        "facilitytype_id": 4,
+                        "id": 94,
+                        "name": "Tumble dryer"
+                    },
+                    {
+                        "alt_facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology",
+                        "facilitytype_id": 6,
+                        "id": 68,
+                        "name": "Cable channels"
+                    },
+                    {
+                        "id": 141,
+                        "name": "Toilet paper",
+                        "facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5
+                    },
+                    {
+                        "alt_facilitytype_id": 1,
+                        "alt_facilitytype_name": "General",
+                        "facilitytype_id": 4,
+                        "name": "Soundproofing",
+                        "id": 79
+                    },
+                    {
+                        "facilitytype_id": 6,
+                        "id": 44,
+                        "name": "Satellite channels",
+                        "alt_facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology"
+                    },
+                    {
+                        "facilitytype_id": 4,
+                        "id": 11,
+                        "name": "Air conditioning",
+                        "alt_facilitytype_id": 1,
+                        "alt_facilitytype_name": "General"
+                    },
+                    {
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "facilitytype_id": 5,
+                        "id": 5,
+                        "name": "Bath"
+                    },
+                    {
+                        "id": 38,
+                        "name": "Private bathroom",
+                        "facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5
+                    }
+                ],
+                "bed_configurations": [
+                    {
+                        "bed_types": [
+                            {
+                                "count": 1,
+                                "name_with_count": "1 single bed",
+                                "bed_type": 1,
+                                "description_imperial": "35-51 inches wide",
+                                "name": "Single bed",
+                                "description": "90-130 cm wide"
+                            },
+                            {
+                                "description_imperial": "71-82 inches wide",
+                                "name": "Extra-large double bed (Super-king size)",
+                                "description": "181-210 cm wide",
+                                "count": 1,
+                                "name_with_count": "1 extra-large double bed",
+                                "bed_type": 3
+                            }
+                        ]
+                    }
+                ],
+                "highlights": [
+                    {
+                        "translated_name": "Free WiFi",
+                        "icon": "icon_wifi"
+                    },
+                    {
+                        "translated_name": "Balcony",
+                        "icon": "icon_checkmark",
+                        "id": 17
+                    },
+                    {
+                        "icon": "icon_viewed",
+                        "id": 111,
+                        "translated_name": "Pool view"
+                    },
+                    {
+                        "translated_name": "Air conditioning",
+                        "icon": "icon_airconditioning",
+                        "id": 11
+                    },
+                    {
+                        "icon": "icon_bath",
+                        "id": 38,
+                        "translated_name": "Ensuite bathroom"
+                    },
+                    {
+                        "icon": "icon_flattv",
+                        "id": 75,
+                        "translated_name": "Flat-screen TV"
+                    },
+                    {
+                        "id": 79,
+                        "icon": "icon_soundproof",
+                        "translated_name": "Soundproofing"
+                    },
+                    {
+                        "translated_name": "Coffee machine",
+                        "id": 120,
+                        "icon": "icon_checkmark"
+                    },
+                    {
+                        "translated_name": "Minibar",
+                        "icon": "icon_checkmark",
+                        "id": 3
+                    }
+                ],
+                "is_high_floor_guaranteed": 0,
+                "description": "The spacious suite has 1 bedroom and 1 bathroom with a bath and free toiletries. The air-conditioned suite features a flat-screen TV with cable channels, soundproof walls, a minibar, a tea and coffee maker as well as pool views. The unit has 2 beds.",
+                "private_bathroom_highlight": {
+                    "has_highlight": 1,
+                    "text": "Private bathroom with bath"
+                },
+                "children_and_beds_text": {
+                    "cribs_and_extra_beds": [
+                        {
+                            "highlight": 0,
+                            "text": "There is no capacity for extra beds or cots."
+                        }
+                    ],
+                    "age_intervals": [],
+                    "children_at_the_property": [
+                        {
+                            "highlight": 0,
+                            "text": "Children of any age are welcome."
+                        },
+                        {
+                            "text": "Children 12 years and above will be charged as adults at this property.",
+                            "highlight": 0
+                        }
+                    ],
+                    "allow_children": 1
+                },
+                "photos": [
+                    {
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/183608059.jpg?k=b87f60b732c77cc7e540c65d5b43f070e1218172e836809db20336a5a2d27be3&o=",
+                        "photo_id": 183608059,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183608059.jpg?k=b87f60b732c77cc7e540c65d5b43f070e1218172e836809db20336a5a2d27be3&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/183608059.jpg?k=b87f60b732c77cc7e540c65d5b43f070e1218172e836809db20336a5a2d27be3&o=",
+                        "ratio": 1.49924585218703,
+                        "new_order": 0,
+                        "last_update_date": "2019-02-25 12:09:53",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/183608059.jpg?k=b87f60b732c77cc7e540c65d5b43f070e1218172e836809db20336a5a2d27be3&o="
+                    },
+                    {
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/183608069.jpg?k=99e0a264a919248b444c488cd6da46cff660320724fe6567660085165821d8bf&o=",
+                        "last_update_date": "2019-02-25 12:10:00",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/183608069.jpg?k=99e0a264a919248b444c488cd6da46cff660320724fe6567660085165821d8bf&o=",
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183608069.jpg?k=99e0a264a919248b444c488cd6da46cff660320724fe6567660085165821d8bf&o=",
+                        "ratio": 1.49924585218703,
+                        "new_order": 1,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/183608069.jpg?k=99e0a264a919248b444c488cd6da46cff660320724fe6567660085165821d8bf&o=",
+                        "photo_id": 183608069
+                    },
+                    {
+                        "last_update_date": "2019-02-25 12:10:06",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/183608085.jpg?k=0edcbe139848addc553ecfee91a5d8574849162955ff677fd514eb77c2de65d3&o=",
+                        "photo_id": 183608085,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/183608085.jpg?k=0edcbe139848addc553ecfee91a5d8574849162955ff677fd514eb77c2de65d3&o=",
+                        "new_order": 2,
+                        "ratio": 1.77777777777778,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183608085.jpg?k=0edcbe139848addc553ecfee91a5d8574849162955ff677fd514eb77c2de65d3&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/183608085.jpg?k=0edcbe139848addc553ecfee91a5d8574849162955ff677fd514eb77c2de65d3&o="
+                    },
+                    {
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/181931841.jpg?k=b1058cc59627420361198c7f92b9440d4af8ddf2e5a10f9bcbc827da4c8019ca&o=",
+                        "photo_id": 181931841,
+                        "new_order": 3,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181931841.jpg?k=b1058cc59627420361198c7f92b9440d4af8ddf2e5a10f9bcbc827da4c8019ca&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/181931841.jpg?k=b1058cc59627420361198c7f92b9440d4af8ddf2e5a10f9bcbc827da4c8019ca&o=",
+                        "ratio": 1.49925037481259,
+                        "last_update_date": "2019-02-14 05:41:35",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/181931841.jpg?k=b1058cc59627420361198c7f92b9440d4af8ddf2e5a10f9bcbc827da4c8019ca&o="
+                    },
+                    {
+                        "last_update_date": "2019-07-23 14:25:23",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+                        "photo_id": 210997631,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+                        "new_order": 4,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210997631.jpg?k=dde701d29b1a30dcfb5d8614346b4379cbc56ffca0d6e907201fdff0d841a405&o=",
+                        "ratio": 1.50980392156863
+                    },
+                    {
+                        "photo_id": 210997775,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+                        "new_order": 5,
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+                        "ratio": 1.50980392156863,
+                        "last_update_date": "2019-07-23 14:26:14",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o="
+                    }
+                ]
+            },
+            "446965420": {
+                "private_bathroom_highlight": {
+                    "has_highlight": 1,
+                    "text": "Private bathroom with bath"
+                },
+                "children_and_beds_text": {
+                    "age_intervals": [
+                        {
+                            "group_by_price": {
+                                "fixed,per_night,1780.00": [
+                                    "extra_bed"
+                                ]
+                            },
+                            "max_age": 255,
+                            "types_by_price": [
+                                [
+                                    "extra_bed"
+                                ]
+                            ],
+                            "min_age": 12,
+                            "extra_bed": {
+                                "price_mode_n": 0,
+                                "price_type_n": 2,
+                                "id": 39489769,
+                                "price_type": "fixed",
+                                "price_mode": "per_night",
+                                "price": "THB 1,780"
+                            }
+                        }
+                    ],
+                    "cribs_and_extra_beds": [
+                        {
+                            "highlight": 0,
+                            "text": "Supplements are not calculated automatically in the total costs and will have to be paid for separately during your stay."
+                        },
+                        {
+                            "highlight": 0,
+                            "text": "The maximum number of cots, extra beds and children allowed in existing beds may vary depending on the option you book."
+                        },
+                        {
+                            "highlight": 0,
+                            "text": "All cots and extra beds are subject to availability."
+                        }
+                    ],
+                    "children_at_the_property": [
+                        {
+                            "highlight": 0,
+                            "text": "Children of any age are welcome."
+                        },
+                        {
+                            "highlight": 0,
+                            "text": "Children 12 years and above will be charged as adults at this property."
+                        }
+                    ],
+                    "allow_children": 1
+                },
+                "photos": [
+                    {
+                        "ratio": 1.50980392156863,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+                        "new_order": 1,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+                        "photo_id": 210994936,
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210994936.jpg?k=194913e86cd2f9b2b87b291d47dadbaf8399e80e20e99f55595552307d5006c6&o=",
+                        "last_update_date": "2019-07-23 14:13:50"
+                    },
+                    {
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441935.jpg?k=7cf3aa443023b894ff53f4e5374c4625dfeef01d54f216694b08a595797fb49c&o=",
+                        "last_update_date": "2020-07-25 06:33:52",
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441935.jpg?k=7cf3aa443023b894ff53f4e5374c4625dfeef01d54f216694b08a595797fb49c&o=",
+                        "ratio": 1.50980392156863,
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441935.jpg?k=7cf3aa443023b894ff53f4e5374c4625dfeef01d54f216694b08a595797fb49c&o=",
+                        "new_order": 2,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441935.jpg?k=7cf3aa443023b894ff53f4e5374c4625dfeef01d54f216694b08a595797fb49c&o=",
+                        "photo_id": 263441935
+                    },
+                    {
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+                        "last_update_date": "2020-07-25 06:29:20",
+                        "ratio": 1.50980392156863,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o=",
+                        "new_order": 0,
+                        "photo_id": 263441840,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/263441840.jpg?k=fa1fb194a978fc919bef2289ffaf770c72c053036a6e6700b27da9b18cfd6961&o="
+                    },
+                    {
+                        "new_order": 5,
+                        "ratio": 1.3262599469496,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932375.jpg?k=24578ea565f8d869f88d3ba15539f7684a245add53297ce438357543590bbdb1&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/181932375.jpg?k=24578ea565f8d869f88d3ba15539f7684a245add53297ce438357543590bbdb1&o=",
+                        "photo_id": 181932375,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/181932375.jpg?k=24578ea565f8d869f88d3ba15539f7684a245add53297ce438357543590bbdb1&o=",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/181932375.jpg?k=24578ea565f8d869f88d3ba15539f7684a245add53297ce438357543590bbdb1&o=",
+                        "last_update_date": "2019-02-14 05:51:13"
+                    },
+                    {
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+                        "photo_id": 210993814,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+                        "ratio": 1.50980392156863,
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o=",
+                        "new_order": 3,
+                        "last_update_date": "2019-07-23 14:09:02",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210993814.jpg?k=6af92b7dd3714237bb480a559a3e70ed4f6b7d8018316affb652f59a04ca98d8&o="
+                    },
+                    {
+                        "photo_id": 210997775,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+                        "new_order": 4,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o=",
+                        "ratio": 1.50980392156863,
+                        "last_update_date": "2019-07-23 14:26:14",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/210997775.jpg?k=f2d5eaa689a10b9b1a3d44380e6103e0d80e614bd259100fdfd5d6ae2c9a6ccb&o="
+                    }
+                ],
+                "description": "The spacious triple room features air conditioning, soundproof walls, a balcony with pool views as well as a private bathroom boasting a bath. The unit has 1 bed.",
+                "photos_may_sorted": 1,
+                "bed_configurations": [
+                    {
+                        "bed_types": [
+                            {
+                                "description": "181-210 cm wide",
+                                "description_localized": null,
+                                "name": "Extra-large double bed(s)",
+                                "description_imperial": "71-82 inches wide",
+                                "bed_type": 3,
+                                "name_with_count": "1 extra-large double bed",
+                                "count": 1
+                            }
+                        ]
+                    }
+                ],
+                "is_high_floor_guaranteed": 0,
+                "highlights": [
+                    {
+                        "icon": "icon_wifi",
+                        "translated_name": "Free WiFi"
+                    },
+                    {
+                        "translated_name": "Balcony",
+                        "id": 17,
+                        "icon": "icon_checkmark"
+                    },
+                    {
+                        "id": 111,
+                        "icon": "icon_viewed",
+                        "translated_name": "Pool view"
+                    },
+                    {
+                        "translated_name": "Air conditioning",
+                        "id": 11,
+                        "icon": "icon_airconditioning"
+                    },
+                    {
+                        "translated_name": "Ensuite bathroom",
+                        "id": 38,
+                        "icon": "icon_bath"
+                    },
+                    {
+                        "translated_name": "Flat-screen TV",
+                        "icon": "icon_flattv",
+                        "id": 75
+                    },
+                    {
+                        "translated_name": "Soundproofing",
+                        "icon": "icon_soundproof",
+                        "id": 79
+                    },
+                    {
+                        "icon": "icon_checkmark",
+                        "id": 120,
+                        "translated_name": "Coffee machine"
+                    },
+                    {
+                        "id": 3,
+                        "icon": "icon_checkmark",
+                        "translated_name": "Minibar"
+                    }
+                ],
+                "private_bathroom_count": 0,
+                "facilities": [
+                    {
+                        "alt_facilitytype_name": "General",
+                        "alt_facilitytype_id": 1,
+                        "id": 74,
+                        "name": "Laptop safe",
+                        "facilitytype_id": 6
+                    },
+                    {
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "facilitytype_id": 5,
+                        "name": "Bathrobe",
+                        "id": 19
+                    },
+                    {
+                        "alt_facilitytype_id": 12,
+                        "alt_facilitytype_name": "Kitchen",
+                        "facilitytype_id": 7,
+                        "id": 120,
+                        "name": "Coffee machine"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Safety deposit box",
+                        "facilitytype_id": 4,
+                        "alt_facilitytype_name": "General",
+                        "alt_facilitytype_id": 1
+                    },
+                    {
+                        "alt_facilitytype_name": "General",
+                        "alt_facilitytype_id": 1,
+                        "id": 82,
+                        "name": "Hardwood or parquet floors",
+                        "facilitytype_id": 4
+                    },
+                    {
+                        "facilitytype_id": 19,
+                        "id": 132,
+                        "name": "Upper floors accessible by elevator",
+                        "alt_facilitytype_id": 19,
+                        "alt_facilitytype_name": "Accessibility"
+                    },
+                    {
+                        "alt_facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology",
+                        "facilitytype_id": 6,
+                        "name": "Flat-screen TV",
+                        "id": 75
+                    },
+                    {
+                        "alt_facilitytype_id": 17,
+                        "alt_facilitytype_name": "Bedroom",
+                        "facilitytype_id": 4,
+                        "id": 39,
+                        "name": "Extra long beds (> 2 metres)"
+                    },
+                    {
+                        "facilitytype_id": 8,
+                        "name": "Wake-up service",
+                        "id": 83,
+                        "alt_facilitytype_id": 3,
+                        "alt_facilitytype_name": "Services"
+                    },
+                    {
+                        "facilitytype_id": 4,
+                        "name": "Sofa",
+                        "id": 77,
+                        "alt_facilitytype_id": 15,
+                        "alt_facilitytype_name": "Living Area"
+                    },
+                    {
+                        "alt_facilitytype_id": 1,
+                        "alt_facilitytype_name": "General",
+                        "facilitytype_id": 4,
+                        "id": 15,
+                        "name": "Iron"
+                    },
+                    {
+                        "facilitytype_id": 9,
+                        "name": "Pool view",
+                        "id": 111,
+                        "alt_facilitytype_id": 14,
+                        "alt_facilitytype_name": "View"
+                    },
+                    {
+                        "facilitytype_id": 8,
+                        "name": "Towels",
+                        "id": 124,
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom"
+                    },
+                    {
+                        "alt_facilitytype_id": 19,
+                        "alt_facilitytype_name": "Accessibility",
+                        "facilitytype_id": 19,
+                        "id": 134,
+                        "name": "Entire unit wheelchair accessible"
+                    },
+                    {
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "facilitytype_id": 5,
+                        "name": "Free toiletries",
+                        "id": 27
+                    },
+                    {
+                        "name": "Additional toilet",
+                        "id": 72,
+                        "facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5
+                    },
+                    {
+                        "id": 184,
+                        "name": "Socket near the bed",
+                        "facilitytype_id": 4,
+                        "alt_facilitytype_name": "Room Amenities",
+                        "alt_facilitytype_id": 4
+                    },
+                    {
+                        "alt_facilitytype_id": 7,
+                        "alt_facilitytype_name": "Food & Drink",
+                        "facilitytype_id": 7,
+                        "name": "Tea/Coffee maker",
+                        "id": 1
+                    },
+                    {
+                        "id": 43,
+                        "name": "Slippers",
+                        "facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5
+                    },
+                    {
+                        "alt_facilitytype_name": "Outdoors",
+                        "alt_facilitytype_id": 13,
+                        "id": 17,
+                        "name": "Balcony",
+                        "facilitytype_id": 9
+                    },
+                    {
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5,
+                        "name": "Hairdryer",
+                        "id": 12,
+                        "facilitytype_id": 5
+                    },
+                    {
+                        "facilitytype_id": 6,
+                        "name": "TV",
+                        "id": 8,
+                        "alt_facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology"
+                    },
+                    {
+                        "facilitytype_id": 8,
+                        "name": "Linen",
+                        "id": 125,
+                        "alt_facilitytype_id": 17,
+                        "alt_facilitytype_name": "Bedroom"
+                    },
+                    {
+                        "alt_facilitytype_id": 7,
+                        "alt_facilitytype_name": "Food & Drink",
+                        "facilitytype_id": 7,
+                        "id": 3,
+                        "name": "Minibar"
+                    },
+                    {
+                        "id": 31,
+                        "name": "Toilet",
+                        "facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5
+                    },
+                    {
+                        "name": "Electric kettle",
+                        "id": 86,
+                        "facilitytype_id": 7,
+                        "alt_facilitytype_name": "Kitchen",
+                        "alt_facilitytype_id": 12
+                    },
+                    {
+                        "alt_facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology",
+                        "facilitytype_id": 6,
+                        "id": 9,
+                        "name": "Telephone"
+                    },
+                    {
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "facilitytype_id": 5,
+                        "name": "Shower",
+                        "id": 4
+                    },
+                    {
+                        "facilitytype_id": 4,
+                        "id": 94,
+                        "name": "Tumble dryer",
+                        "alt_facilitytype_id": 12,
+                        "alt_facilitytype_name": "Kitchen"
+                    },
+                    {
+                        "facilitytype_id": 6,
+                        "id": 68,
+                        "name": "Cable channels",
+                        "alt_facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology"
+                    },
+                    {
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5,
+                        "name": "Toilet paper",
+                        "id": 141,
+                        "facilitytype_id": 5
+                    },
+                    {
+                        "name": "Soundproofing",
+                        "id": 79,
+                        "facilitytype_id": 4,
+                        "alt_facilitytype_name": "General",
+                        "alt_facilitytype_id": 1
+                    },
+                    {
+                        "id": 44,
+                        "name": "Satellite channels",
+                        "facilitytype_id": 6,
+                        "alt_facilitytype_name": "Media & Technology",
+                        "alt_facilitytype_id": 6
+                    },
+                    {
+                        "alt_facilitytype_id": 1,
+                        "alt_facilitytype_name": "General",
+                        "facilitytype_id": 4,
+                        "id": 11,
+                        "name": "Air conditioning"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Bath",
+                        "facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom",
+                        "alt_facilitytype_id": 5
+                    },
+                    {
+                        "facilitytype_id": 5,
+                        "id": 38,
+                        "name": "Private bathroom",
+                        "alt_facilitytype_id": 5,
+                        "alt_facilitytype_name": "Bathroom"
+                    }
+                ]
+            },
+            "446965421": {
+                "private_bathroom_highlight": {
+                    "has_highlight": 0
+                },
+                "photos": [
+                    {
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/183607870.jpg?k=a0ce39b2fe990ba0f989cf99e31b90598f4a0338e7122db9296d66df62244816&o=",
+                        "last_update_date": "2019-02-25 12:08:42",
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183607870.jpg?k=a0ce39b2fe990ba0f989cf99e31b90598f4a0338e7122db9296d66df62244816&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/183607870.jpg?k=a0ce39b2fe990ba0f989cf99e31b90598f4a0338e7122db9296d66df62244816&o=",
+                        "ratio": 1.49981139192757,
+                        "new_order": 0,
+                        "photo_id": 183607870,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/183607870.jpg?k=a0ce39b2fe990ba0f989cf99e31b90598f4a0338e7122db9296d66df62244816&o="
+                    },
+                    {
+                        "photo_id": 183606045,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/183606045.jpg?k=5435b961bf45ae0dc829dbde06378c6809fdfb64a91a104f2737d8e0ceee8054&o=",
+                        "new_order": 1,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/183606045.jpg?k=5435b961bf45ae0dc829dbde06378c6809fdfb64a91a104f2737d8e0ceee8054&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/183606045.jpg?k=5435b961bf45ae0dc829dbde06378c6809fdfb64a91a104f2737d8e0ceee8054&o=",
+                        "ratio": 1.49924585218703,
+                        "last_update_date": "2019-02-25 11:55:33",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/183606045.jpg?k=5435b961bf45ae0dc829dbde06378c6809fdfb64a91a104f2737d8e0ceee8054&o="
+                    },
+                    {
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/181932039.jpg?k=817087b1f5117b0001b5b773d4ecfeb80e4a52de3083fabcde82cb44ed82d1da&o=",
+                        "photo_id": 181932039,
+                        "new_order": 3,
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932039.jpg?k=817087b1f5117b0001b5b773d4ecfeb80e4a52de3083fabcde82cb44ed82d1da&o=",
+                        "ratio": 1.49925037481259,
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/181932039.jpg?k=817087b1f5117b0001b5b773d4ecfeb80e4a52de3083fabcde82cb44ed82d1da&o=",
+                        "last_update_date": "2019-02-14 05:44:41",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/181932039.jpg?k=817087b1f5117b0001b5b773d4ecfeb80e4a52de3083fabcde82cb44ed82d1da&o="
+                    },
+                    {
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/507260537.jpg?k=ae39dd7399e1529fc8c27be0510b45f13ac138c569cb78fac367bbdb412feca5&o=",
+                        "last_update_date": "2023-11-20 05:29:25",
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/507260537.jpg?k=ae39dd7399e1529fc8c27be0510b45f13ac138c569cb78fac367bbdb412feca5&o=",
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/507260537.jpg?k=ae39dd7399e1529fc8c27be0510b45f13ac138c569cb78fac367bbdb412feca5&o=",
+                        "ratio": 1.49924585218703,
+                        "new_order": 2,
+                        "photo_id": 507260537,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/507260537.jpg?k=ae39dd7399e1529fc8c27be0510b45f13ac138c569cb78fac367bbdb412feca5&o="
+                    },
+                    {
+                        "url_square60": "https://cf.bstatic.com/xdata/images/hotel/square60/181932426.jpg?k=bacda043ace728e549a8be65f85c4be1424a156c542d2075f76f3736eba7a0f8&o=",
+                        "ratio": 1.49142431021626,
+                        "url_original": "https://cf.bstatic.com/xdata/images/hotel/max500/181932426.jpg?k=bacda043ace728e549a8be65f85c4be1424a156c542d2075f76f3736eba7a0f8&o=",
+                        "new_order": 4,
+                        "photo_id": 181932426,
+                        "url_max300": "https://cf.bstatic.com/xdata/images/hotel/max300/181932426.jpg?k=bacda043ace728e549a8be65f85c4be1424a156c542d2075f76f3736eba7a0f8&o=",
+                        "url_640x200": "https://cf.bstatic.com/xdata/images/hotel/640x200/181932426.jpg?k=bacda043ace728e549a8be65f85c4be1424a156c542d2075f76f3736eba7a0f8&o=",
+                        "last_update_date": "2019-02-14 05:53:01"
+                    }
+                ],
+                "children_and_beds_text": {
+                    "cribs_and_extra_beds": [
+                        {
+                            "highlight": 0,
+                            "text": "Supplements are not calculated automatically in the total costs and will have to be paid for separately during your stay."
+                        },
+                        {
+                            "highlight": 0,
+                            "text": "The maximum number of cots, extra beds and children allowed in existing beds may vary depending on the option you book."
+                        },
+                        {
+                            "highlight": 0,
+                            "text": "All cots and extra beds are subject to availability."
+                        }
+                    ],
+                    "age_intervals": [
+                        {
+                            "group_by_price": {
+                                "fixed,per_night,1780.00": [
+                                    "extra_bed"
+                                ]
+                            },
+                            "max_age": 255,
+                            "types_by_price": [
+                                [
+                                    "extra_bed"
+                                ]
+                            ],
+                            "min_age": 12,
+                            "extra_bed": {
+                                "price": "THB 1,780",
+                                "price_type": "fixed",
+                                "price_mode": "per_night",
+                                "price_mode_n": 0,
+                                "price_type_n": 2,
+                                "id": 39489769
+                            }
+                        }
+                    ],
+                    "children_at_the_property": [
+                        {
+                            "text": "Children of any age are welcome.",
+                            "highlight": 0
+                        },
+                        {
+                            "text": "Children 12 years and above will be charged as adults at this property.",
+                            "highlight": 0
+                        }
+                    ],
+                    "allow_children": 1
+                },
+                "photos_may_sorted": 1,
+                "description": "The unit has 2 beds.",
+                "bed_configurations": [
+                    {
+                        "bed_types": [
+                            {
+                                "description_imperial": "35-51 inches wide",
+                                "description": "90-130 cm wide",
+                                "description_localized": null,
+                                "name": "Single bed(s)",
+                                "count": 2,
+                                "bed_type": 1,
+                                "name_with_count": "2 single beds"
+                            }
+                        ]
+                    }
+                ],
+                "is_high_floor_guaranteed": 0,
+                "highlights": [
+                    {
+                        "icon": "icon_wifi",
+                        "translated_name": "Free WiFi"
+                    }
+                ],
+                "private_bathroom_count": 0,
+                "facilities": []
+            }
+        },
+        "payment_detail": {
+            "model": "hybrid2.0"
+        },
+        "cheapest_avail_price_eur": 778.11,
+        "b_blackout_android_prepayment_copy": 1,
+        "departure_date": "2024-10-17"
+    }
+]

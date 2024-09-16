@@ -1,0 +1,2818 @@
+[
+    {
+        "name": {
+            "en-gb": "Parking",
+            "it": "Parcheggio",
+            "es": "Aparcamiento",
+            "fr": "Parking",
+            "de": "Parkplatz"
+        },
+        "hotel_facility_type_id": 2,
+        "facility_type_id": 1
+    },
+    {
+        "name": {
+            "en-gb": "Restaurant",
+            "it": "Ristorante",
+            "es": "Restaurante",
+            "fr": "Restaurant",
+            "de": "Restaurant"
+        },
+        "hotel_facility_type_id": 3,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Pets allowed",
+            "it": "Animali ammessi",
+            "es": "Se admiten mascotas",
+            "fr": "Animaux accept\u00e9s",
+            "de": "Haustiere erlaubt"
+        },
+        "hotel_facility_type_id": 4,
+        "facility_type_id": 1
+    },
+    {
+        "name": {
+            "en-gb": "Room service",
+            "it": "Servizio in camera",
+            "es": "Servicio de habitaciones",
+            "fr": "Service en chambre",
+            "de": "Zimmerservice"
+        },
+        "hotel_facility_type_id": 5,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Meeting/banquet facilities",
+            "it": "Sale riunioni/banchetti",
+            "es": "Instalaciones para reuniones y banquetes",
+            "fr": "Salles de r\u00e9union/banquet",
+            "de": "Tagungs- und Banketteinrichtungen"
+        },
+        "hotel_facility_type_id": 6,
+        "facility_type_id": 27
+    },
+    {
+        "name": {
+            "en-gb": "Bar",
+            "it": "Bar",
+            "es": "Bar",
+            "fr": "Bar",
+            "de": "Bar"
+        },
+        "hotel_facility_type_id": 7,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "24-hour front desk",
+            "it": "Reception 24 ore",
+            "es": "Recepci\u00f3n 24 horas",
+            "fr": "R\u00e9ception ouverte 24h/24",
+            "de": "24-Stunden-Rezeption"
+        },
+        "hotel_facility_type_id": 8,
+        "facility_type_id": 23
+    },
+    {
+        "name": {
+            "en-gb": "Tennis court",
+            "it": "Campo da tennis",
+            "es": "Pista de tenis",
+            "fr": "Court de tennis",
+            "de": "Tennisplatz"
+        },
+        "hotel_facility_type_id": 9,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Sauna",
+            "it": "Sauna",
+            "es": "Sauna",
+            "fr": "Sauna",
+            "de": "Sauna"
+        },
+        "hotel_facility_type_id": 10,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Fitness centre",
+            "it": "Centro fitness",
+            "es": "Gimnasio",
+            "fr": "Centre de remise en forme",
+            "de": "Fitnesscenter"
+        },
+        "hotel_facility_type_id": 11,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Golf course (within 3 km)",
+            "it": "Campo da golf (entro 3 km)",
+            "es": "Campo de golf (a menos de 3 km)",
+            "fr": "Parcours de golf (\u00e0 moins de 3 km)",
+            "de": "Golfplatz (innerhalb von 3 km)"
+        },
+        "hotel_facility_type_id": 12,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Garden",
+            "it": "Giardino",
+            "es": "Jard\u00edn",
+            "fr": "Jardin",
+            "de": "Garten"
+        },
+        "hotel_facility_type_id": 14,
+        "facility_type_id": 24
+    },
+    {
+        "name": {
+            "en-gb": "Terrace",
+            "it": "Terrazza",
+            "es": "Terraza",
+            "fr": "Terrasse",
+            "de": "Terrasse"
+        },
+        "hotel_facility_type_id": 15,
+        "facility_type_id": 24
+    },
+    {
+        "name": {
+            "en-gb": "Non-smoking rooms",
+            "it": "Camere non fumatori",
+            "es": "Habitaciones para no fumadores",
+            "fr": "Chambres non-fumeurs",
+            "de": "Nichtraucherzimmer"
+        },
+        "hotel_facility_type_id": 16,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Airport shuttle",
+            "it": "Navetta aeroportuale",
+            "es": "Transporte al aeropuerto",
+            "fr": "Navette a\u00e9roport",
+            "de": "Flughafentransfer"
+        },
+        "hotel_facility_type_id": 17,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Fishing",
+            "it": "Pesca",
+            "es": "Pesca",
+            "fr": "P\u00eache",
+            "de": "Angeln"
+        },
+        "hotel_facility_type_id": 19,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Business centre",
+            "it": "Centro business",
+            "es": "Centro de negocios",
+            "fr": "Centre d'affaires",
+            "de": "Businesscenter"
+        },
+        "hotel_facility_type_id": 20,
+        "facility_type_id": 27
+    },
+    {
+        "name": {
+            "en-gb": "Babysitting/child services",
+            "it": "Servizio di babysitting/assistenza per bambini",
+            "es": "Cuidado de ni\u00f1os/ni\u00f1era",
+            "fr": "Garde d'enfants/Services pour enfants",
+            "de": "Babysitting/Kinderbetreuung"
+        },
+        "hotel_facility_type_id": 21,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Laundry",
+            "it": "Lavanderia",
+            "es": "Lavander\u00eda",
+            "fr": "Blanchisserie",
+            "de": "W\u00e4scheservice"
+        },
+        "hotel_facility_type_id": 22,
+        "facility_type_id": 26
+    },
+    {
+        "name": {
+            "en-gb": "Dry cleaning",
+            "it": "Lavaggio a secco",
+            "es": "Servicio de limpieza en seco",
+            "fr": "Nettoyage \u00e0 sec",
+            "de": "Chemische Reinigung"
+        },
+        "hotel_facility_type_id": 23,
+        "facility_type_id": 26
+    },
+    {
+        "name": {
+            "en-gb": "Continental breakfast",
+            "it": "Colazione continentale",
+            "es": "Desayuno continental",
+            "fr": "Petit d\u00e9jeuner continental",
+            "de": "Kontinentales Fr\u00fchst\u00fcck"
+        },
+        "hotel_facility_type_id": 24,
+        "facility_type_id": 1
+    },
+    {
+        "name": {
+            "en-gb": "Facilities for disabled guests",
+            "it": "Strutture per ospiti disabili",
+            "es": "Instalaciones para personas con discapacidad",
+            "fr": "\u00c9quipements pour personnes handicap\u00e9es",
+            "de": "Behindertengerechte Einrichtungen"
+        },
+        "hotel_facility_type_id": 25,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Skiing",
+            "it": "Sci",
+            "es": "Esqu\u00ed",
+            "fr": "Ski",
+            "de": "Skifahren"
+        },
+        "hotel_facility_type_id": 26,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Barber/beauty shop",
+            "it": "Barbiere/salone di bellezza",
+            "es": "Barber\u00eda/sal\u00f3n de belleza",
+            "fr": "Salon de coiffure/beaut\u00e9",
+            "de": "Friseur-/Kosmetiksalon"
+        },
+        "hotel_facility_type_id": 27,
+        "facility_type_id": 28
+    },
+    {
+        "name": {
+            "en-gb": "Family rooms",
+            "it": "Camere familiari",
+            "es": "Habitaciones familiares",
+            "fr": "Chambres familiales",
+            "de": "Familienzimmer"
+        },
+        "hotel_facility_type_id": 28,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Games room",
+            "it": "Sala giochi",
+            "es": "Sala de juegos",
+            "fr": "Salle de jeux",
+            "de": "Spielzimmer"
+        },
+        "hotel_facility_type_id": 29,
+        "facility_type_id": 24
+    },
+    {
+        "name": {
+            "en-gb": "Casino",
+            "it": "Casin\u00f2",
+            "es": "Casino",
+            "fr": "Casino",
+            "de": "Kasino"
+        },
+        "hotel_facility_type_id": 30,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Breakfast in the room",
+            "it": "Colazione in camera",
+            "es": "Desayuno en la habitaci\u00f3n",
+            "fr": "Petit d\u00e9jeuner en chambre",
+            "de": "Fr\u00fchst\u00fcck im Zimmer"
+        },
+        "hotel_facility_type_id": 43,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Ironing service",
+            "it": "Servizio stireria",
+            "es": "Servicio de planchado",
+            "fr": "Service de repassage",
+            "de": "B\u00fcgelservice"
+        },
+        "hotel_facility_type_id": 44,
+        "facility_type_id": 26
+    },
+    {
+        "name": {
+            "en-gb": "Free parking",
+            "it": "Parcheggio gratuito",
+            "es": "Aparcamiento gratis",
+            "fr": "Parking gratuit",
+            "de": "Kostenloses Parken"
+        },
+        "hotel_facility_type_id": 46,
+        "facility_type_id": 1
+    },
+    {
+        "name": {
+            "en-gb": "Internet services",
+            "it": "Servizi Internet",
+            "es": "Servicios de Internet",
+            "fr": "Services Internet",
+            "de": "Internetdienste"
+        },
+        "hotel_facility_type_id": 47,
+        "facility_type_id": 3
+    },
+    {
+        "name": {
+            "en-gb": "Lift",
+            "it": "Ascensore",
+            "es": "Ascensor",
+            "fr": "Ascenseur",
+            "de": "Aufzug"
+        },
+        "hotel_facility_type_id": 48,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Express check-in/check-out",
+            "it": "Check-in/check-out express",
+            "es": "Registro de entrada y salida expr\u00e9s",
+            "fr": "Enregistrement/d\u00e9part express",
+            "de": "Express-Check-in/-Check-out"
+        },
+        "hotel_facility_type_id": 49,
+        "facility_type_id": 23
+    },
+    {
+        "name": {
+            "en-gb": "Solarium",
+            "it": "Solarium",
+            "es": "Sol\u00e1rium",
+            "fr": "Solarium",
+            "de": "Solarium"
+        },
+        "hotel_facility_type_id": 50,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Safety deposit box",
+            "it": "Cassetta di sicurezza",
+            "es": "Caja fuerte",
+            "fr": "Coffre-fort",
+            "de": "Safe"
+        },
+        "hotel_facility_type_id": 51,
+        "facility_type_id": 34
+    },
+    {
+        "name": {
+            "en-gb": "Valet parking",
+            "it": "Parcheggio con servizio valet",
+            "es": "Aparcamiento con servicio de aparcacoches",
+            "fr": "Service de voiturier",
+            "de": "Parkservice"
+        },
+        "hotel_facility_type_id": 52,
+        "facility_type_id": 23
+    },
+    {
+        "name": {
+            "en-gb": "Currency exchange",
+            "it": "Cambio valuta",
+            "es": "Cambio de divisas",
+            "fr": "Bureau de change",
+            "de": "Geldwechsel"
+        },
+        "hotel_facility_type_id": 53,
+        "facility_type_id": 23
+    },
+    {
+        "name": {
+            "en-gb": "Spa and wellness centre",
+            "it": "Centro spa e benessere",
+            "es": "Spa y centro de bienestar",
+            "fr": "Spa et centre de bien-\u00eatre",
+            "de": "Spa- und Wellnesscenter"
+        },
+        "hotel_facility_type_id": 54,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Massage",
+            "it": "Massaggio",
+            "es": "Masaje",
+            "fr": "Massage",
+            "de": "Massage"
+        },
+        "hotel_facility_type_id": 55,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Children's playground",
+            "it": "Parco giochi per bambini",
+            "es": "Parque infantil",
+            "fr": "Aire de jeux pour enfants",
+            "de": "Kinderspielplatz"
+        },
+        "hotel_facility_type_id": 56,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Billiards",
+            "it": "Biliardo",
+            "es": "Billar",
+            "fr": "Billard",
+            "de": "Billard"
+        },
+        "hotel_facility_type_id": 57,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Table tennis",
+            "it": "Tennis da tavolo",
+            "es": "Tenis de mesa",
+            "fr": "Tennis de table",
+            "de": "Tischtennis"
+        },
+        "hotel_facility_type_id": 58,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Karaoke",
+            "it": "Karaoke",
+            "es": "Karaoke",
+            "fr": "Karaok\u00e9",
+            "de": "Karaoke"
+        },
+        "hotel_facility_type_id": 59,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Windsurfing",
+            "it": "Windsurf",
+            "es": "Windsurf",
+            "fr": "Planche \u00e0 voile",
+            "de": "Windsurfen"
+        },
+        "hotel_facility_type_id": 61,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Darts",
+            "it": "Freccette",
+            "es": "Dardos",
+            "fr": "Fl\u00e9chettes",
+            "de": "Darts"
+        },
+        "hotel_facility_type_id": 62,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Hot tub/Jacuzzi",
+            "it": "Vasca idromassaggio/Jacuzzi",
+            "es": "Ba\u00f1era de hidromasaje/Jacuzzi",
+            "fr": "Bain \u00e0 remous/Jacuzzi",
+            "de": "Whirlpool/Jacuzzi"
+        },
+        "hotel_facility_type_id": 63,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Soundproof rooms",
+            "it": "Camere insonorizzate",
+            "es": "Habitaciones insonorizadas",
+            "fr": "Chambres insonoris\u00e9es",
+            "de": "Schallisolierte Zimmer"
+        },
+        "hotel_facility_type_id": 64,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Canoeing",
+            "it": "Canottaggio",
+            "es": "Pirag\u00fcismo",
+            "fr": "Cano\u00eb-kayak",
+            "de": "Kanufahren"
+        },
+        "hotel_facility_type_id": 69,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Hiking",
+            "it": "Escursionismo",
+            "es": "Senderismo",
+            "fr": "Randonn\u00e9e",
+            "de": "Wandern"
+        },
+        "hotel_facility_type_id": 70,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Chapel/shrine",
+            "it": "Cappella/santuario",
+            "es": "Capilla/santuario",
+            "fr": "Chapelle/lieu de culte",
+            "de": "Kapelle/Heiligtum"
+        },
+        "hotel_facility_type_id": 71,
+        "facility_type_id": 24
+    },
+    {
+        "name": {
+            "en-gb": "BBQ facilities",
+            "it": "Attrezzature per barbecue",
+            "es": "Instalaciones para barbacoa",
+            "fr": "\u00c9quipements pour barbecue",
+            "de": "Grilleinrichtungen"
+        },
+        "hotel_facility_type_id": 72,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Packed lunches",
+            "it": "Pranzi al sacco",
+            "es": "Almuerzos para llevar",
+            "fr": "Paniers-repas",
+            "de": "Lunchpakete"
+        },
+        "hotel_facility_type_id": 73,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Car hire",
+            "it": "Noleggio auto",
+            "es": "Alquiler de coches",
+            "fr": "Location de voitures",
+            "de": "Autovermietung"
+        },
+        "hotel_facility_type_id": 75,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Cycling",
+            "it": "Ciclismo",
+            "es": "Ciclismo",
+            "fr": "Cyclisme",
+            "de": "Radfahren"
+        },
+        "hotel_facility_type_id": 76,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Bowling",
+            "it": "Bowling",
+            "es": "Bolos",
+            "fr": "Bowling",
+            "de": "Bowling"
+        },
+        "hotel_facility_type_id": 77,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Tour desk",
+            "it": "Banco escursioni",
+            "es": "Mostrador de informaci\u00f3n tur\u00edstica",
+            "fr": "Bureau d'excursions",
+            "de": "Tourenschalter"
+        },
+        "hotel_facility_type_id": 78,
+        "facility_type_id": 23
+    },
+    {
+        "name": {
+            "en-gb": "Hammam",
+            "it": "Hammam",
+            "es": "Hammam",
+            "fr": "Hammam",
+            "de": "Hammam"
+        },
+        "hotel_facility_type_id": 79,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Heating",
+            "it": "Riscaldamento",
+            "es": "Calefacci\u00f3n",
+            "fr": "Chauffage",
+            "de": "Heizung"
+        },
+        "hotel_facility_type_id": 80,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Fax/photocopying",
+            "it": "Fax/fotocopie",
+            "es": "Fax/fotocopias",
+            "fr": "Fax/photocopies",
+            "de": "Fax-/Fotokopiereinrichtungen"
+        },
+        "hotel_facility_type_id": 81,
+        "facility_type_id": 27
+    },
+    {
+        "name": {
+            "en-gb": "Diving",
+            "it": "Immersioni",
+            "es": "Buceo",
+            "fr": "Plong\u00e9e",
+            "de": "Tauchen"
+        },
+        "hotel_facility_type_id": 82,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Horse riding",
+            "it": "Equitazione",
+            "es": "Equitaci\u00f3n",
+            "fr": "\u00c9quitation",
+            "de": "Reiten"
+        },
+        "hotel_facility_type_id": 86,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Squash",
+            "it": "Squash",
+            "es": "Squash",
+            "fr": "Squash",
+            "de": "Squash"
+        },
+        "hotel_facility_type_id": 87,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Snorkelling",
+            "it": "Snorkeling",
+            "es": "Esn\u00f3rquel",
+            "fr": "Plong\u00e9e avec tuba",
+            "de": "Schnorcheln"
+        },
+        "hotel_facility_type_id": 90,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Luggage storage",
+            "it": "Deposito bagagli",
+            "es": "Guardaequipaje",
+            "fr": "Bagagerie",
+            "de": "Gep\u00e4ckaufbewahrung"
+        },
+        "hotel_facility_type_id": 91,
+        "facility_type_id": 23
+    },
+    {
+        "name": {
+            "en-gb": "WiFi",
+            "it": "Wi-Fi",
+            "es": "Wi-Fi",
+            "fr": "Wi-Fi",
+            "de": "Wi-Fi"
+        },
+        "hotel_facility_type_id": 96,
+        "facility_type_id": 3
+    },
+    {
+        "name": {
+            "en-gb": "Mini golf",
+            "it": "Minigolf",
+            "es": "Minigolf",
+            "fr": "Minigolf",
+            "de": "Minigolf"
+        },
+        "hotel_facility_type_id": 97,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Ski storage",
+            "it": "Deposito sci",
+            "es": "Guardaesqu\u00eds",
+            "fr": "Local \u00e0 skis",
+            "de": "Skiaufbewahrung"
+        },
+        "hotel_facility_type_id": 99,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Ski school",
+            "it": "Scuola di sci",
+            "es": "Escuela de esqu\u00ed",
+            "fr": "\u00c9cole de ski",
+            "de": "Skischule"
+        },
+        "hotel_facility_type_id": 100,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Allergy-free room",
+            "it": "Camera anallergica",
+            "es": "Habitaci\u00f3n hipoalerg\u00e9nica",
+            "fr": "Chambre anti-allergie",
+            "de": "Allergikerfreundliches Zimmer"
+        },
+        "hotel_facility_type_id": 101,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Indoor pool",
+            "it": "Piscina coperta",
+            "es": "Piscina cubierta",
+            "fr": "Piscine int\u00e9rieure",
+            "de": "Innenpool"
+        },
+        "hotel_facility_type_id": 103,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Outdoor pool",
+            "it": "Piscina all'aperto",
+            "es": "Piscina al aire libre",
+            "fr": "Piscine ext\u00e9rieure",
+            "de": "Au\u00dfenpool"
+        },
+        "hotel_facility_type_id": 104,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Free WiFi",
+            "it": "Wi-Fi gratuito",
+            "es": "Wi-Fi gratis",
+            "fr": "Wi-Fi gratuit",
+            "de": "Kostenloses WLAN"
+        },
+        "hotel_facility_type_id": 107,
+        "facility_type_id": 3
+    },
+    {
+        "name": {
+            "en-gb": "Non-smoking throughout",
+            "it": "Struttura interamente non fumatori",
+            "es": "Prohibido fumar en todo el alojamiento",
+            "fr": "\u00c9tablissement enti\u00e8rement non-fumeurs",
+            "de": "Nichtraucherunterkunft"
+        },
+        "hotel_facility_type_id": 108,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Air conditioning",
+            "it": "Aria condizionata",
+            "es": "Aire acondicionado",
+            "fr": "Climatisation",
+            "de": "Klimaanlage"
+        },
+        "hotel_facility_type_id": 109,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Designated smoking area",
+            "it": "Area fumatori",
+            "es": "Zona de fumadores",
+            "fr": "Espace fumeurs",
+            "de": "Raucherbereich"
+        },
+        "hotel_facility_type_id": 110,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "ATM/cash machine on site",
+            "it": "Bancomat in loco",
+            "es": "Cajero autom\u00e1tico en el establecimiento",
+            "fr": "Distributeur automatique de billets sur place",
+            "de": "Geldautomat vor Ort"
+        },
+        "hotel_facility_type_id": 111,
+        "facility_type_id": 23
+    },
+    {
+        "name": {
+            "en-gb": "Private beach area",
+            "it": "Spiaggia privata",
+            "es": "Zona de playa privada",
+            "fr": "Plage priv\u00e9e",
+            "de": "Privatstrand"
+        },
+        "hotel_facility_type_id": 114,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Restaurant (\u00e0 la carte)",
+            "it": "Ristorante (\u00e0 la carte)",
+            "es": "Restaurante (a la carta)",
+            "fr": "Restaurant (\u00e0 la carte)",
+            "de": "Restaurant (\u00e0 la carte)"
+        },
+        "hotel_facility_type_id": 115,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Restaurant (buffet)",
+            "it": "Ristorante (buffet)",
+            "es": "Restaurante (buffet)",
+            "fr": "Restaurant (buffet)",
+            "de": "Restaurant (Buffet)"
+        },
+        "hotel_facility_type_id": 116,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Snack bar",
+            "it": "Snack bar",
+            "es": "Bar de aperitivos",
+            "fr": "Snack-bar",
+            "de": "Snackbar"
+        },
+        "hotel_facility_type_id": 117,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Sun terrace",
+            "it": "Terrazza solarium",
+            "es": "Terraza sol\u00e1rium",
+            "fr": "Terrasse bien expos\u00e9e",
+            "de": "Sonnenterrasse"
+        },
+        "hotel_facility_type_id": 118,
+        "facility_type_id": 24
+    },
+    {
+        "name": {
+            "en-gb": "Outdoor pool (all year)",
+            "it": "Piscina all'aperto (tutto l'anno)",
+            "es": "Piscina al aire libre (todo el a\u00f1o)",
+            "fr": "Piscine ext\u00e9rieure (toute l'ann\u00e9e)",
+            "de": "Au\u00dfenpool (ganzj\u00e4hrig)"
+        },
+        "hotel_facility_type_id": 119,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Outdoor pool (seasonal)",
+            "it": "Piscina all'aperto (stagionale)",
+            "es": "Piscina al aire libre (de temporada)",
+            "fr": "Piscine ext\u00e9rieure (saisonni\u00e8re)",
+            "de": "Au\u00dfenpool (saisonal)"
+        },
+        "hotel_facility_type_id": 120,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Indoor pool (all year)",
+            "it": "Piscina coperta (tutto l'anno)",
+            "es": "Piscina cubierta (todo el a\u00f1o)",
+            "fr": "Piscine int\u00e9rieure (toute l'ann\u00e9e)",
+            "de": "Innenpool (ganzj\u00e4hrig)"
+        },
+        "hotel_facility_type_id": 121,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Indoor pool (seasonal)",
+            "it": "Piscina coperta (stagionale)",
+            "es": "Piscina cubierta (de temporada)",
+            "fr": "Piscine int\u00e9rieure (saisonni\u00e8re)",
+            "de": "Innenpool (saisonal)"
+        },
+        "hotel_facility_type_id": 122,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Concierge service",
+            "it": "Servizio di concierge",
+            "es": "Servicio de conserjer\u00eda",
+            "fr": "Service de concierge",
+            "de": "Conciergeservice"
+        },
+        "hotel_facility_type_id": 124,
+        "facility_type_id": 23
+    },
+    {
+        "name": {
+            "en-gb": "Entertainment staff",
+            "it": "Staff di animazione",
+            "es": "Personal de entretenimiento",
+            "fr": "\u00c9quipe d'animation",
+            "de": "Animationsteam"
+        },
+        "hotel_facility_type_id": 125,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Nightclub/DJ",
+            "it": "Discoteca/DJ",
+            "es": "Discoteca/DJ",
+            "fr": "Discoth\u00e8que/DJ",
+            "de": "Nachtclub/DJ"
+        },
+        "hotel_facility_type_id": 126,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Private check-in/check-out",
+            "it": "Check-in/check-out privato",
+            "es": "Registro de entrada y salida privado",
+            "fr": "Enregistrement/d\u00e9part priv\u00e9",
+            "de": "Privater Check-in/Check-out"
+        },
+        "hotel_facility_type_id": 127,
+        "facility_type_id": 23
+    },
+    {
+        "name": {
+            "en-gb": "Shuttle service (free)",
+            "it": "Servizio navetta gratuito",
+            "es": "Servicio de traslado (gratis)",
+            "fr": "Service de navette (gratuit)",
+            "de": "Shuttleservice (kostenfrei)"
+        },
+        "hotel_facility_type_id": 128,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Shuttle service (additional charge)",
+            "it": "Servizio navetta (a pagamento)",
+            "es": "Servicio de traslado (de pago)",
+            "fr": "Service de navette (en suppl\u00e9ment)",
+            "de": "Shuttleservice (gegen Aufpreis)"
+        },
+        "hotel_facility_type_id": 129,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Ski equipment hire on site",
+            "it": "Noleggio attrezzatura sciistica in loco",
+            "es": "Alquiler de equipo de esqu\u00ed en el establecimiento",
+            "fr": "Location d'\u00e9quipement de ski sur place",
+            "de": "Skiausr\u00fcstungverleih vor Ort"
+        },
+        "hotel_facility_type_id": 130,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Ski pass vendor",
+            "it": "Vendita skipass",
+            "es": "Venta de forfaits",
+            "fr": "Vente de forfaits de ski",
+            "de": "Skipass-Verkauf"
+        },
+        "hotel_facility_type_id": 131,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Ski-to-door access",
+            "it": "Accesso diretto alle piste da sci",
+            "es": "Acceso directo a las pistas de esqu\u00ed",
+            "fr": "Acc\u00e8s skis aux pieds",
+            "de": "Ski-in/Ski-out"
+        },
+        "hotel_facility_type_id": 132,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Special diet menus (on request)",
+            "it": "Men\u00f9 per diete particolari (su richiesta)",
+            "es": "Men\u00fas diet\u00e9ticos (bajo petici\u00f3n)",
+            "fr": "Menus pour r\u00e9gimes sp\u00e9ciaux (sur demande)",
+            "de": "Spezielle Di\u00e4tmen\u00fcs (auf Anfrage)"
+        },
+        "hotel_facility_type_id": 133,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Trouser press",
+            "it": "Pressa da pantaloni",
+            "es": "Prensa para pantalones",
+            "fr": "Presse \u00e0 pantalons",
+            "de": "Hosenb\u00fcgler"
+        },
+        "hotel_facility_type_id": 134,
+        "facility_type_id": 26
+    },
+    {
+        "name": {
+            "en-gb": "Vending machine (drinks)",
+            "it": "Distributore automatico (bevande)",
+            "es": "M\u00e1quina expendedora (bebidas)",
+            "fr": "Distributeur automatique (boissons)",
+            "de": "Verkaufsautomat (Getr\u00e4nke)"
+        },
+        "hotel_facility_type_id": 135,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Vending machine (snacks)",
+            "it": "Distributore automatico (snack)",
+            "es": "M\u00e1quina expendedora (aperitivos)",
+            "fr": "Distributeur automatique (snacks)",
+            "de": "Verkaufsautomat (Snacks)"
+        },
+        "hotel_facility_type_id": 136,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Water sport facilities on site",
+            "it": "Attrezzature per sport acquatici in loco",
+            "es": "Instalaciones para deportes acu\u00e1ticos en el establecimiento",
+            "fr": "Installations de sports nautiques sur place",
+            "de": "Wassersportanlagen vor Ort"
+        },
+        "hotel_facility_type_id": 137,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Hot spring bath",
+            "it": "Bagno termale",
+            "es": "Ba\u00f1os termales",
+            "fr": "Bain thermal",
+            "de": "Thermalbad"
+        },
+        "hotel_facility_type_id": 138,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Airport shuttle (free)",
+            "it": "Navetta aeroportuale gratuita",
+            "es": "Transporte al aeropuerto gratuito",
+            "fr": "Navette a\u00e9roport gratuite",
+            "de": "Kostenloser Flughafenshuttle"
+        },
+        "hotel_facility_type_id": 139,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Airport shuttle (additional charge)",
+            "it": "Navetta aeroportuale (a pagamento)",
+            "es": "Transporte al aeropuerto (de pago)",
+            "fr": "Navette a\u00e9roport (en suppl\u00e9ment)",
+            "de": "Flughafentransfer (gegen Aufpreis)"
+        },
+        "hotel_facility_type_id": 140,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Shared kitchen",
+            "it": "Cucina in comune",
+            "es": "Cocina compartida",
+            "fr": "Cuisine commune",
+            "de": "Gemeinschaftsk\u00fcche"
+        },
+        "hotel_facility_type_id": 141,
+        "facility_type_id": 24
+    },
+    {
+        "name": {
+            "en-gb": "Lockers",
+            "it": "Armadietti",
+            "es": "Taquillas",
+            "fr": "Casiers",
+            "de": "Schlie\u00dff\u00e4cher"
+        },
+        "hotel_facility_type_id": 142,
+        "facility_type_id": 23
+    },
+    {
+        "name": {
+            "en-gb": "Shared lounge/TV area",
+            "it": "Sala comune/Zona TV",
+            "es": "Zona TV/sal\u00f3n compartidos",
+            "fr": "Salon/salle de t\u00e9l\u00e9vision communs",
+            "de": "Gemeinschaftsraum/TV-Bereich"
+        },
+        "hotel_facility_type_id": 143,
+        "facility_type_id": 24
+    },
+    {
+        "name": {
+            "en-gb": "Kids' club",
+            "it": "Miniclub",
+            "es": "Club infantil",
+            "fr": "Club pour enfants",
+            "de": "Kinderclub"
+        },
+        "hotel_facility_type_id": 144,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Minimarket on site",
+            "it": "Minimarket in loco",
+            "es": "Supermercado peque\u00f1o en el establecimiento",
+            "fr": "Sup\u00e9rette sur place",
+            "de": "Minimarkt vor Ort"
+        },
+        "hotel_facility_type_id": 145,
+        "facility_type_id": 28
+    },
+    {
+        "name": {
+            "en-gb": "Beachfront",
+            "it": "Fronte spiaggia",
+            "es": "Primera l\u00ednea de playa",
+            "fr": "Front de mer",
+            "de": "Strandlage"
+        },
+        "hotel_facility_type_id": 146,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Evening entertainment",
+            "it": "Intrattenimento serale",
+            "es": "Entretenimiento nocturno",
+            "fr": "Animations en soir\u00e9e",
+            "de": "Abendunterhaltung"
+        },
+        "hotel_facility_type_id": 147,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Water park",
+            "it": "Parco acquatico",
+            "es": "Parque acu\u00e1tico",
+            "fr": "Parc aquatique",
+            "de": "Wasserpark"
+        },
+        "hotel_facility_type_id": 148,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Adult only",
+            "it": "Solo adulti",
+            "es": "Solo para adultos",
+            "fr": "R\u00e9serv\u00e9 aux adultes",
+            "de": "Nur f\u00fcr Erwachsene"
+        },
+        "hotel_facility_type_id": 149,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Daily housekeeping",
+            "it": "Servizio di pulizie giornaliero",
+            "es": "Servicio de limpieza diario",
+            "fr": "Service de m\u00e9nage quotidien",
+            "de": "T\u00e4gliche Zimmerreinigung"
+        },
+        "hotel_facility_type_id": 158,
+        "facility_type_id": 26
+    },
+    {
+        "name": {
+            "en-gb": "Grocery deliveries",
+            "it": "Consegna generi alimentari",
+            "es": "Entrega de comestibles",
+            "fr": "Livraison de courses",
+            "de": "Lebensmittellieferung"
+        },
+        "hotel_facility_type_id": 159,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Parking on site",
+            "it": "Parcheggio in loco",
+            "es": "Aparcamiento en el alojamiento",
+            "fr": "Parking sur place",
+            "de": "Parkpl\u00e4tze vor Ort"
+        },
+        "hotel_facility_type_id": 160,
+        "facility_type_id": 1
+    },
+    {
+        "name": {
+            "en-gb": "Private parking",
+            "it": "Parcheggio privato",
+            "es": "Aparcamiento privado",
+            "fr": "Parking priv\u00e9",
+            "de": "Privatparkplatz"
+        },
+        "hotel_facility_type_id": 161,
+        "facility_type_id": 1
+    },
+    {
+        "name": {
+            "en-gb": "Misc parking",
+            "it": "Parcheggio vario",
+            "es": "Aparcamiento variado",
+            "fr": "Parking divers",
+            "de": "Verschiedene Parkpl\u00e4tze"
+        },
+        "hotel_facility_type_id": 162,
+        "facility_type_id": 1
+    },
+    {
+        "name": {
+            "en-gb": "WiFi available in all areas",
+            "it": "Wi-Fi disponibile ovunque",
+            "es": "Wi-Fi disponible en todas las zonas",
+            "fr": "Wi-Fi disponible dans tout l'\u00e9tablissement",
+            "de": "WLAN in allen Bereichen verf\u00fcgbar"
+        },
+        "hotel_facility_type_id": 163,
+        "facility_type_id": 1
+    },
+    {
+        "name": {
+            "en-gb": "Paid WiFi",
+            "it": "Wi-Fi a pagamento",
+            "es": "Wi-Fi de pago",
+            "fr": "Wi-Fi payant",
+            "de": "Kostenpflichtiges WLAN"
+        },
+        "hotel_facility_type_id": 164,
+        "facility_type_id": 1
+    },
+    {
+        "name": {
+            "en-gb": "Open-air bath",
+            "it": "Bagno all'aperto",
+            "es": "Ba\u00f1o al aire libre",
+            "fr": "Bain en plein air",
+            "de": "Freibad"
+        },
+        "hotel_facility_type_id": 166,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Public Bath",
+            "it": "Bagno pubblico",
+            "es": "Ba\u00f1o p\u00fablico",
+            "fr": "Bain public",
+            "de": "\u00d6ffentliches Bad"
+        },
+        "hotel_facility_type_id": 167,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Water slide",
+            "it": "Scivolo d'acqua",
+            "es": "Tobog\u00e1n de agua",
+            "fr": "Toboggan aquatique",
+            "de": "Wasserrutsche"
+        },
+        "hotel_facility_type_id": 168,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Swimming pool toys",
+            "it": "Giochi per piscina",
+            "es": "Juguetes de piscina",
+            "fr": "Jouets pour la piscine",
+            "de": "Pool-Spielzeug"
+        },
+        "hotel_facility_type_id": 169,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Board games/puzzles",
+            "it": "Giochi da tavolo/puzzle",
+            "es": "Juegos de mesa/rompecabezas",
+            "fr": "Jeux de soci\u00e9t\u00e9/puzzles",
+            "de": "Brettspiele/Puzzles"
+        },
+        "hotel_facility_type_id": 170,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Indoor play area",
+            "it": "Area giochi al coperto",
+            "es": "Zona de juegos interior",
+            "fr": "Aire de jeux int\u00e9rieure",
+            "de": "Innen-Spielbereich"
+        },
+        "hotel_facility_type_id": 172,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Kids' outdoor play equipment",
+            "it": "Attrezzature per giochi all'aperto per bambini",
+            "es": "Equipamiento de juegos infantiles para exteriores",
+            "fr": "\u00c9quipements de jeux pour enfants en ext\u00e9rieur",
+            "de": "Spielger\u00e4te im Freien"
+        },
+        "hotel_facility_type_id": 173,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Baby safety gates",
+            "it": "Cancelletti di sicurezza per bambini",
+            "es": "Puertas de seguridad para ni\u00f1os",
+            "fr": "Barri\u00e8res de s\u00e9curit\u00e9 pour b\u00e9b\u00e9s",
+            "de": "Kindersicherheitsgitter"
+        },
+        "hotel_facility_type_id": 174,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Kid meals",
+            "it": "Pasti per bambini",
+            "es": "Men\u00fa infantil",
+            "fr": "Repas enfants",
+            "de": "Kindermen\u00fcs"
+        },
+        "hotel_facility_type_id": 176,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Kid-friendly buffet",
+            "it": "Buffet per bambini",
+            "es": "Buf\u00e9 para ni\u00f1os",
+            "fr": "Buffet adapt\u00e9 aux enfants",
+            "de": "Kinderfreundliches Buffet"
+        },
+        "hotel_facility_type_id": 177,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Secured parking",
+            "it": "Parcheggio custodito",
+            "es": "Aparcamiento seguro",
+            "fr": "Parking s\u00e9curis\u00e9",
+            "de": "Sicherer Parkplatz"
+        },
+        "hotel_facility_type_id": 179,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Street parking",
+            "it": "Parcheggio in strada",
+            "es": "Aparcamiento en la calle",
+            "fr": "Parking dans la rue",
+            "de": "Stra\u00dfenparkplatz"
+        },
+        "hotel_facility_type_id": 180,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Parking garage",
+            "it": "Garage",
+            "es": "Garaje",
+            "fr": "Garage",
+            "de": "Parkhaus"
+        },
+        "hotel_facility_type_id": 181,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Electric vehicle charging station",
+            "it": "Stazione di ricarica per veicoli elettrici",
+            "es": "Estaci\u00f3n de carga de veh\u00edculos el\u00e9ctricos",
+            "fr": "Borne de recharge pour v\u00e9hicules \u00e9lectriques",
+            "de": "Ladestation f\u00fcr Elektrofahrzeuge"
+        },
+        "hotel_facility_type_id": 182,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Public transport tickets",
+            "it": "Biglietti per i trasporti pubblici",
+            "es": "Billetes de transporte p\u00fablico",
+            "fr": "Billets pour les transports en commun",
+            "de": "Fahrkarten f\u00fcr \u00f6ffentliche Verkehrsmittel"
+        },
+        "hotel_facility_type_id": 183,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Accessible parking",
+            "it": "Parcheggio accessibile",
+            "es": "Aparcamiento accesible",
+            "fr": "Parking accessible",
+            "de": "Barrierefreies Parken"
+        },
+        "hotel_facility_type_id": 184,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Wheelchair accessible",
+            "it": "Accessibile in sedia a rotelle",
+            "es": "Accesible en silla de ruedas",
+            "fr": "Accessible en fauteuil roulant",
+            "de": "Rollstuhlgerecht"
+        },
+        "hotel_facility_type_id": 185,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Toilet with grab rails",
+            "it": "WC con maniglioni",
+            "es": "Inodoro con barras de apoyo",
+            "fr": "Toilettes avec barres d'appui",
+            "de": "WC mit Haltegriffen"
+        },
+        "hotel_facility_type_id": 186,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Higher level toilet",
+            "it": "WC rialzato",
+            "es": "Inodoro elevado",
+            "fr": "Toilettes sur\u00e9lev\u00e9es",
+            "de": "H\u00f6heres WC"
+        },
+        "hotel_facility_type_id": 187,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Lower bathroom sink",
+            "it": "Lavabo pi\u00f9 basso",
+            "es": "Lavabo bajo",
+            "fr": "Lavabo bas",
+            "de": "Niedriges Waschbecken"
+        },
+        "hotel_facility_type_id": 188,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Emergency cord in bathroom",
+            "it": "Campanello d'emergenza in bagno",
+            "es": "Cuerda de emergencia en el ba\u00f1o",
+            "fr": "Corde d'urgence dans la salle de bains",
+            "de": "Notrufleine im Badezimmer"
+        },
+        "hotel_facility_type_id": 189,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Rooftop pool",
+            "it": "Piscina panoramica",
+            "es": "Piscina en la azotea",
+            "fr": "Piscine sur le toit",
+            "de": "Dachpool"
+        },
+        "hotel_facility_type_id": 192,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Infinity pool",
+            "it": "Piscina a sfioro",
+            "es": "Piscina infinita",
+            "fr": "Piscine \u00e0 d\u00e9bordement",
+            "de": "Infinity-Pool"
+        },
+        "hotel_facility_type_id": 193,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Pool with view",
+            "it": "Piscina con vista",
+            "es": "Piscina con vistas",
+            "fr": "Piscine avec vue",
+            "de": "Pool mit Aussicht"
+        },
+        "hotel_facility_type_id": 194,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Heated pool",
+            "it": "Piscina riscaldata",
+            "es": "Piscina climatizada",
+            "fr": "Piscine chauff\u00e9e",
+            "de": "Beheizter Pool"
+        },
+        "hotel_facility_type_id": 195,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Salt-water pool",
+            "it": "Piscina d'acqua salata",
+            "es": "Piscina de agua salada",
+            "fr": "Piscine d'eau sal\u00e9e",
+            "de": "Salzwasserpool"
+        },
+        "hotel_facility_type_id": 196,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Plunge pool",
+            "it": "Piscina per immersioni",
+            "es": "Piscina de inmersi\u00f3n",
+            "fr": "Bassin profond",
+            "de": "Tauchbecken"
+        },
+        "hotel_facility_type_id": 197,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Pool bar",
+            "it": "Bar a bordo piscina",
+            "es": "Bar en la piscina",
+            "fr": "Bar dans la piscine",
+            "de": "Poolbar"
+        },
+        "hotel_facility_type_id": 199,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Shallow end",
+            "it": "Parte bassa della piscina",
+            "es": "Zona poco profunda",
+            "fr": "Partie peu profonde",
+            "de": "Flacher Bereich"
+        },
+        "hotel_facility_type_id": 200,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Pool cover",
+            "it": "Copertura della piscina",
+            "es": "Cubierta de la piscina",
+            "fr": "Couverture de piscine",
+            "de": "Poolabdeckung"
+        },
+        "hotel_facility_type_id": 201,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Wine/champagne",
+            "it": "Vino/champagne",
+            "es": "Vino/champ\u00e1n",
+            "fr": "Vin/Champagne",
+            "de": "Wein/Champagner"
+        },
+        "hotel_facility_type_id": 203,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Fruits",
+            "it": "Frutta",
+            "es": "Frutas",
+            "fr": "Fruits",
+            "de": "Fr\u00fcchte"
+        },
+        "hotel_facility_type_id": 205,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Airport pick up",
+            "it": "Trasferimento dall'aeroporto",
+            "es": "Recogida en el aeropuerto",
+            "fr": "Service de navette de l'a\u00e9roport",
+            "de": "Flughafenabholung"
+        },
+        "hotel_facility_type_id": 209,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Airport drop off",
+            "it": "Trasferimento per l'aeroporto",
+            "es": "Traslado al aeropuerto",
+            "fr": "Service de navette vers l'a\u00e9roport",
+            "de": "Flughafentransfer"
+        },
+        "hotel_facility_type_id": 210,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Visual aids: Braille",
+            "it": "Segnaletica visiva: Braille",
+            "es": "Ayudas visuales: Braille",
+            "fr": "Aides visuelles\u00a0: Braille",
+            "de": "Visuelle Hilfen: Blindenschrift"
+        },
+        "hotel_facility_type_id": 211,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Visual aids: Tactile signs",
+            "it": "Segnaletica visiva: segnali tattili",
+            "es": "Ayudas visuales: se\u00f1ales t\u00e1ctiles",
+            "fr": "Aides visuelles\u00a0: Signes tactiles",
+            "de": "Visuelle Hilfen: Taktiles Zeichen"
+        },
+        "hotel_facility_type_id": 212,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Auditory guidance",
+            "it": "Guida uditiva",
+            "es": "Gu\u00edas auditivas",
+            "fr": "Guidage sonore",
+            "de": "Audiounterst\u00fctzung"
+        },
+        "hotel_facility_type_id": 213,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Strollers",
+            "it": "Passeggini",
+            "es": "Cochecitos de beb\u00e9",
+            "fr": "Poussettes",
+            "de": "Kinderwagen"
+        },
+        "hotel_facility_type_id": 214,
+        "facility_type_id": 25
+    },
+    {
+        "name": {
+            "en-gb": "Tennis equipment",
+            "it": "Attrezzatura da tennis",
+            "es": "Equipamiento de tenis",
+            "fr": "\u00c9quipement de tennis",
+            "de": "Tennisausr\u00fcstung"
+        },
+        "hotel_facility_type_id": 215,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Badminton equipment",
+            "it": "Attrezzatura da badminton",
+            "es": "Equipamiento de b\u00e1dminton",
+            "fr": "\u00c9quipement de badminton",
+            "de": "Badmintonausr\u00fcstung"
+        },
+        "hotel_facility_type_id": 216,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Pet basket",
+            "it": "Cesta per animali",
+            "es": "Cesta para mascotas",
+            "fr": "Panier pour animaux de compagnie",
+            "de": "Haustierkorb"
+        },
+        "hotel_facility_type_id": 217,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Pet bowls",
+            "it": "Ciotole per animali",
+            "es": "Cuencos para mascotas",
+            "fr": "Gamelles pour animaux de compagnie",
+            "de": "Haustiersch\u00fcsseln"
+        },
+        "hotel_facility_type_id": 218,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Coffee house on site",
+            "it": "Caffetteria in loco",
+            "es": "Cafeter\u00eda en el establecimiento",
+            "fr": "Caf\u00e9 sur place",
+            "de": "Caf\u00e9 vor Ort"
+        },
+        "hotel_facility_type_id": 219,
+        "facility_type_id": 7
+    },
+    {
+        "name": {
+            "en-gb": "Sun loungers or beach chairs",
+            "it": "Sdraio o sedie a sdraio",
+            "es": "Tumbonas o sillas de playa",
+            "fr": "Chaises longues ou chaises de plage",
+            "de": "Sonnenliegen oder Strandst\u00fchle"
+        },
+        "hotel_facility_type_id": 220,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Sun umbrellas",
+            "it": "Ombrelloni",
+            "es": "Sombrillas",
+            "fr": "Parasols",
+            "de": "Sonnenschirme"
+        },
+        "hotel_facility_type_id": 221,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Outdoor furniture",
+            "it": "Arredi da esterno",
+            "es": "Mobiliario exterior",
+            "fr": "Mobilier ext\u00e9rieur",
+            "de": "Gartenm\u00f6bel"
+        },
+        "hotel_facility_type_id": 222,
+        "facility_type_id": 24
+    },
+    {
+        "name": {
+            "en-gb": "Fence around pool",
+            "it": "Recinzione attorno alla piscina",
+            "es": "Valla alrededor de la piscina",
+            "fr": "Cl\u00f4ture autour de la piscine",
+            "de": "Zaun um den Pool"
+        },
+        "hotel_facility_type_id": 223,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Picnic area",
+            "it": "Area picnic",
+            "es": "Zona de p\u00edcnic",
+            "fr": "Aire de pique-nique",
+            "de": "Picknickbereich"
+        },
+        "hotel_facility_type_id": 224,
+        "facility_type_id": 24
+    },
+    {
+        "name": {
+            "en-gb": "Outdoor fireplace",
+            "it": "Camino all'aperto",
+            "es": "Chimenea exterior",
+            "fr": "Chemin\u00e9e ext\u00e9rieure",
+            "de": "Au\u00dfenkamin"
+        },
+        "hotel_facility_type_id": 225,
+        "facility_type_id": 24
+    },
+    {
+        "name": {
+            "en-gb": "Beauty Services",
+            "it": "Servizi di bellezza",
+            "es": "Servicios de belleza",
+            "fr": "Services beaut\u00e9",
+            "de": "Sch\u00f6nheitsbehandlungen"
+        },
+        "hotel_facility_type_id": 226,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Facial treatments",
+            "it": "Trattamenti per il viso",
+            "es": "Tratamientos faciales",
+            "fr": "Soins du visage",
+            "de": "Gesichtsbehandlungen"
+        },
+        "hotel_facility_type_id": 227,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Waxing services",
+            "it": "Servizi di depilazione",
+            "es": "Servicios de depilaci\u00f3n",
+            "fr": "Services d'\u00e9pilation",
+            "de": "Enthaarungsdienste"
+        },
+        "hotel_facility_type_id": 228,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Make up services",
+            "it": "Servizi di trucco",
+            "es": "Servicios de maquillaje",
+            "fr": "Services de maquillage",
+            "de": "Make-up-Dienste"
+        },
+        "hotel_facility_type_id": 229,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Hair treatments",
+            "it": "Trattamenti per capelli",
+            "es": "Tratamientos capilares",
+            "fr": "Soins capillaires",
+            "de": "Haarbehandlungen"
+        },
+        "hotel_facility_type_id": 230,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Manicure",
+            "it": "Manicure",
+            "es": "Manicura",
+            "fr": "Manucure",
+            "de": "Manik\u00fcre"
+        },
+        "hotel_facility_type_id": 231,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Pedicure",
+            "it": "Pedicure",
+            "es": "Pedicura",
+            "fr": "P\u00e9dicure",
+            "de": "Pedik\u00fcre"
+        },
+        "hotel_facility_type_id": 232,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Hair cut",
+            "it": "Taglio di capelli",
+            "es": "Corte de pelo",
+            "fr": "Coupe de cheveux",
+            "de": "Haarschnitt"
+        },
+        "hotel_facility_type_id": 233,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Hair colouring",
+            "it": "Colorazione capelli",
+            "es": "Coloraci\u00f3n del cabello",
+            "fr": "Coloration des cheveux",
+            "de": "Haarf\u00e4rben"
+        },
+        "hotel_facility_type_id": 234,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Hair styling",
+            "it": "Acconciature",
+            "es": "Peinado",
+            "fr": "Coiffure",
+            "de": "Haarstyling"
+        },
+        "hotel_facility_type_id": 235,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Body treatments",
+            "it": "Trattamenti per il corpo",
+            "es": "Tratamientos corporales",
+            "fr": "Soins du corps",
+            "de": "K\u00f6rperbehandlungen"
+        },
+        "hotel_facility_type_id": 236,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Body scrub",
+            "it": "Scrub corpo",
+            "es": "Exfoliaci\u00f3n corporal",
+            "fr": "Gommage corporel",
+            "de": "K\u00f6rperpeeling"
+        },
+        "hotel_facility_type_id": 237,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Body wrap",
+            "it": "Bendaggi corpo",
+            "es": "Envoltura corporal",
+            "fr": "Enveloppement corporel",
+            "de": "K\u00f6rperwickel"
+        },
+        "hotel_facility_type_id": 238,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Light therapy",
+            "it": "Terapia della luce",
+            "es": "Terapia de luz",
+            "fr": "Th\u00e9rapie par la lumi\u00e8re",
+            "de": "Lichttherapie"
+        },
+        "hotel_facility_type_id": 239,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Spa facilities",
+            "it": "Servizi spa",
+            "es": "Instalaciones de spa",
+            "fr": "Installations de spa",
+            "de": "Spabereich"
+        },
+        "hotel_facility_type_id": 240,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Steam room",
+            "it": "Bagno turco",
+            "es": "Ba\u00f1o de vapor",
+            "fr": "Hammam",
+            "de": "Dampfbad"
+        },
+        "hotel_facility_type_id": 241,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Spa lounge/relaxation area",
+            "it": "Lounge/area relax spa",
+            "es": "Sal\u00f3n de spa/zona de relajaci\u00f3n",
+            "fr": "Salon de spa/zone de relaxation",
+            "de": "Spa-Lounge/Entspannungsbereich"
+        },
+        "hotel_facility_type_id": 242,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Foot bath",
+            "it": "Pediluvio",
+            "es": "Ba\u00f1o de pies",
+            "fr": "Bain de pieds",
+            "de": "Fu\u00dfbad"
+        },
+        "hotel_facility_type_id": 243,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Spa/wellness packages",
+            "it": "Pacchetti spa/benessere",
+            "es": "Paquetes de spa/bienestar",
+            "fr": "Forfaits spa/bien-\u00eatre",
+            "de": "Spa-/Wellnesspakete"
+        },
+        "hotel_facility_type_id": 244,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Back massage",
+            "it": "Massaggio alla schiena",
+            "es": "Masaje de espalda",
+            "fr": "Massage du dos",
+            "de": "R\u00fcckenmassage"
+        },
+        "hotel_facility_type_id": 245,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Neck massage",
+            "it": "Massaggio al collo",
+            "es": "Masaje de cuello",
+            "fr": "Massage du cou",
+            "de": "Nackenmassage"
+        },
+        "hotel_facility_type_id": 246,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Foot massage",
+            "it": "Massaggio ai piedi",
+            "es": "Masaje de pies",
+            "fr": "Massage des pieds",
+            "de": "Fu\u00dfmassage"
+        },
+        "hotel_facility_type_id": 247,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Couples massage",
+            "it": "Massaggio di coppia",
+            "es": "Masaje en pareja",
+            "fr": "Massage en couple",
+            "de": "Paarmassage"
+        },
+        "hotel_facility_type_id": 248,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Head massage",
+            "it": "Massaggio alla testa",
+            "es": "Masaje de cabeza",
+            "fr": "Massage de la t\u00eate",
+            "de": "Kopfmassage"
+        },
+        "hotel_facility_type_id": 249,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Hand massage",
+            "it": "Massaggio alle mani",
+            "es": "Masaje de manos",
+            "fr": "Massage des mains",
+            "de": "Handmassage"
+        },
+        "hotel_facility_type_id": 250,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Full body massage",
+            "it": "Massaggio corpo intero",
+            "es": "Masaje corporal completo",
+            "fr": "Massage corporel int\u00e9gral",
+            "de": "Ganzk\u00f6rpermassage"
+        },
+        "hotel_facility_type_id": 251,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Massage chair",
+            "it": "Poltrona massaggiante",
+            "es": "Silla de masajes",
+            "fr": "Fauteuil de massage",
+            "de": "Massagestuhl"
+        },
+        "hotel_facility_type_id": 252,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Fitness",
+            "it": "Fitness",
+            "es": "Gimnasia",
+            "fr": "Fitness",
+            "de": "Fitness"
+        },
+        "hotel_facility_type_id": 253,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Yoga classes",
+            "it": "Corsi di yoga",
+            "es": "Clases de yoga",
+            "fr": "Cours de yoga",
+            "de": "Yogakurse"
+        },
+        "hotel_facility_type_id": 254,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Fitness classes",
+            "it": "Corsi di fitness",
+            "es": "Clases de gimnasia",
+            "fr": "Cours de fitness",
+            "de": "Fitnesskurse"
+        },
+        "hotel_facility_type_id": 255,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Personal trainer",
+            "it": "Personal trainer",
+            "es": "Entrenador personal",
+            "fr": "Entra\u00eeneur personnel",
+            "de": "Personal Trainer"
+        },
+        "hotel_facility_type_id": 256,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Fitness/spa locker rooms",
+            "it": "Spogliatoi fitness/spa",
+            "es": "Vestuario de gimnasio/spa",
+            "fr": "Vestiaires de fitness/spa",
+            "de": "Fitness-/Spa-Umkleider\u00e4ume"
+        },
+        "hotel_facility_type_id": 257,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Kids' pool",
+            "it": "Piscina per bambini",
+            "es": "Piscina infantil",
+            "fr": "Piscine pour enfants",
+            "de": "Kinderbecken"
+        },
+        "hotel_facility_type_id": 258,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Swimming pool",
+            "it": "Piscina",
+            "es": "Piscina",
+            "fr": "Piscine",
+            "de": "Schwimmbad"
+        },
+        "hotel_facility_type_id": 301,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Beach",
+            "it": "Spiaggia",
+            "es": "Playa",
+            "fr": "Plage",
+            "de": "Strand"
+        },
+        "hotel_facility_type_id": 302,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Shuttle service",
+            "it": "Servizio navetta",
+            "es": "Servicio de traslado",
+            "fr": "Service de navette",
+            "de": "Shuttleservice"
+        },
+        "hotel_facility_type_id": 304,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Game drives",
+            "it": "Safari",
+            "es": "Safaris",
+            "fr": "Safaris",
+            "de": "Safaris"
+        },
+        "hotel_facility_type_id": 306,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Temporary art galleries",
+            "it": "Gallerie d'arte temporanee",
+            "es": "Galer\u00edas de arte temporales",
+            "fr": "Galeries d'art temporaires",
+            "de": "Tempor\u00e4re Kunstgalerien"
+        },
+        "hotel_facility_type_id": 400,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Pub crawls",
+            "it": "Giro dei pub",
+            "es": "Rutas de bares",
+            "fr": "Tourn\u00e9es des bars",
+            "de": "Kneipentouren"
+        },
+        "hotel_facility_type_id": 401,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Stand-up comedy",
+            "it": "Stand-up comedy",
+            "es": "Mon\u00f3logos",
+            "fr": "Stand-up comedy",
+            "de": "Stand-up-Comedy"
+        },
+        "hotel_facility_type_id": 402,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Movie nights",
+            "it": "Serate cinema",
+            "es": "Noches de pel\u00edculas",
+            "fr": "Soir\u00e9es cin\u00e9ma",
+            "de": "Filmabende"
+        },
+        "hotel_facility_type_id": 403,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Walking tours",
+            "it": "Tour a piedi",
+            "es": "Tours a pie",
+            "fr": "Visites \u00e0 pied",
+            "de": "Wandertouren"
+        },
+        "hotel_facility_type_id": 404,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Bike tours",
+            "it": "Tour in bicicletta",
+            "es": "Tours en bicicleta",
+            "fr": "Tours \u00e0 v\u00e9lo",
+            "de": "Radtouren"
+        },
+        "hotel_facility_type_id": 405,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Themed dinner nights",
+            "it": "Serate a tema",
+            "es": "Noches de cenas tem\u00e1ticas",
+            "fr": "D\u00eeners \u00e0 th\u00e8me",
+            "de": "Themenabende"
+        },
+        "hotel_facility_type_id": 406,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Happy hour",
+            "it": "Happy hour",
+            "es": "Happy hour",
+            "fr": "Happy hour",
+            "de": "Happy Hour"
+        },
+        "hotel_facility_type_id": 407,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Tour or class about local culture",
+            "it": "Tour o lezione sulla cultura locale",
+            "es": "Visita o clase sobre la cultura local",
+            "fr": "Visite ou cours sur la culture locale",
+            "de": "Tour oder Kurs \u00fcber die lokale Kultur"
+        },
+        "hotel_facility_type_id": 408,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Cooking class",
+            "it": "Corso di cucina",
+            "es": "Clase de cocina",
+            "fr": "Cours de cuisine",
+            "de": "Kochkurs"
+        },
+        "hotel_facility_type_id": 409,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Live music/performance",
+            "it": "Musica/performance dal vivo",
+            "es": "M\u00fasica en directo/actuaci\u00f3n",
+            "fr": "Musique/spectacle en direct",
+            "de": "Live-Musik/Auff\u00fchrung"
+        },
+        "hotel_facility_type_id": 410,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Live sport events (broadcast)",
+            "it": "Eventi sportivi in diretta (trasmessi)",
+            "es": "Eventos deportivos en directo (emisi\u00f3n)",
+            "fr": "\u00c9v\u00e9nements sportifs en direct (diffusion)",
+            "de": "Live-Sport\u00fcbertragungen"
+        },
+        "hotel_facility_type_id": 411,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Archery",
+            "it": "Tiro con l'arco",
+            "es": "Tiro con arco",
+            "fr": "Tir \u00e0 l'arc",
+            "de": "Bogenschie\u00dfen"
+        },
+        "hotel_facility_type_id": 412,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Aerobics",
+            "it": "Aerobica",
+            "es": "Aer\u00f3bic",
+            "fr": "A\u00e9robic",
+            "de": "Aerobic"
+        },
+        "hotel_facility_type_id": 413,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "Bingo",
+            "it": "Bingo",
+            "es": "Bingo",
+            "fr": "Bingo",
+            "de": "Bingo"
+        },
+        "hotel_facility_type_id": 414,
+        "facility_type_id": 2
+    },
+    {
+        "name": {
+            "en-gb": "24-hour security",
+            "it": "Sicurezza 24 ore su 24",
+            "es": "Seguridad 24 horas",
+            "fr": "S\u00e9curit\u00e9 24h/24",
+            "de": "24-Stunden-Sicherheit"
+        },
+        "hotel_facility_type_id": 418,
+        "facility_type_id": 34
+    },
+    {
+        "name": {
+            "en-gb": "Key access",
+            "it": "Accesso tramite chiave",
+            "es": "Acceso mediante llave",
+            "fr": "Acc\u00e8s par cl\u00e9",
+            "de": "Schl\u00fcsselzugang"
+        },
+        "hotel_facility_type_id": 419,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Key card access",
+            "it": "Accesso con scheda magnetica",
+            "es": "Acceso con tarjeta",
+            "fr": "Acc\u00e8s par carte",
+            "de": "Zugang mit Schl\u00fcsselkarte"
+        },
+        "hotel_facility_type_id": 420,
+        "facility_type_id": 29
+    },
+    {
+        "name": {
+            "en-gb": "Security alarm",
+            "it": "Allarme di sicurezza",
+            "es": "Alarma de seguridad",
+            "fr": "Alarme de s\u00e9curit\u00e9",
+            "de": "Sicherheitsalarm"
+        },
+        "hotel_facility_type_id": 421,
+        "facility_type_id": 34
+    },
+    {
+        "name": {
+            "en-gb": "Smoke alarms",
+            "it": "Allarme antifumo",
+            "es": "Detectores de humo",
+            "fr": "D\u00e9tecteurs de fum\u00e9e",
+            "de": "Rauchmelder"
+        },
+        "hotel_facility_type_id": 422,
+        "facility_type_id": 34
+    },
+    {
+        "name": {
+            "en-gb": "CCTV in common areas",
+            "it": "Videosorveglianza nelle aree comuni",
+            "es": "C\u00e1maras de seguridad en las zonas comunes",
+            "fr": "Cam\u00e9ras de surveillance dans les parties communes",
+            "de": "CCTV in \u00f6ffentlichen Bereichen"
+        },
+        "hotel_facility_type_id": 423,
+        "facility_type_id": 34
+    },
+    {
+        "name": {
+            "en-gb": "CCTV outside property",
+            "it": "Videosorveglianza esterna",
+            "es": "C\u00e1maras de seguridad en el exterior",
+            "fr": "Cam\u00e9ras de surveillance \u00e0 l'ext\u00e9rieur",
+            "de": "CCTV au\u00dferhalb der Unterkunft"
+        },
+        "hotel_facility_type_id": 424,
+        "facility_type_id": 34
+    },
+    {
+        "name": {
+            "en-gb": "Fire extinguishers",
+            "it": "Estintori",
+            "es": "Extintores",
+            "fr": "Extincteurs",
+            "de": "Feuerl\u00f6scher"
+        },
+        "hotel_facility_type_id": 425,
+        "facility_type_id": 34
+    },
+    {
+        "name": {
+            "en-gb": "Bath/Hot spring",
+            "it": "Bagno/terme",
+            "es": "Ba\u00f1o/aguas termales",
+            "fr": "Bain/source thermale",
+            "de": "Bad/Thermalquelle"
+        },
+        "hotel_facility_type_id": 431,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Private bath",
+            "it": "Bagno privato",
+            "es": "Ba\u00f1o privado",
+            "fr": "Bain priv\u00e9",
+            "de": "Privates Bad"
+        },
+        "hotel_facility_type_id": 432,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Swimming Pool",
+            "it": "Piscina",
+            "es": "Piscina",
+            "fr": "Piscine",
+            "de": "Schwimmbad"
+        },
+        "hotel_facility_type_id": 433,
+        "facility_type_id": 21
+    },
+    {
+        "name": {
+            "en-gb": "Bicycle rental",
+            "it": "Noleggio biciclette",
+            "es": "Alquiler de bicicletas",
+            "fr": "Location de v\u00e9los",
+            "de": "Fahrradverleih"
+        },
+        "hotel_facility_type_id": 447,
+        "facility_type_id": 22
+    },
+    {
+        "name": {
+            "en-gb": "Use of cleaning chemicals that are effective against Coronavirus",
+            "it": "Utilizzo di prodotti chimici efficaci contro il Coronavirus",
+            "es": "Uso de productos qu\u00edmicos de limpieza efectivos contra el coronavirus",
+            "fr": "Utilisation de produits chimiques de nettoyage efficaces contre le coronavirus",
+            "de": "Verwendung von Reinigungsmitteln, die gegen Coronaviren wirksam sind"
+        },
+        "hotel_facility_type_id": 449,
+        "facility_type_id": 40
+    },
+    {
+        "name": {
+            "en-gb": "Linens, towels and laundry washed in accordance with local authority guidelines",
+            "it": "Biancheria, asciugamani e bucato lavati secondo le linee guida delle autorit\u00e0 locali",
+            "es": "Ropa de cama, toallas y lavander\u00eda lavadas seg\u00fan las indicaciones de las autoridades locales",
+            "fr": "Linge de lit, serviettes et lessive lav\u00e9s conform\u00e9ment aux directives des autorit\u00e9s locales",
+            "de": "Bettw\u00e4sche, Handt\u00fccher und W\u00e4sche werden gem\u00e4\u00df den Richtlinien der \u00f6rtlichen Beh\u00f6rden gewaschen"
+        },
+        "hotel_facility_type_id": 450,
+        "facility_type_id": 40
+    },
+    {
+        "name": {
+            "en-gb": "Guest accommodation is disinfected between stays",
+            "it": "Alloggio disinfettato tra un soggiorno e l'altro",
+            "es": "El alojamiento de los hu\u00e9spedes se desinfecta entre estancias",
+            "fr": "Le logement des clients est d\u00e9sinfect\u00e9 entre les s\u00e9jours",
+            "de": "Die G\u00e4steunterkunft wird zwischen den Aufenthalten desinfiziert"
+        },
+        "hotel_facility_type_id": 451,
+        "facility_type_id": 40
+    },
+    {
+        "name": {
+            "en-gb": "Guest accommodation sealed after cleaning",
+            "it": "Alloggio sigillato dopo la pulizia",
+            "es": "El alojamiento de los hu\u00e9spedes se sella despu\u00e9s de la limpieza",
+            "fr": "H\u00e9bergement des clients scell\u00e9 apr\u00e8s le nettoyage",
+            "de": "G\u00e4steunterkunft wird nach der Reinigung versiegelt"
+        },
+        "hotel_facility_type_id": 452,
+        "facility_type_id": 40
+    },
+    {
+        "name": {
+            "en-gb": "Physical distancing in dining areas",
+            "it": "Distanziamento fisico nelle aree di ristoro",
+            "es": "Distanciamiento f\u00edsico en las zonas de comedor",
+            "fr": "Distanciation physique dans les espaces de restauration",
+            "de": "Physische Distanzierung in den Speisebereichen"
+        },
+        "hotel_facility_type_id": 453,
+        "facility_type_id": 41
+    },
+    {
+        "name": {
+            "en-gb": "Food can be delivered to guest accommodation",
+            "it": "Cibo consegnato presso l'alloggio degli ospiti",
+            "es": "La comida se puede entregar en el alojamiento de los hu\u00e9spedes",
+            "fr": "La nourriture peut \u00eatre livr\u00e9e dans l'h\u00e9bergement des clients",
+            "de": "Essen kann in die G\u00e4steunterkunft geliefert werden"
+        },
+        "hotel_facility_type_id": 454,
+        "facility_type_id": 41
+    },
+    {
+        "name": {
+            "en-gb": "Staff follow all safety protocols as directed by local authorities",
+            "it": "Lo staff segue tutti i protocolli di sicurezza come indicato dalle autorit\u00e0 locali",
+            "es": "El personal sigue todos los protocolos de seguridad indicados por las autoridades locales",
+            "fr": "Le personnel respecte tous les protocoles de s\u00e9curit\u00e9 comme indiqu\u00e9 par les autorit\u00e9s locales",
+            "de": "Das Personal befolgt alle Sicherheitsprotokolle, wie von den \u00f6rtlichen Beh\u00f6rden vorgeschrieben"
+        },
+        "hotel_facility_type_id": 455,
+        "facility_type_id": 37
+    },
+    {
+        "name": {
+            "en-gb": "Shared stationery such as printed menus, magazines, pens, and paper removed",
+            "it": "Cancelleria in comune come menu stampati, riviste, penne e carta rimossa",
+            "es": "Se ha eliminado el material compartido, como men\u00fas impresos, revistas, bol\u00edgrafos y papel",
+            "fr": "Papeterie partag\u00e9e comme les menus imprim\u00e9s, magazines, stylos et papier supprim\u00e9s",
+            "de": "Geteilte B\u00fcroartikel wie gedruckte Men\u00fcs, Zeitschriften, Stifte und Papier wurden entfernt"
+        },
+        "hotel_facility_type_id": 456,
+        "facility_type_id": 37
+    },
+    {
+        "name": {
+            "en-gb": "Hand sanitizer in guest accommodation and key areas",
+            "it": "Gel disinfettante nelle camere e nelle principali aree",
+            "es": "Desinfectante de manos en el alojamiento de los hu\u00e9spedes y en zonas clave",
+            "fr": "D\u00e9sinfectant pour les mains dans l'h\u00e9bergement des clients et les zones cl\u00e9s",
+            "de": "Handdesinfektionsmittel in der G\u00e4steunterkunft und in wichtigen Bereichen"
+        },
+        "hotel_facility_type_id": 457,
+        "facility_type_id": 37
+    },
+    {
+        "name": {
+            "en-gb": "Process in place to check health of guests",
+            "it": "Processo in atto per controllare la salute degli ospiti",
+            "es": "Proceso para comprobar la salud de los hu\u00e9spedes",
+            "fr": "Processus en place pour v\u00e9rifier la sant\u00e9 des clients",
+            "de": "Verfahren zur \u00dcberpr\u00fcfung des Gesundheitszustands der G\u00e4ste"
+        },
+        "hotel_facility_type_id": 458,
+        "facility_type_id": 37
+    },
+    {
+        "name": {
+            "en-gb": "First aid kit available",
+            "it": "Kit di pronto soccorso disponibile",
+            "es": "Kit de primeros auxilios disponible",
+            "fr": "Trousse de premiers soins disponible",
+            "de": "Erste-Hilfe-Set verf\u00fcgbar"
+        },
+        "hotel_facility_type_id": 459,
+        "facility_type_id": 37
+    },
+    {
+        "name": {
+            "en-gb": "Contactless check-in/check-out",
+            "it": "Check-in/check-out senza contatto",
+            "es": "Registro de entrada y salida sin contacto",
+            "fr": "Enregistrement/d\u00e9part sans contact",
+            "de": "Kontaktloser Check-in/Check-out"
+        },
+        "hotel_facility_type_id": 460,
+        "facility_type_id": 39
+    },
+    {
+        "name": {
+            "en-gb": "Cashless payment available",
+            "it": "Pagamento senza contanti disponibile",
+            "es": "Pago sin efectivo disponible",
+            "fr": "Paiement sans num\u00e9raire disponible",
+            "de": "Bargeldloses Bezahlen verf\u00fcgbar"
+        },
+        "hotel_facility_type_id": 461,
+        "facility_type_id": 39
+    },
+    {
+        "name": {
+            "en-gb": "Physical distancing rules followed",
+            "it": "Rispetto delle regole di distanziamento fisico",
+            "es": "Se siguen las normas de distanciamiento f\u00edsico",
+            "fr": "R\u00e8gles de distanciation physique suivies",
+            "de": "Einhaltung der Abstandsregeln"
+        },
+        "hotel_facility_type_id": 462,
+        "facility_type_id": 39
+    },
+    {
+        "name": {
+            "en-gb": "Mobile app for room service",
+            "it": "App mobile per il servizio in camera",
+            "es": "App m\u00f3vil para el servicio de habitaciones",
+            "fr": "Application mobile pour le service d'\u00e9tage",
+            "de": "Mobile App f\u00fcr den Zimmerservice"
+        },
+        "hotel_facility_type_id": 463,
+        "facility_type_id": 39
+    },
+    {
+        "name": {
+            "en-gb": "Screens or physical barriers placed between staff and guests in appropriate areas",
+            "it": "Schermi o barriere fisiche tra il personale e gli ospiti nelle aree appropriate",
+            "es": "Pantallas o barreras f\u00edsicas entre el personal y los hu\u00e9spedes en las zonas apropiadas",
+            "fr": "Des \u00e9crans ou barri\u00e8res physiques sont plac\u00e9s entre le personnel et les clients dans les zones appropri\u00e9es",
+            "de": "Abtrennungen oder physische Barrieren wurden in den entsprechenden Bereichen zwischen dem Personal und den G\u00e4sten angebracht"
+        },
+        "hotel_facility_type_id": 464,
+        "facility_type_id": 39
+    },
+    {
+        "name": {
+            "en-gb": "Invoice provided",
+            "it": "Fattura fornita",
+            "es": "Factura proporcionada",
+            "fr": "Facture fournie",
+            "de": "Rechnung gestellt"
+        },
+        "hotel_facility_type_id": 465,
+        "facility_type_id": 23
+    },
+    {
+        "name": {
+            "en-gb": "Property is cleaned by professional cleaning companies",
+            "it": "La struttura viene pulita da aziende di pulizia professionali",
+            "es": "El alojamiento lo limpian empresas de limpieza profesionales",
+            "fr": "La propri\u00e9t\u00e9 est nettoy\u00e9e par des soci\u00e9t\u00e9s de nettoyage professionnelles",
+            "de": "Die Unterkunft wird von professionellen Reinigungsunternehmen gereinigt"
+        },
+        "hotel_facility_type_id": 466,
+        "facility_type_id": 40
+    },
+    {
+        "name": {
+            "en-gb": "All plates, cutlery, glasses and other tableware have been sanitized",
+            "it": "Tutte le stoviglie, posate, bicchieri e altro sono stati sanificati",
+            "es": "Se han desinfectado todos los platos, cubiertos, vasos y dem\u00e1s vajilla",
+            "fr": "Toutes les assiettes, couverts, verres et autres articles de table ont \u00e9t\u00e9 d\u00e9sinfect\u00e9s",
+            "de": "Alle Teller, Besteck, Gl\u00e4ser und anderes Geschirr wurden desinfiziert"
+        },
+        "hotel_facility_type_id": 467,
+        "facility_type_id": 41
+    },
+    {
+        "name": {
+            "en-gb": "Guests have the option to cancel any cleaning services for their accommodation during their stay",
+            "it": "Gli ospiti possono annullare i servizi di pulizia durante il soggiorno",
+            "es": "Los hu\u00e9spedes pueden cancelar el servicio de limpieza durante su estancia",
+            "fr": "Les clients ont la possibilit\u00e9 d'annuler tout service de m\u00e9nage pour leur h\u00e9bergement pendant leur s\u00e9jour",
+            "de": "G\u00e4ste k\u00f6nnen den Reinigungsservice f\u00fcr ihre Unterkunft w\u00e4hrend ihres Aufenthalts stornieren"
+        },
+        "hotel_facility_type_id": 468,
+        "facility_type_id": 40
+    },
+    {
+        "name": {
+            "en-gb": "Breakfast takeaway containers",
+            "it": "Contenitori per colazione da asporto",
+            "es": "Contenedores para llevar el desayuno",
+            "fr": "Contenants \u00e0 emporter pour le petit-d\u00e9jeuner",
+            "de": "Fr\u00fchst\u00fccksbeh\u00e4lter zum Mitnehmen"
+        },
+        "hotel_facility_type_id": 484,
+        "facility_type_id": 41
+    },
+    {
+        "name": {
+            "en-gb": "Delivered food is securely covered",
+            "it": "Cibo consegnato \u00e8 coperto in modo sicuro",
+            "es": "La comida entregada est\u00e1 bien cubierta",
+            "fr": "La nourriture livr\u00e9e est bien couverte",
+            "de": "Geliefertes Essen ist sicher abgedeckt"
+        },
+        "hotel_facility_type_id": 485,
+        "facility_type_id": 41
+    },
+    {
+        "name": {
+            "en-gb": "Access to health care professionals",
+            "it": "Accesso a professionisti sanitari",
+            "es": "Acceso a profesionales sanitarios",
+            "fr": "Acc\u00e8s \u00e0 des professionnels de sant\u00e9",
+            "de": "Zugang zu medizinischem Fachpersonal"
+        },
+        "hotel_facility_type_id": 486,
+        "facility_type_id": 37
+    },
+    {
+        "name": {
+            "en-gb": "Thermometers for guests provided by property",
+            "it": "Termometri per ospiti forniti dalla struttura",
+            "es": "Term\u00f3metros para hu\u00e9spedes proporcionados por el alojamiento",
+            "fr": "Thermom\u00e8tres pour les clients fournis par l'\u00e9tablissement",
+            "de": "Thermometer f\u00fcr G\u00e4ste, bereitgestellt von der Unterkunft"
+        },
+        "hotel_facility_type_id": 487,
+        "facility_type_id": 37
+    },
+    {
+        "name": {
+            "en-gb": "Face masks for guests available",
+            "it": "Maschere per il viso disponibili per gli ospiti",
+            "es": "Mascarillas disponibles para los hu\u00e9spedes",
+            "fr": "Masques disponibles pour les clients",
+            "de": "Gesichtsmasken f\u00fcr G\u00e4ste verf\u00fcgbar"
+        },
+        "hotel_facility_type_id": 488,
+        "facility_type_id": 37
+    }
+]
