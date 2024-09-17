@@ -45,24 +45,3 @@ def map_facility_ids(facility_ids: List[int], facilities_list: List[Dict], lang:
         for facility_id in facility_ids
         if facility_map.get(facility_id) is not None or return_id
     ]
-
-
-# if __name__ == "__main__":
-#     def main():
-#         # Define the path to your data.json file
-#         data_file = '../../static/facilities.json'
-#
-#         # Open and load the JSON file
-#         with open(data_file, 'r', encoding='utf-8') as file:
-#             facilities = json.load(file)
-#
-#         # Example usage of map_facility_ids function
-#         facility_ids = [2, 3, 4, 5]
-#         facilities_list = facilities  # Assuming facilities is a list of facility dictionaries
-#         lang = 'en-gb'
-#         mapped_facilities = map_facility_ids(facility_ids, facilities_list, lang)
-#
-#         print(mapped_facilities)
-#
-#     main()
-

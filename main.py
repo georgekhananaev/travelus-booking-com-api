@@ -4,9 +4,11 @@ from starlette.config import Config
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from auth.fastapi_auth import verify_credentials, get_secret_key
+from db.mdb_client import client_motors
 from routers import hotels, hotels_travel_us
-from db.clientRedis import AsyncRedisClient
+from db.redis_client import AsyncRedisClient
 from dotenv import load_dotenv
+
 
 # Custom FastAPI app to hold state
 class CustomFastAPI(FastAPI):
@@ -51,7 +53,9 @@ app.include_router(hotels_travel_us.router, prefix=f'{prefix_path}/tus', depende
 # Startup event to initialize Redis
 @app.on_event("startup")
 async def startup():
+    # logger.info("Starting up the server & connecting to redis & mongodb servers")
     app.redis_client = await AsyncRedisClient.get_instance()
+    app.mdb_client = client_motors
 
 
 # Shutdown event to close Redis connection

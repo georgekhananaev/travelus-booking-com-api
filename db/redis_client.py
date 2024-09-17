@@ -1,5 +1,6 @@
 import redis.asyncio as aioredis
 
+
 class AsyncRedisClient:
     _instance = None
 

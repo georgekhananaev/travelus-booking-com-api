@@ -1,5 +1,6 @@
 import json
 from typing import List, Dict
+from dotenv import load_dotenv
 
 
 def transform_data(input_data):
@@ -181,7 +182,7 @@ def transform_room_data(room_data: List[Dict]) -> Dict:
 
 if __name__ == "__main__":
     # Define the path to your data.json file
-    data_file = '../../static/sample_rooms.json'
+    data_file = '../static/sample_rooms.json'
 
     # Open and load the JSON file
     with open(data_file, 'r', encoding='utf-8') as file:

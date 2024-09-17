@@ -4,7 +4,7 @@ from fastapi import HTTPException, Depends, security, status
 from fastapi.security import HTTPBasicCredentials, HTTPBasic
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
-from db.clientRedis import AsyncRedisClient
+from db.redis_client import AsyncRedisClient
 
 load_dotenv()
 
