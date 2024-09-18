@@ -20,7 +20,7 @@ else:
     print("This is the production environment.")
 
 # MongoDB clients
-client = MongoClient(connection_string)  # Synchronous MongoDB client
+# client = MongoClient(connection_string)  # Synchronous MongoDB client
 client_motors = AsyncIOMotorClient(connection_string)  # Asynchronous MongoDB client
 
 # Define the booking database for async operations
@@ -29,9 +29,9 @@ booking_db = client_motors.booking  # The database name is 'booking'
 # Test connection
 if __name__ == '__main__':
     try:
-        # Synchronous connection test
-        print("Testing synchronous MongoDB connection...")
-        print(client.server_info())  # This will print server information if connection is successful
+        # # Synchronous connection test
+        # print("Testing synchronous MongoDB connection...")
+        # print(client.server_info())  # This will print server information if connection is successful
 
         # Asynchronous connection test
         print("Testing asynchronous MongoDB connection...")

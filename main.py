@@ -50,12 +50,21 @@ app.include_router(hotels_travel_us.router, prefix=f'{prefix_path}/tus', depende
                    tags=["Travel US"])
 
 
-# Startup event to initialize Redis
 @app.on_event("startup")
 async def startup():
-    # logger.info("Starting up the server & connecting to redis & mongodb servers")
+    # Connect to Redis
     app.redis_client = await AsyncRedisClient.get_instance()
-    app.mdb_client = client_motors
+    app.mdb_client = client_motors.booking  # MongoDB client instance
+
+    # Clear all Redis cache
+    try:
+        await app.redis_client.flushdb()
+        print("Successfully cleared all Redis cache.")
+    except Exception as e:
+        print(f"Error clearing Redis cache: {str(e)}")
+
+    # # Optionally: Perform other startup tasks (e.g., connecting to MongoDB)
+    # print("Connected to MongoDB and Redis.")
 
 
 # Shutdown event to close Redis connection

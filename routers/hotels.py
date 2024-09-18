@@ -1,16 +1,17 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Request
 from datetime import datetime, timedelta
 from redis.asyncio import Redis
-from db.redis_client import AsyncRedisClient
 from db.rapidapi_client import get_data_or_cache
+from db.redis_client import AsyncRedisClient
 
 router = APIRouter()
 
 
 # 1. Endpoint to get hotel photos
 @router.get("/photos")
-async def get_hotel_photos(hotel_id: int = 4469654, locale: str = "en-gb",
-                           redis: Redis = Depends(AsyncRedisClient.get_instance)):
+async def get_hotel_photos(req: Request, hotel_id: int = 4469654, locale: str = "en-gb"):
+    redis = req.app.redis_client
+    # mongodb = req.app.redis_client
     params = {'hotel_id': hotel_id, 'locale': locale}
     cache_key = f"hotel_photos_{hotel_id}_{locale}"
     expire_seconds = int(timedelta(seconds=5).total_seconds())
