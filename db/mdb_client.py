@@ -3,31 +3,48 @@ from dotenv import load_dotenv
 from motor.motor_asyncio import AsyncIOMotorClient
 from pymongo import MongoClient
 
-load_dotenv()  # loading environment variables
+# Load environment variables from .env file
+load_dotenv()
 
+# Get the environment type (development or production)
 environment = os.getenv('environment')
 
-if environment == 'dev':
+# Set the connection string based on the environment
+if environment == 'development':
+    # Connection string for the development environment
     connection_string = 'mongodb://george:george@localhost:27017/'
     print("This is the development environment.")
 else:
-    connection_string = f'mongodb+srv://{os.environ["MDB_USERNAME"]}:{os.environ["MDB_PASSWORD"]}@{os.environ["MDB_SERVER"]}/'  # noqa
-    print("This is production environment.")
+    # Connection string for the production environment
+    connection_string = f'mongodb+srv://{os.environ["MDB_USERNAME"]}:{os.environ["MDB_PASSWORD"]}@{os.environ["MDB_SERVER"]}/'
+    print("This is the production environment.")
 
-# clients
-client = MongoClient(connection_string)  # setting mongodb client
-client_motors = AsyncIOMotorClient(connection_string)  # setting async motors mongodb client
+# MongoDB clients
+client = MongoClient(connection_string)  # Synchronous MongoDB client
+client_motors = AsyncIOMotorClient(connection_string)  # Asynchronous MongoDB client
 
-# synchronous
-database = client['moonholidays']  # database name in mongodb
-customers_db = client['customers']
-finances_db = client['finances']
-requests_db = client['requests']
-messages_hub_db = client['messages_hub']
+# Define the booking database for async operations
+booking_db = client_motors.booking  # The database name is 'booking'
 
-# asynchronous
-moonholidays_motors = client_motors.moonholidays  # database name in mongodb
-customers_motors = client_motors.customers
-finances_motors = client_motors.finances
-requests_motors = client_motors.requests
-messages_hub_motors = client_motors.messages_hub
+# Test connection
+if __name__ == '__main__':
+    try:
+        # Synchronous connection test
+        print("Testing synchronous MongoDB connection...")
+        print(client.server_info())  # This will print server information if connection is successful
+
+        # Asynchronous connection test
+        print("Testing asynchronous MongoDB connection...")
+
+
+        async def test_async_connection():
+            await booking_db.command("ping")  # Send a ping to check the async connection
+            print("Asynchronous connection successful.")
+
+
+        import asyncio
+
+        asyncio.run(test_async_connection())  # Run the async test
+
+    except Exception as e:
+        print(f"Error occurred while connecting to MongoDB: {e}")

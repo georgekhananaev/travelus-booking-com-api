@@ -3,7 +3,7 @@ FROM python:3.12.4-slim
 
 # Metadata as labels
 LABEL maintainer="George Khananaev"
-LABEL description="A template FastAPI server with dark-themed docs, authentication, and Redis caching."
+LABEL description="FastAPI server with dark-themed docs, authentication, MongoDB and Redis, caching."
 
 # Set the working directory in the container
 WORKDIR /app
