@@ -171,6 +171,7 @@ async def mock_detail_hotel(
         hotel_ids: List[int] = Query(default=[4469654]),  # Accept a list of hotel IDs
         redis: Redis = Depends(AsyncRedisClient.get_instance),
         expire_hours: int = 72,  # Default to 72 hours if not provided
+        disable_google_translations: bool = True,  # Add disable_google_translations parameter with default False
         show_photos: bool = True,  # Add show_photos parameter with default True
         show_rooms: bool = True  # Add show_rooms parameter with default True
 ):
@@ -178,6 +179,7 @@ async def mock_detail_hotel(
     Endpoint to get hotel data in multiple languages and optionally include room and photo data for multiple hotels.
 
     Args:
+        disable_google_translations:
         expire_hours: Expiration time for caching data.
         hotel_ids (List[int]): A list of hotel IDs (default to [4469654]).
         redis (Redis): The Redis client instance.
@@ -280,7 +282,7 @@ async def mock_detail_hotel(
             )
 
             if room_data:
-                transformed_room_data = await transform_room_data(room_data)
+                transformed_room_data = await transform_room_data(room_data, disable_google_translations)
                 transformed_data["items"]["hotel"]["rooms"] = transformed_room_data["rooms"]
 
         # Append the transformed hotel data to the list

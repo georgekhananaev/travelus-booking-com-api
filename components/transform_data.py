@@ -130,13 +130,15 @@ async def transform_data(input_data):
     }
 
 
-async def transform_room_data(room_data: List[Union[RoomsData, Dict]]) -> Dict:
+async def transform_room_data(room_data: List[Union[RoomsData, Dict]],
+                              disable_google_translations: bool = False) -> Dict:
     """
     Transforms room data by combining block information with room-specific details
     into a list of room objects instead of using room_id as keys.
 
     Args:
     room_data (List[Union[RoomsData, Dict]]): List of room data models or dictionaries.
+    disable_google_translations (bool): If set to True, disables Google translations.
 
     Returns:
     Dict: Transformed room data combining block and room-specific details in a list of room objects.
@@ -147,11 +149,11 @@ async def transform_room_data(room_data: List[Union[RoomsData, Dict]]) -> Dict:
     for room in room_data:
         # Handle both RoomsData (Pydantic) or raw dict
         blocks = room.block if isinstance(room, RoomsData) else room.get('block', [])
-        rooms = room.rooms if isinstance(room, RoomsData) else room.get('rooms', {}) # noqa
+        rooms = room.rooms if isinstance(room, RoomsData) else room.get('rooms', {})  # noqa
 
         for block in blocks:
             # Handle both dict and Pydantic model
-            room_id = block.room_id if isinstance(block, RoomsData) else block.get('room_id', "") # noqa
+            room_id = block.room_id if isinstance(block, RoomsData) else block.get('room_id', "")  # noqa
             if not room_id:
                 continue  # Skip if room_id is missing
 
@@ -159,7 +161,7 @@ async def transform_room_data(room_data: List[Union[RoomsData, Dict]]) -> Dict:
             room_details = rooms.get(str(room_id), {})
 
             # Dynamic mapping of facilities from room details
-            facilities = room_details.get("facilities", []) # noqa
+            facilities = room_details.get("facilities", [])  # noqa
 
             # Combine photos from room details
             photos = room_details.get("photos", [])
@@ -171,43 +173,41 @@ async def transform_room_data(room_data: List[Union[RoomsData, Dict]]) -> Dict:
             highlights = room_details.get("highlights", [])
             description = room_details.get("description", "")
 
-            # Translate the name to multiple languages asynchronously
-            room_name = block.name if isinstance(block, RoomsData) else block.get("name", "") # noqa
+            # Translate the name to multiple languages asynchronously if translation is not disabled
+            room_name = block.name if isinstance(block, RoomsData) else block.get("name", "")  # noqa
 
-            # If the room name exists, translate it into all supported languages
-            if room_name:
+            if room_name and not disable_google_translations:
                 name_translations = await asyncio.gather(
                     *[async_translate(room_name, target_lang=lang) for lang in languages]
                 )
-
                 # Create a dictionary with translated names
                 name_translated = {lang: translation for lang, translation in zip(languages, name_translations)}
             else:
-                name_translated = {lang: "" for lang in languages}  # Empty names if no name exists
+                name_translated = {lang: room_name for lang in languages}  # Use original name if no translation
 
-            # Translate the description to multiple languages asynchronously
-            if description:
+            # Translate the description to multiple languages asynchronously if translation is not disabled
+            if description and not disable_google_translations:
                 description_translations = await asyncio.gather(
                     *[async_translate(description, target_lang=lang) for lang in languages]
                 )
-
-                # Create a dictionary with translated names
+                # Create a dictionary with translated descriptions
                 description_translated = {lang: translation for lang, translation in
                                           zip(languages, description_translations)}
             else:
-                description_translated = {lang: "" for lang in languages}  # Empty names if no name exists
+                description_translated = {lang: description for lang in
+                                          languages}  # Use original description if no translation
 
             # Create the transformed room structure and append to list
             rooms_transformed.append({
                 "hotel_id": room.hotel_id if isinstance(room, RoomsData) else room.get("hotel_id", ""),
                 "room_id": room_id,
-                "name": name_translated,  # Translated names
-                "description": description_translated,  # Translated descriptions or fallback to room name
-                "max_persons": block.nr_adults if isinstance(block, RoomsData) else block.get("nr_adults", 1), # noqa
+                "name": name_translated,  # Translated names or original name
+                "description": description_translated,  # Translated descriptions or original description
+                "max_persons": block.nr_adults if isinstance(block, RoomsData) else block.get("nr_adults", 1),  # noqa
                 "photos": photos,
                 "facilities": facilities,
-                "size_m2": block.room_surface_in_m2 if isinstance(block, RoomsData) else block.get("room_surface_in_m2", # noqa
-                                                                                                   1),
+                "size_m2": block.room_surface_in_m2 if isinstance(block, RoomsData) else block.get("room_surface_in_m2",
+                                                                                                   1),  # noqa
                 "private_bathroom_highlight": private_bathroom_highlight,
                 "children_and_beds_text": children_and_beds_text,
                 "bed_configurations": bed_configurations,
