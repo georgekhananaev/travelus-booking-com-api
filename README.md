@@ -57,6 +57,8 @@ This project is a FastAPI-based API that interacts with the Booking.com API to f
     - `show_photos` (default: `True`)
     - `show_rooms` (default: `True`)
 
+![API Usage](https://github.com/georgekhananaev/travelus-booking-com-api/blob/master/screenshots/api_usage.png?raw=true)
+
 ## Environment Variables
 
 Set the following environment variables in a `.env` file:
@@ -103,3 +105,7 @@ BEARER_SECRET_KEY=YOUR_SECRET_KEY
    docker-compose up --build
     ```
 3. Access the FastAPI Swagger UI at `http://localhost:8000/docs` and test the endpoints.
+
+# Copyrights
+Developed by George Khananaev for The Travel Office US, 2024
+This project was designed and developed to meet the needs of The Travel Office US, leveraging modern technologies such as FastAPI, Redis, and MongoDB to deliver a highly efficient and scalable hotel booking API. The solution was architected by George Khananaev in 2024, ensuring a robust and performance-driven API platform for seamless travel management and integration.
