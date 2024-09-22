@@ -104,7 +104,7 @@ BEARER_SECRET_KEY=YOUR_SECRET_KEY
     ```bash 
    docker-compose up --build
     ```
-3. Access the FastAPI Swagger UI at `http://localhost:8000/docs` and test the endpoints.
+3. Access the FastAPI Swagger UI at `http://localhost:8088/docs` and test the endpoints.
 
 # Copyrights
 Developed by George Khananaev for The Travel Office US, 2024

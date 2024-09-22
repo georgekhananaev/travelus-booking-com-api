@@ -15,12 +15,12 @@ services:
       dockerfile: Dockerfile
     container_name: "bookingcom"
     command: >
-      uvicorn main:app --host 0.0.0.0 --port 8026 --reload --workers 2
+      uvicorn main:app --host 0.0.0.0 --port 8088 --reload --workers 4
     volumes:
       - .:/app
       - ./logs:/var/log/app  # Map the local logs directory to /var/log/app in the container
     ports:
-      - "8026:8026"
+      - "8088:8088"
     depends_on:
       - redis
     env_file:
