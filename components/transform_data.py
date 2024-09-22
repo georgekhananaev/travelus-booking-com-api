@@ -1,10 +1,31 @@
 import json
-from typing import List, Dict
-from dotenv import load_dotenv
+from typing import List, Dict, Union
+
+from models.rooms import RoomsData
+from components.facilities import map_facility_ids, facilities
 
 
 def transform_data(input_data):
-    # print(input_data)
+    """
+    Transforms the input data to return the hotel data with facilities and other relevant information.
+
+    Args:
+    input_data: The raw hotel data that needs to be transformed.
+
+    Returns:
+    dict: Transformed hotel data with facilities mapped to their names.
+    """
+    languages = ['it', 'en', 'es', 'fr', 'de']
+
+    # Fetch facility IDs from the input data
+    facility_ids = list(
+        map(int, input_data.get("hotel_facilities", "").split(','))) if "hotel_facilities" in input_data else []
+
+    # Create facilities mapping for each language using map_facility_ids
+    facilities_transformed = {
+        lang: map_facility_ids(facility_ids, facilities, lang) for lang in languages
+    }
+
     return {
         "items": {
             "hotel": {
@@ -52,22 +73,7 @@ def transform_data(input_data):
                 "review_score": input_data.get("review_score", 0),
                 "review_nr": input_data.get("review_nr", 0),
                 "review_score_word": input_data.get("review_score_word", ""),
-                "facilities": {
-                    "it": {
-                        "typology": {
-                            "it": "",
-                            "en": "",
-                            "es": "",
-                            "fr": "",
-                            "de": ""
-                        },
-                        "items": ["", "", ""]
-                    },
-                    "en": {},
-                    "es": {},
-                    "fr": {},
-                    "de": {}
-                },
+                "facilities": facilities_transformed,  # Map facilities for each language
                 "number_of_rooms": 1,
                 "description": {
                     "it": "",
@@ -106,13 +112,7 @@ def transform_data(input_data):
                                 "url_square85": ""
                             }
                         ],
-                        "facilities": {
-                            "it": ["", "", ""],
-                            "en": ["", "", ""],
-                            "es": ["", "", ""],
-                            "fr": ["", "", ""],
-                            "de": ["", "", ""]
-                        },
+                        "facilities": facilities_transformed,  # Facilities for rooms as well
                         "size_m2": 1
                     }
                 ]
@@ -121,13 +121,13 @@ def transform_data(input_data):
     }
 
 
-def transform_room_data(room_data: List[Dict]) -> Dict:
+def transform_room_data(room_data: List[Union[RoomsData, Dict]]) -> Dict:
     """
     Transforms room data by combining block information with room-specific details
     into a list of room objects instead of using room_id as keys.
 
     Args:
-    room_data (List[Dict]): List of room data dictionaries containing both block and room-specific details.
+    room_data (List[Union[RoomsData, Dict]]): List of room data models or dictionaries.
 
     Returns:
     Dict: Transformed room data combining block and room-specific details in a list of room objects.
@@ -137,11 +137,13 @@ def transform_room_data(room_data: List[Dict]) -> Dict:
     languages = ["it", "en", "es", "fr", "de"]  # Supported languages
 
     for room in room_data:
-        blocks = room.get('block', [])
-        rooms = room.get('rooms', {})  # Get room-specific details from 'rooms' field
+        # Handle both RoomsData (Pydantic) or raw dict
+        blocks = room.block if isinstance(room, RoomsData) else room.get('block', [])
+        rooms = room.rooms if isinstance(room, RoomsData) else room.get('rooms', {})
 
         for block in blocks:
-            room_id = block.get("room_id", "")
+            # Handle both dict and Pydantic model
+            room_id = block.room_id if isinstance(block, RoomsData) else block.get('room_id', "")
             if not room_id:
                 continue  # Skip if room_id is missing
 
@@ -163,14 +165,18 @@ def transform_room_data(room_data: List[Dict]) -> Dict:
 
             # Create the transformed room structure and append to list
             rooms_transformed.append({
-                "hotel_id": room.get("hotel_id", ""),
+                "hotel_id": room.hotel_id if isinstance(room, RoomsData) else room.get("hotel_id", ""),
                 "room_id": room_id,
-                "name": {lang: block.get("name", "") for lang in languages},
-                "description": description if description else {lang: block.get("room_name", "") for lang in languages},
-                "max_persons": block.get("nr_adults", 1),
+                "name": {lang: block.name if isinstance(block, RoomsData) else block.get("name", "") for lang in
+                         languages},
+                "description": description if description else {
+                    lang: block.room_name if isinstance(block, RoomsData) else block.get("room_name", "") for lang in
+                    languages},
+                "max_persons": block.nr_adults if isinstance(block, RoomsData) else block.get("nr_adults", 1),
                 "photos": photos,
                 "facilities": facilities,
-                "size_m2": block.get("room_surface_in_m2", 1) if block.get("room_surface_in_m2") else {},
+                "size_m2": block.room_surface_in_m2 if isinstance(block, RoomsData) else block.get("room_surface_in_m2",
+                                                                                                   1),
                 "private_bathroom_highlight": private_bathroom_highlight,
                 "children_and_beds_text": children_and_beds_text,
                 "bed_configurations": bed_configurations,

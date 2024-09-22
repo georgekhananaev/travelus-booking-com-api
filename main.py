@@ -5,9 +5,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from auth.fastapi_auth import verify_credentials, get_secret_key
 from db.mdb_client import client_motors
-from routers import hotels, hotels_travel_us
 from db.redis_client import AsyncRedisClient
 from dotenv import load_dotenv
+
+from routers import hotels
 
 
 # Custom FastAPI app to hold state
@@ -44,10 +45,8 @@ def get_redis_client(request: CustomFastAPI):
 
 # Include routers
 prefix_path = '/api/v1'
-app.include_router(hotels.router, prefix=f'{prefix_path}/hotels', dependencies=[Depends(get_secret_key)],
+app.include_router(hotels.router, prefix=f'{prefix_path}/data', dependencies=[Depends(get_secret_key)],
                    tags=["Hotels"])
-app.include_router(hotels_travel_us.router, prefix=f'{prefix_path}/tus', dependencies=[Depends(get_secret_key)],
-                   tags=["Travel US"])
 
 
 @app.on_event("startup")
