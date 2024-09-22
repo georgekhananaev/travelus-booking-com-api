@@ -20,7 +20,8 @@ from models.rooms import RoomsData
 router = APIRouter()
 
 load_dotenv()
-env_expire_hours = int(os.getenv("EXPIRE_HOURS", 72))  # Default to 72 hours
+mongo_expire_hours = int(os.getenv("EXPIRE_HOURS", 72))  # Default to 72 hours
+redis_expire_seconds = int(os.getenv("EXPIRE_SECONDS", 5))  # Default to 5 seconds
 
 
 # Endpoint to get hotel data
@@ -29,14 +30,13 @@ async def get_hotel_data(
         hotel_id: int = 4469654,
         locale: str = "en-gb",
         redis: Redis = Depends(AsyncRedisClient.get_instance),
-        expire_hours: int = env_expire_hours
+        expire_hours: int = mongo_expire_hours
 ):
     params = {'hotel_id': hotel_id, 'locale': locale}
     cache_key = f"hotel_data_{hotel_id}_{locale}"
-    expire_seconds = int(timedelta(hours=expire_hours).total_seconds())  # Use expire_hours instead of fixed 5 seconds
 
     # Fetch the hotel data, either from cache or source
-    hotel_data = await get_data_or_cache("data", params, cache_key, expire_seconds, redis, expire_hours)
+    hotel_data = await get_data_or_cache("data", params, cache_key, redis_expire_seconds, redis, expire_hours)
 
     # Ensure the data matches the Pydantic model structure
     hotel = Hotel(**hotel_data)
@@ -59,7 +59,7 @@ async def get_multiple_hotels_data(
     )
 
     # Convert the results into the HotelsResponse model
-    hotels = [Hotel(**hotel_data) for hotel_data in results]
+    hotels = [hotel_data for hotel_data in results]
 
     return {"hotels": hotels}
 
@@ -70,15 +70,14 @@ async def get_hotel_photos(
         req: Request,
         hotel_id: int = 4469654,
         locale: str = "en-gb",
-        expire_hours: int = env_expire_hours
+        expire_hours: int = mongo_expire_hours
 ):
     redis = req.app.redis_client
     params = {'hotel_id': hotel_id, 'locale': locale}
     cache_key = f"hotel_photos_{hotel_id}_{locale}"
-    expire_seconds = int(timedelta(hours=expire_hours).total_seconds())  # Use hours for expiration
 
     # Fetch the data from cache or API, this function should return a list of photo data
-    photos_data = await get_data_or_cache("photos", params, cache_key, expire_seconds, redis, expire_hours)
+    photos_data = await get_data_or_cache("photos", params, cache_key, redis_expire_seconds, redis, expire_hours)
 
     # Return the photos list, Pydantic will validate the structure against the Photo model
     return photos_data
@@ -94,7 +93,7 @@ async def get_hotel_reviews(
         language_filter: str = "en-us",
         page_number: int = 0,
         redis: Redis = Depends(AsyncRedisClient.get_instance),
-        expire_hours: int = env_expire_hours
+        expire_hours: int = mongo_expire_hours
 ):
     params = {
         'hotel_id': hotel_id,
@@ -105,10 +104,9 @@ async def get_hotel_reviews(
         'page_number': page_number
     }
     cache_key = f"hotel_reviews_{hotel_id}_{locale}_{customer_type}_{sort_type}_{language_filter}_{page_number}"
-    expire_seconds = int(timedelta(hours=expire_hours).total_seconds())
 
     # Fetch data from cache or external API
-    response_data = await get_data_or_cache("reviews", params, cache_key, expire_seconds, redis, expire_hours)
+    response_data = await get_data_or_cache("reviews", params, cache_key, redis_expire_seconds, redis, expire_hours)
 
     # Assuming the actual reviews are nested under a 'result' key, extract them
     # You might need to adjust 'result' to match the actual structure you're receiving
@@ -154,11 +152,8 @@ async def get_hotel_room_list(
     # Create a cache key based on the parameters
     cache_key = f"hotel_room_list_{hotel_id}_{checkin_date}_{checkout_date}_{children_ages}_{children_number_by_rooms}_{adults_number_by_rooms}_{units}_{currency}_{locale}"
 
-    # Set expiration time for cache
-    expire_seconds = int(timedelta(hours=expire_hours).total_seconds())
-
     # Fetch data or use the cached result
-    hotel_data = await get_data_or_cache("room-list", params, cache_key, expire_seconds, redis)
+    hotel_data = await get_data_or_cache("room-list", params, cache_key, redis_expire_seconds, redis, expire_hours)
 
     # Ensure hotel_data is a list
     if isinstance(hotel_data, list):
@@ -169,6 +164,7 @@ async def get_hotel_room_list(
     if hotel_data:
         return [RoomsData(**hotel_data)]  # Wrap in a list to match the response_model type
     return None  # If no data, return None or appropriate response
+
 
 @router.get("/detailed_hotel", response_model=List[DetailedHotelResponse])
 async def mock_detail_hotel(
@@ -231,39 +227,46 @@ async def mock_detail_hotel(
             cache_key = cache_key_template.format(lang)
 
             # Fetch hotel data for the current language
-            raw_data = await get_data_or_cache("data", params, cache_key,
-                                               int(timedelta(hours=24).total_seconds()), redis, expire_hours)
+            raw_data = await get_data_or_cache("data", params, cache_key, redis_expire_seconds, redis, expire_hours)
 
             # Use the transformation function to convert raw data and store results per language
-            lang_transformed_data = transform_data(raw_data)
+            lang_transformed_data = await transform_data(raw_data)
 
             # Store transformed results for each language in the appropriate fields
             transformed_data["items"]["hotel"]["name"] = lang_transformed_data["items"]["hotel"]["name"]
             transformed_data["items"]["hotel"]["location"] = lang_transformed_data["items"]["hotel"]["location"]
-            transformed_data["items"]["hotel"]["country"][lang] = lang_transformed_data["items"]["hotel"]["country"]["en"]
+            transformed_data["items"]["hotel"]["country"][lang] = lang_transformed_data["items"]["hotel"]["country"][
+                "en"]
             transformed_data["items"]["hotel"]["city"][lang] = lang_transformed_data["items"]["hotel"]["city"]["en"]
             transformed_data["items"]["hotel"]["zip"] = lang_transformed_data["items"]["hotel"]["zip"]
             transformed_data["items"]["hotel"]["district_id"] = lang_transformed_data["items"]["hotel"]["district_id"]
-            transformed_data["items"]["hotel"]["district"][lang] = lang_transformed_data["items"]["hotel"]["district"]["en"]
-            transformed_data["items"]["hotel"]["description"][lang] = lang_transformed_data["items"]["hotel"]["description"]["en"]
+            transformed_data["items"]["hotel"]["district"][lang] = lang_transformed_data["items"]["hotel"]["district"][
+                "en"]
+            transformed_data["items"]["hotel"]["description"][lang] = \
+                lang_transformed_data["items"]["hotel"]["description"][lang]
             transformed_data["items"]["hotel"]["address"] = lang_transformed_data["items"]["hotel"]["address"]
             transformed_data["items"]["hotel"]["checkin"] = lang_transformed_data["items"]["hotel"]["checkin"]
             transformed_data["items"]["hotel"]["checkout"] = lang_transformed_data["items"]["hotel"]["checkout"]
             transformed_data["items"]["hotel"]["stars"] = lang_transformed_data["items"]["hotel"]["stars"]
-            transformed_data["items"]["hotel"]["number_of_rooms"] = lang_transformed_data["items"]["hotel"]["number_of_rooms"]
-            transformed_data["items"]["hotel"]["facilities"][lang] = lang_transformed_data["items"]["hotel"]["facilities"]["en"]
+            transformed_data["items"]["hotel"]["number_of_rooms"] = lang_transformed_data["items"]["hotel"][
+                "number_of_rooms"]
+            transformed_data["items"]["hotel"]["facilities"][lang] = \
+                lang_transformed_data["items"]["hotel"]["facilities"]["en"]
             transformed_data["items"]["hotel"]["review_score"] = lang_transformed_data["items"]["hotel"]["review_score"]
             transformed_data["items"]["hotel"]["review_nr"] = lang_transformed_data["items"]["hotel"]["review_nr"]
-            transformed_data["items"]["hotel"]["review_score_word"] = lang_transformed_data["items"]["hotel"]["review_score_word"]
-            transformed_data["items"]["hotel"]["entrance_photo_url"] = lang_transformed_data["items"]["hotel"]["entrance_photo_url"]
-            transformed_data["items"]["hotel"]["main_photo_url"] = lang_transformed_data["items"]["hotel"]["main_photo_url"]
+            transformed_data["items"]["hotel"]["review_score_word"] = lang_transformed_data["items"]["hotel"][
+                "review_score_word"]
+            transformed_data["items"]["hotel"]["entrance_photo_url"] = lang_transformed_data["items"]["hotel"][
+                "entrance_photo_url"]
+            transformed_data["items"]["hotel"]["main_photo_url"] = lang_transformed_data["items"]["hotel"][
+                "main_photo_url"]
 
         # Optionally fetch photos once for 'en-gb' only if show_photos is True
         if show_photos:
             photo_params = {'hotel_id': hotel_id, 'locale': 'en-gb'}
             photo_cache_key = f"hotel_photos_{hotel_id}_en-gb"
-            photo_data = await get_data_or_cache("photos", photo_params, photo_cache_key,
-                                                 int(timedelta(hours=24).total_seconds()), redis, expire_hours)
+            photo_data = await get_data_or_cache("photos", photo_params, photo_cache_key, redis_expire_seconds, redis,
+                                                 expire_hours)
 
             if photo_data:
                 transformed_data["items"]["hotel"]["photos"] = photo_data
@@ -277,7 +280,7 @@ async def mock_detail_hotel(
             )
 
             if room_data:
-                transformed_room_data = transform_room_data(room_data)
+                transformed_room_data = await transform_room_data(room_data)
                 transformed_data["items"]["hotel"]["rooms"] = transformed_room_data["rooms"]
 
         # Append the transformed hotel data to the list

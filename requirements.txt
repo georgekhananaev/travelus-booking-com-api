@@ -10,3 +10,4 @@ pymongo~=4.8.0
 aiologger~=0.7.0
 aiofiles~=24.1.0
 pydantic~=2.9.2
+deep-translator~=1.11.4

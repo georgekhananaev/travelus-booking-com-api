@@ -1,5 +1,5 @@
 from typing import Optional, List, Dict, Union, Any
-from pydantic import BaseModel
+from pydantic import BaseModel, validator # noqa
 
 
 class BMaxLosData(BaseModel):
@@ -91,7 +91,7 @@ class RoomsData(BaseModel):
     departure_date: Optional[str]
     arrival_date: Optional[str]
     prepayment_policies: Optional[Dict[str, Optional[str]]]
-    direct_payment: Optional[Dict[str, Optional[int]]]
+    direct_payment: Optional[Any] = None
     cancellation_policies: Optional[Dict[str, Optional[str]]]
     cc_required: Optional[str]
     payment_detail: Optional[Dict[str, Optional[str]]]
@@ -103,6 +103,16 @@ class RoomsData(BaseModel):
     last_matching_block_index: Optional[int]
     soldout_rooms: Optional[List[str]]
     tax_exceptions: Optional[List[str]]
+    preferences: Optional[List[Union[str, Dict]]]
+
+    # Validator for the 'preferences' field
+    @validator("preferences", pre=True, always=True) # noqa
+    def validate_preferences(cls, v):
+        # Ensure that 'preferences' is a list of strings or valid data
+        if isinstance(v, list):
+            # Keep only string preferences, ignore others
+            return [item if isinstance(item, str) else str(item) for item in v]
+        return []
 
     class Config:
-        extra = 'ignore'  # This will ignore any additional fields not defined in the model
+        extra = 'ignore'
