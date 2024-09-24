@@ -3,7 +3,7 @@ version: '3.8'
 services:
   redis:
     image: "redis:latest"
-    container_name: "redis_server"
+    container_name: "travelus_redis_server"
     ports:
       - "6379:6379"
     volumes:
@@ -13,9 +13,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: "bookingcom"
+    container_name: "travelus_booking"
     command: >
-      uvicorn main:app --host 0.0.0.0 --port 8088 --reload --workers 4
+      uvicorn main:app --host 0.0.0.0 --port 8088 --workers 4
     volumes:
       - .:/app
       - ./logs:/var/log/app  # Map the local logs directory to /var/log/app in the container
