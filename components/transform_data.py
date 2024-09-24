@@ -1,5 +1,4 @@
 import asyncio
-import json
 from typing import List, Dict, Union
 
 from components.translator import async_translate
@@ -217,14 +216,85 @@ async def transform_room_data(room_data: List[Union[RoomsData, Dict]],
     return {"rooms": rooms_transformed}
 
 
-if __name__ == "__main__":
-    # Define the path to your data.json file
-    data_file = '../static/sample_rooms.json'
+async def extract_hotel_data(hotel_response, room_response, available_rooms_only=False):
+    if isinstance(room_response, dict) and 'block' in room_response:
+        room_response_list = room_response['block']
+    elif isinstance(room_response, list):
+        room_response_list = room_response
+    else:
+        return {}
 
-    # Open and load the JSON file
-    with open(data_file, 'r', encoding='utf-8') as file:
-        rooms = json.load(file)
+    # Extract hotel data from the hotel_response
+    hotel_id = hotel_response.get('hotel_id')
+    hotel_name = hotel_response.get('name')
 
-    # Call the function and print the result
-    transformed_rooms = transform_room_data(rooms)
-    print(json.dumps(transformed_rooms, indent=2))
+    min_price = float('inf')  # Initialize min_price to infinity to find the lowest price
+    currency = None  # Initialize the currency
+
+    for room in room_response_list:
+        blocks = room.get('block', [])
+
+        for block in blocks:
+            room_min_price = 0
+            block_currency = block.get('currency', None)  # Get the currency from the block
+
+            # Get the incremental price or use "min_price" from the block
+            if 'incremental_price' in block and block['incremental_price']:
+                room_min_price = float(block['incremental_price'][0].get('price', 0))
+                block_currency = block['incremental_price'][0].get('currency', block_currency)
+            elif 'min_price' in block:
+                room_min_price = float(block['min_price'].get('price', 0))
+                block_currency = block['min_price'].get('currency', block_currency)
+
+            # If available_rooms_only is True, consider only available rooms (is_block_fit = 1)
+            # Otherwise, consider all rooms
+            if not available_rooms_only or block.get('is_block_fit', 1) == 1:
+                if room_min_price < min_price:
+                    min_price = room_min_price
+                    currency = block_currency  # Update currency based on the lowest price
+
+    # If no valid price was found, set min_price to 0
+    if min_price == float('inf'):
+        min_price = 0
+
+    return {'hotel_id': hotel_id, 'name': hotel_name, 'min_price': min_price, 'currency': currency}
+
+
+# if __name__ == "__main__":
+#     import asyncio
+#
+#     '''made for testing purposes'''
+#
+#
+#     async def load_json_file(file_path):
+#         async with aiofiles.open(file_path, 'r', encoding='utf-8') as file:
+#             data = await file.read()
+#             return json.loads(data)
+#
+#
+#     async def main():
+#         # Load hotel response (e.g., from a JSON file or API)
+#         hotel_data_file = '../static/hotel_data.json'
+#         hotel_response = await load_json_file(hotel_data_file)
+#
+#         # Load room response (e.g., from a JSON file or API)
+#         room_data_file = '../static/room.json'
+#         room_response = await load_json_file(room_data_file)
+#
+#         # Extract hotel and room data
+#         extracted_data = await extract_hotel_data(hotel_response, room_response, show_not_available=True)
+#         print(extracted_data)
+#
+#
+#     asyncio.run(main())
+#
+#     # # Define the path to your data.json file
+#     # data_file = '../static/sample_rooms.json'
+#     #
+#     # # Open and load the JSON file
+#     # with open(data_file, 'r', encoding='utf-8') as file:
+#     #     rooms = json.load(file)
+#     #
+#     # # Call the function and print the result
+#     # transformed_rooms = transform_room_data(rooms)
+#     # print(json.dumps(transformed_rooms, indent=2))

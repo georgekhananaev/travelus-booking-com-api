@@ -10,7 +10,7 @@ from datetime import timedelta
 from redis.asyncio import Redis
 
 from db.redis_client import AsyncRedisClient
-from components.transform_data import transform_data, transform_room_data
+from components.transform_data import transform_data, transform_room_data, extract_hotel_data
 from models.detailed_hotel import DetailedHotelResponse
 from models.hotels import HotelsResponse, Hotel
 from models.photos import Photo
@@ -27,10 +27,10 @@ redis_expire_seconds = int(os.getenv("EXPIRE_SECONDS", 5))  # Default to 5 secon
 # Endpoint to get hotel data
 @router.get("/hotel")
 async def get_hotel_data(
-        hotel_id: int = 4469654,
-        locale: str = "en-gb",
-        redis: Redis = Depends(AsyncRedisClient.get_instance),
-        expire_hours: int = mongo_expire_hours
+        hotel_id: int = Query(default=4469654, description="The unique ID of the hotel for which details are being requested. Default is 4469654."),
+        locale: str = Query(default="en-gb", description="The locale for language and formatting preferences. Default is 'en-gb'."),
+        redis: Redis = Depends(AsyncRedisClient.get_instance),  # Redis dependency for caching
+        expire_hours: int = Query(default=mongo_expire_hours, description="The number of hours for which the hotel data will be cached. Uses a default value defined by mongo_expire_hours.")
 ):
     params = {'hotel_id': hotel_id, 'locale': locale}
     cache_key = f"hotel_data_{hotel_id}_{locale}"
@@ -47,10 +47,10 @@ async def get_hotel_data(
 # Fetch multiple hotels' data concurrently
 @router.get("/hotels/", response_model=HotelsResponse)
 async def get_multiple_hotels_data(
-        hotel_ids: List[int] = Query(default=[2534439, 4469654], alias="hotel_ids"),
-        locale: str = "en-gb",
-        redis: Redis = Depends(AsyncRedisClient.get_instance),  # Redis dependency
-        expire_hours: int = 72  # Expiry in hours
+        hotel_ids: List[int] = Query(default=[2534439, 4469654], alias="hotel_ids", description="A list of hotel IDs to fetch information for. Default values are 2534439 and 4469654."),
+        locale: str = Query(default="en-gb", description="The locale for language and formatting preferences. Default is 'en-gb'."),
+        redis: Redis = Depends(AsyncRedisClient.get_instance),  # Redis dependency for caching
+        expire_hours: int = Query(default=72, description="The number of hours for which the data will be cached. Default is 72 hours.")
 ):
     # Gather hotel data for each ID
     results = await asyncio.gather(
@@ -67,10 +67,10 @@ async def get_multiple_hotels_data(
 # Endpoint to get hotel photos
 @router.get("/photos", response_model=List[Photo])
 async def get_hotel_photos(
-        req: Request,
-        hotel_id: int = 4469654,
-        locale: str = "en-gb",
-        expire_hours: int = mongo_expire_hours
+        req: Request,  # Request object for metadata and context
+        hotel_id: int = Query(default=4469654, description="The ID of the hotel to fetch details for. Default is 4469654."),
+        locale: str = Query(default="en-gb", description="The locale for language and formatting preferences. Default is 'en-gb'."),
+        expire_hours: int = Query(default=mongo_expire_hours, description="The number of hours for which the data will be cached. The default value is taken from the environment setting (mongo_expire_hours).")
 ):
     redis = req.app.redis_client
     params = {'hotel_id': hotel_id, 'locale': locale}
@@ -86,14 +86,14 @@ async def get_hotel_photos(
 # Endpoint to get hotel reviews
 @router.get("/reviews", response_model=List[Review])
 async def get_hotel_reviews(
-        hotel_id: int = 4469654,
-        locale: str = "en-gb",
-        customer_type: str = "solo_traveller,review_category_group_of_friends",
-        sort_type: str = "SORT_MOST_RELEVANT",
-        language_filter: str = "en-us",
-        page_number: int = 0,
-        redis: Redis = Depends(AsyncRedisClient.get_instance),
-        expire_hours: int = mongo_expire_hours
+        hotel_id: int = Query(default=4469654, description="The ID of the hotel to fetch reviews for. Default is 4469654."),
+        locale: str = Query(default="en-gb", description="The locale for language and formatting preferences. Default is 'en-gb'."),
+        customer_type: str = Query(default="solo_traveller,review_category_group_of_friends", description="Filter reviews by customer types. Provide customer types separated by commas. For example: 'solo_traveller,review_category_group_of_friends'."),
+        sort_type: str = Query(default="SORT_MOST_RELEVANT", description="The sort type for the reviews. Default is 'SORT_MOST_RELEVANT'."),
+        language_filter: str = Query(default="en-us", description="Filter reviews by language. Default is 'en-us'."),
+        page_number: int = Query(default=0, description="The page number for pagination. Default is 0 (first page)."),
+        redis: Redis = Depends(AsyncRedisClient.get_instance),  # Redis instance for caching
+        expire_hours: int = Query(default=mongo_expire_hours, description="The number of hours for which the data will be cached. The default value is taken from the environment setting (mongo_expire_hours).")
 ):
     params = {
         'hotel_id': hotel_id,
@@ -125,29 +125,43 @@ async def get_hotel_reviews(
 # Endpoint to get hotel room list
 @router.get("/room-list", response_model=Optional[List[RoomsData]])
 async def get_hotel_room_list(
-        hotel_id: int = 4469654,
-        checkin_date: str = (datetime.now() + timedelta(days=30)).strftime('%Y-%m-%d'),
-        checkout_date: str = (datetime.now() + timedelta(days=31)).strftime('%Y-%m-%d'),
-        children_ages: str = "5,0,9",
-        children_number_by_rooms: str = "2,1",
-        adults_number_by_rooms: str = "3,1",
-        units: str = "metric",
-        currency: str = "THB",
-        locale: str = "en-gb",
-        redis: Redis = Depends(AsyncRedisClient.get_instance),
-        expire_hours: int = 8  # Adjust the expiration hours based on your env setting
+        hotel_id: int = Query(default=4469654, description="The ID of the hotel to fetch room data for. Default is 4469654."),
+        checkin_date: str = Query(default=(datetime.now() + timedelta(days=30)).strftime('%Y-%m-%d'), description="Check-in date in YYYY-MM-DD format. Default is 30 days from today."),
+        checkout_date: str = Query(default=(datetime.now() + timedelta(days=31)).strftime('%Y-%m-%d'), description="Check-out date in YYYY-MM-DD format. Default is 31 days from today."),
+        children_ages: Optional[str] = Query(
+            default=None,
+            description="(Optional) The age of each child. Indicate their ages separated by commas. For example, '0,5' means one child is under 1 year old and another is 5 years old."
+        ),
+        children_number_by_rooms: Optional[str] = Query(
+            default=None,
+            description="(Optional) The number of children in each room. Specify the number of children separated by commas. For example, '2,1' means the first room will have 2 children, and the second room will have 1 child."
+        ),
+        adults_number_by_rooms: str = Query(
+            default="2,1",
+            description="The number of adults in each room. Specify the number of adults separated by commas. For example, '3,1' means the first room will have 3 adults, and the second room will have 1 adult. To book a single room for 2 adults, specify '2'."
+        ),
+        units: str = Query(default="metric", description="The unit system to use for room measurements. Default is 'metric'."),
+        currency: str = Query(default="EUR", description="The currency to display prices in. Default is 'EUR' (Thai Baht)."),
+        locale: str = Query(default="en-gb", description="The locale for language and formatting preferences. Default is 'en-gb'."),
+        redis: Redis = Depends(AsyncRedisClient.get_instance),  # Redis instance for caching
+        expire_hours: int = Query(default=8, description="The number of hours for which the data will be cached. Default is 8 hours.")
 ):
+    # Build params dictionary without children if they are None, empty, or zero
     params = {
         'hotel_id': hotel_id,
         'checkin_date': checkin_date,
         'checkout_date': checkout_date,
-        'children_ages': children_ages,
-        'children_number_by_rooms': children_number_by_rooms,
         'adults_number_by_rooms': adults_number_by_rooms,
         'units': units,
         'currency': currency,
         'locale': locale
     }
+
+    # Add children parameters only if they are not None, empty, or zero
+    if children_ages and children_ages != "0":
+        params['children_ages'] = children_ages
+    if children_number_by_rooms and children_number_by_rooms != "0":
+        params['children_number_by_rooms'] = children_number_by_rooms
 
     # Create a cache key based on the parameters
     cache_key = f"hotel_room_list_{hotel_id}_{checkin_date}_{checkout_date}_{children_ages}_{children_number_by_rooms}_{adults_number_by_rooms}_{units}_{currency}_{locale}"
@@ -163,17 +177,106 @@ async def get_hotel_room_list(
     # Handle the case where hotel_data is not a list
     if hotel_data:
         return [RoomsData(**hotel_data)]  # Wrap in a list to match the response_model type
+
     return None  # If no data, return None or appropriate response
+
+
+# Endpoint to get combined hotel data
+@router.get("/room-min-price-list")
+async def get_combined_hotel_data(
+        hotel_ids: List[int] = Query(
+            default=[46748, 176457],
+            alias="hotel_ids",
+            description="A list of hotel IDs to retrieve data for. Specify multiple hotel IDs separated by commas."
+        ),
+        locale: str = Query(
+            default="en-gb",
+            description="The locale or language to use for the data, e.g., 'en-gb' for English (UK)."
+        ),
+        checkin_date: str = Query(
+            default=(datetime.now() + timedelta(days=30)).strftime('%Y-%m-%d'),
+            description="Check-in date in the format YYYY-MM-DD. Defaults to 30 days from today."
+        ),
+        checkout_date: str = Query(
+            default=(datetime.now() + timedelta(days=31)).strftime('%Y-%m-%d'),
+            description="Checkout date in the format YYYY-MM-DD. Defaults to 31 days from today."
+        ),
+        adults_number_by_rooms: Optional[str] = Query(
+            default="2,1",
+            description="A comma-separated list of the number of adults per room. E.g., '2,1' means 2 adults in the first room and 1 adult in the second."
+        ),
+        children_number_by_rooms: Optional[str] = Query(
+            default=None,
+            description="(Optional) A comma-separated list of the number of children per room. E.g., '2,1' means 2 children in the first room and 1 child in the second."
+        ),
+        children_ages: Optional[str] = Query(
+            default=None,
+            description="(Optional) A comma-separated list of children's ages. E.g., '0,5' for a 0-year-old and a 5-year-old."
+        ),
+        available_rooms_only: bool = Query(
+            default=False,
+            description="Set this to 'True' to display only available rooms. If set to 'False,' it will show the lowest price in the system, including unavailable rooms. If min_price is 0, it means no rooms were found."
+        ),
+        redis: Redis = Depends(AsyncRedisClient.get_instance),  # Redis client
+        expire_hours: int = Query(
+            default=48,
+            description="The cache expiry time in hours. The data will be cached for this amount of time."
+        )
+):
+    # Step 1: Extract the values from the Query objects and form the correct parameters for use in the database
+    params = {
+        'hotel_ids': hotel_ids,
+        'locale': locale,
+        'currency': "metric",
+        'checkin_date': checkin_date,
+        'checkout_date': checkout_date,
+        'units': "EUR",
+        'adults_number_by_rooms': adults_number_by_rooms,
+    }
+
+    # Only add children-related fields if provided
+    if children_number_by_rooms:
+        params['children_number_by_rooms'] = children_number_by_rooms
+    if children_ages:
+        params['children_ages'] = children_ages
+
+    # Step 2: Fetch hotel and room data concurrently
+    hotel_data_tasks = [
+        get_hotel_data(hotel_id=hotel_id, locale=locale, redis=redis, expire_hours=expire_hours)
+        for hotel_id in hotel_ids
+    ]
+    room_data_tasks = [
+        get_hotel_room_list(hotel_id=hotel_id, checkin_date=checkin_date, checkout_date=checkout_date,
+                            units="metric", currency="EUR", locale=locale, redis=redis, expire_hours=expire_hours,
+                            adults_number_by_rooms=adults_number_by_rooms,
+                            children_number_by_rooms=children_number_by_rooms,
+                            children_ages=children_ages)
+        for hotel_id in hotel_ids
+    ]
+
+    # Step 3: Run both hotel and room tasks concurrently
+    hotel_responses = await asyncio.gather(*hotel_data_tasks)
+    room_responses = await asyncio.gather(*room_data_tasks)
+
+    # Step 4: Combine hotel and room data
+    combined_data = []
+    for hotel_response, room_response in zip(hotel_responses, room_responses):
+        hotel_dict = hotel_response.dict()
+        room_list = [room.dict() for room in room_response] if room_response else []
+        hotel_data = await extract_hotel_data(hotel_dict, room_list, available_rooms_only)
+        combined_data.append(hotel_data)
+
+    return combined_data
 
 
 @router.get("/detailed_hotel", response_model=List[DetailedHotelResponse])
 async def mock_detail_hotel(
-        hotel_ids: List[int] = Query(default=[4469654]),  # Accept a list of hotel IDs
-        redis: Redis = Depends(AsyncRedisClient.get_instance),
-        expire_hours: int = 72,  # Default to 72 hours if not provided
-        disable_google_translations: bool = True,  # Add disable_google_translations parameter with default False
-        show_photos: bool = True,  # Add show_photos parameter with default True
-        show_rooms: bool = False  # Add show_rooms parameter with default False
+        hotel_ids: List[int] = Query(default=[4469654], description="A list of hotel IDs to fetch the information for. Example: [4469654, 1234567]."),
+        redis: Redis = Depends(AsyncRedisClient.get_instance),  # Redis instance dependency for caching
+        expire_hours: int = Query(default=72, description="The number of hours for which the data is cached. Default is 72 hours."),
+        disable_google_translations: bool = Query(default=True, description="If set to True, Google Translations are disabled. Default is True."),
+        show_photos: bool = Query(default=True, description="If set to True, the hotel photos will be included in the response. Default is True."),
+        show_rooms: bool = Query(default=False, description="If set to True, room information will be included in the response. Default is False.")
 ):
     """
     Endpoint to get hotel data in multiple languages and optionally include room and photo data for multiple hotels.

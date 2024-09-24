@@ -1,0 +1,71 @@
+{
+  "hotel_id": 4469654,
+  "name": "Mövenpick Myth Hotel Patong Phuket",
+  "description_translations": [
+    {
+      "description": "Mövenpick Myth Hotel Patong Phuket has an outdoor swimming pool, fitness centre, a restaurant and bar in Patong Beach. This 5-star hotel offers room service and a concierge service. The accommodation features a 24-hour front desk, airport transfers, a kids' club and free WiFi.\n\nA buffet, continental or Full English/Irish breakfast can be enjoyed at the property.\n\nThe hotel offers a sun terrace.\n\nPopular points of interest near Mövenpick Myth Hotel Patong Phuket include Patong Beach, Kalim Beach and Patong Boxing Stadium. The nearest airport is Phuket International Airport, 34 km from the accommodation.",
+      "languagecode": "en-gb",
+      "descriptiontype_id": 6
+    }
+  ],
+  "class": 5,
+  "location": {
+    "longitude": 98.3008655628738,
+    "latitude": 7.9028783156208
+  },
+  "city_id": -3406238,
+  "main_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/581901309.jpg?k=2e14638f2bfa494d86ad20ece545441327057e2467242151f21ab34d774e3d98&o=",
+  "zip": "83150",
+  "is_single_unit_vr": 0,
+  "district": null,
+  "ranking": 12393537,
+  "district_id": 8871,
+  "class_is_estimated": 0,
+  "checkout": {
+    "to": "12:00",
+    "from": "",
+    "24_hour_available": 0
+  },
+  "preferred": 1,
+  "preferred_plus": 0,
+  "main_photo_id": 581901309,
+  "hoteltype_id": 204,
+  "languages_spoken": {
+    "languagecode": [
+      "en-gb",
+      "fr",
+      "ru",
+      "th",
+      "zh-cn"
+    ]
+  },
+  "hotel_facilities": "3,5,6,7,8,11,16,17,21,23,28,44,47,48,51,53,54,55,64,75,78,91,96,104,107,109,110,118,119,124,133,140,144,158,172,176,198,199,200,205,209,210,220,222,240,244,245,246,247,248,249,250,251,253,257,301,305,404,407,418,420,421,422,423,424,425,433,435,436,439,440,441,442,443,444,445,446,448,449,450,451,453,454,455,456,459,461,462,465,485,486,488,489,490,491,492,493,494,495,496,499,500,501,506,512,513,514,515,516,517,518,520,521,522,523,524,526,529,530,531,532,534,535",
+  "review_nr": 1799,
+  "review_score": "8.7",
+  "review_score_word": "Fabulous",
+  "currencycode": "THB",
+  "entrance_photo_url": "https://cf.bstatic.com/xdata/images/hotel/square60/181932343.jpg?k=7b0671c02a7fa3f09f474632f2e6ebf3b9495719223733cb478067e24c11228d&o=",
+  "country": "Thailand",
+  "city": "Patong Beach",
+  "email": "",
+  "address": "Rat U-thit Soi 2 200 Pee Road, Patong, Kathu",
+  "url": "https://www.booking.com/hotel/th/movenpick-myth-phuket-patong-resort.html",
+  "checkin": {
+    "to": "",
+    "from": "15:00",
+    "24_hour_available": 0
+  },
+  "hotel_facilities_filtered": "3,5,6,7,8,11,16,17,21,23,28,44,48,51,53,54,55,64,75,78,91,104,109,110,118,119,124,133,140,144,158,172,176,198,199,200,205,209,210,220,222,240,244,245,246,247,248,249,250,251,253,257,301,305,404,407,418,420,421,422,423,424,425,433,435,436,439,440,441,442,443,444,445,446,448,449,450,451,453,454,455,456,459,461,462,465,485,486,488,489,490,491,492,493,494,495,496,499,500,501,506,512,513,514,515,516,517,518,520,521,522,523,524,526,529,530,531,532,534,535",
+  "countrycode": "th",
+  "is_vacation_rental": 0,
+  "booking_home": {
+    "group": "hotels_and_others",
+    "is_aparthotel": 0,
+    "is_single_type_property": 0,
+    "is_booking_home": 0,
+    "is_vacation_rental": 0,
+    "quality_class": null,
+    "is_single_unit_property": 0,
+    "segment": 0
+  }
+}
