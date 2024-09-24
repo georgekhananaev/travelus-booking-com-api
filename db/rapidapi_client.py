@@ -50,7 +50,7 @@ async def fetch_and_cache(url, headers, params, cache_key, expire_seconds, redis
         logger.info("No data found in MongoDB. Fetching data from API for params: %s", params)
 
     # Fetch data from the API if the document does not exist or is expired
-    async with httpx.AsyncClient() as client:
+    async with httpx.AsyncClient(timeout=120) as client:
         try:
             response = await client.get(url, headers=headers, params=params)
             response.raise_for_status()  # Automatically raise HTTPException for non-200 responses

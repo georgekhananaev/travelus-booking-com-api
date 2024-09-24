@@ -173,7 +173,7 @@ async def mock_detail_hotel(
         expire_hours: int = 72,  # Default to 72 hours if not provided
         disable_google_translations: bool = True,  # Add disable_google_translations parameter with default False
         show_photos: bool = True,  # Add show_photos parameter with default True
-        show_rooms: bool = True  # Add show_rooms parameter with default True
+        show_rooms: bool = False  # Add show_rooms parameter with default False
 ):
     """
     Endpoint to get hotel data in multiple languages and optionally include room and photo data for multiple hotels.

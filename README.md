@@ -102,7 +102,7 @@ BEARER_SECRET_KEY=YOUR_SECRET_KEY
     ```
 2. Install the required packages:
     ```bash 
-   docker-compose up --build
+   docker-compose up --build -d
     ```
 3. Access the FastAPI Swagger UI at `http://localhost:8088/docs` and test the endpoints.
 
